@@ -1,0 +1,73 @@
+---
+/**
+ * Home, in its own order for this subject (RECETTE §6.6, rule 2): the household screener first (one
+ * household, every program), the folded answer block, the 2026 figures in a strip, the dated timeline of
+ * the changes, the 51-jurisdiction table that links every state page, the program list, the long text
+ * in accordions, then the FAQ. Text: src/content/home.ts.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import { HOME } from '../content/home';
+import { route, ROUTES } from '../i18n/routes';
+import { helpers, SOURCES } from '../lib/helpers';
+import { stateId } from '../lib/topics';
+import { PAGES } from '../lib/pages';
+import { STATES, snapGrossState, bbceAll, suaRow, medLimit, usd, usdx, day } from '../lib/kit';
+import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { LAST_UPDATED } from '../data/site-config';
+const lang = 'en';
+const x = HOME;
+const path = route('home', lang);
+const h = helpers();
+const sources = x.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webPageSchema({ name: x.h1, description: x.description, path, lang }), webApplicationSchema({ name: x.h1, description: x.description, path, lang }), faqSchema(x.faqs, lang)];
+const sections = x.sections(h);
+const has = (id: string) => ROUTES.some((r) => r.id === id);
+const rows = STATES.map((s) => {
+  const b = bbceAll(s.slug);
+  const sua = suaRow(s.slug, 3);
+  const a = medLimit(s.slug, 'adult', 1);
+  const k = medLimit(s.slug, 'child6to18', 3);
+  return [
+    has(stateId(s.slug)) ? `<a href="${route(stateId(s.slug), lang)}"><strong>${s.name}</strong></a>` : `<strong>${s.name}</strong>`,
+    `${usd(snapGrossState(s.slug, 3))}${b ? ` (${b.grossPct}%)` : s.snap.bbce.length ? ' (varies)' : ' (130%)'}`,
+    sua?.hcsua ? usdx(sua.hcsua) : 'actual costs',
+    a.effectivePct != null ? `${a.effectivePct}%` : 'not expanded',
+    k.effectivePct != null ? `${k.effectivePct}%` : '–',
+    s.marketplace ? (s.marketplace.type === 'state' ? s.marketplace.name : 'HealthCare.gov') : '–',
+  ];
+});
+const pillars = PAGES.filter((p) => p.kind === 'pillar');
+const timeline = x.timeline(h);
+---
+<PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={x.faqs} sources={sources}>
+  <header class="mb-4">
+    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{x.h1}</h1>
+    <p class="mt-3 text-lg text-navy-700">{x.intro}</p>
+    <p class="mt-2 text-sm text-navy-600">USDA, HHS, CMS, IRS, HUD and SSA figures, updated <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> · <a href={route('method', lang)} class="underline">How we calculate</a> · <a href={route('about', lang)} class="underline">About this site</a></p>
+  </header>
+  <div data-outil><Tool kind="screener" state="texas" idPrefix="home" /></div>
+  <Clamp text={x.resume} lang={lang} id="clamp-home" sentences={2} class="my-8" />
+  <dl data-chrome class="mb-10 grid grid-cols-2 border-y border-navy-200 sm:grid-cols-3 lg:grid-cols-6">
+    {x.figures(h).map(([k, v, n]) => <div class="border-b border-navy-100 px-2 py-3 sm:border-b-0"><dt class="text-xs font-medium uppercase tracking-wide text-navy-600">{k}</dt><dd class="tabular-nums font-serif text-2xl font-bold text-navy-900">{v}</dd><dd class="text-xs text-navy-600">{n}</dd></div>)}
+  </dl>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>{x.timelineTitle}</h2>
+    <Fragment set:html={x.timelineIntro(h)} />
+    <ol class="not-prose mt-4 border-l-2 border-accent-200 pl-5">
+      {timeline.map((t) => <li class="relative mb-5"><span class="absolute -left-[1.72rem] top-1.5 h-3 w-3 rounded-full border-2 border-accent-500 bg-white" aria-hidden="true"></span><div class="text-sm font-semibold text-accent-700"><time datetime={t.date}>{day(t.date)}</time></div><div class="font-semibold text-navy-900">{t.title}</div><div class="mt-1 text-navy-800" set:html={t.html} /></li>)}
+    </ol>
+    <h2>{x.tableTitle}</h2>
+    <Fragment set:html={x.tableIntro(h)} />
+    <Fragment set:html={h.table(['State', 'SNAP gross limit, 3 people', 'Utility allowance', 'Medicaid adults', 'Children (Medicaid or CHIP)', 'Marketplace 2026'], rows, 'Monthly amounts. SNAP: FY 2027 limits with the state rule in brackets; utility allowance: USDA FY 2026 heating and cooling SUA. Medicaid: CMS levels plus the 5% disregard.', ['l', 'r', 'r', 'r', 'r', 'l'])} />
+    <h2>{x.programsTitle}</h2>
+  </div>
+  <ul data-chrome class="mt-4 divide-y divide-navy-200 border-y border-navy-200">
+    {pillars.map((p) => <li class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 py-3"><a href={route(p.id, lang)} class="font-serif text-lg font-semibold text-accent-700 hover:underline">{p.nav}</a><span class="text-sm text-navy-700">{p.card}</span></li>)}
+  </ul>
+  <section class="prose prose-slate mt-10 max-w-none prose-headings:font-serif">
+    <h2>{x.foldTitle}</h2>
+    {sections.map((s) => <details class="fold not-prose"><summary><h3 class="fold-h">{s.title}</h3></summary><div class="prose prose-slate max-w-none pb-4"><Fragment set:html={s.html} /></div></details>)}
+  </section>
+</PageLayout>

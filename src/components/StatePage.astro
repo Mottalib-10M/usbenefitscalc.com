@@ -1,0 +1,107 @@
+---
+/**
+ * A state page: prose of src/content/states/<slug>.ts + official data of src/data/states.json and
+ * src/data/hud/<ST>.json. Order: key figures, folded answer block, the screener locked on the state,
+ * the prose written for this state, then the rules generated from the data (SNAP, Medicaid and CHIP,
+ * Section 8 lookup), marked data-chrome: identical in form on every state page (RECETTE §6.4).
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import MiniSim from './calc/MiniSim';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import { route, ROUTES } from '../i18n/routes';
+import { label } from '../i18n/nav';
+import { t } from '../i18n/ui';
+import { pageById, statePageById } from '../lib/pages';
+import { helpers, SOURCES, table, ext } from '../lib/helpers';
+import { stateId } from '../lib/topics';
+import { stateRef } from '../data/states';
+import { sd, P, snapMax, snapNet, snapGrossState, bbceAll, suaRow, medLimit, bhpOf, wicAnnual, usd, usdx, day } from '../lib/kit';
+import { articleSchema, faqSchema, breadcrumbSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { AUTHOR_NAME, LAST_UPDATED } from '../data/site-config';
+import type { StatePageDef } from '../lib/page-types';
+import type { MedicaidGroup } from '../lib/engine/medicaid';
+interface Props { def: StatePageDef }
+const { def } = Astro.props;
+const lang = 'en';
+const ui = t(lang);
+const S = sd(def.slug);
+const id = stateId(def.slug);
+const path = route(id, lang);
+const h1 = `${S.name} benefits: SNAP, Medicaid, ACA, WIC and Section 8`;
+const jsonLd = [articleSchema({ title: h1, description: def.description, path, lang }), webPageSchema({ name: h1, description: def.description, path, lang }), webApplicationSchema({ name: h1, description: def.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: 'Benefits by state', path: route('states', lang) }, { name: S.name, path }])];
+if (def.faqs.length) jsonLd.push(faqSchema(def.faqs, lang));
+const card = (rid: string) => pageById(rid)?.card ?? (statePageById(rid) ? `SNAP, Medicaid, ACA, WIC and Section 8 figures for ${stateRef(rid.slice(6)).name}` : '');
+const related = def.related.filter((r) => ROUTES.some((x) => x.id === r)).map((r) => ({ href: route(r, lang), name: label(r), description: card(r) }));
+const parts = def.body(helpers()).split(/<!--mini:([A-Za-z0-9_-]+)(?:\|([A-Za-z0-9+/=]+))?-->/);
+const decode = (b?: string) => (b ? Buffer.from(b, 'base64').toString('utf8') : undefined);
+const methodHref = route('method', lang);
+const snapHref = ROUTES.some((r) => r.id === 'snap-calculator') ? route('snap-calculator', lang) : route('home', lang);
+
+// Key figures
+const area = S.area;
+const allot = area === 'ak' ? 'ak-urban' : area;
+const b = bbceAll(def.slug);
+const adult = medLimit(def.slug, 'adult', 1);
+const kid = medLimit(def.slug, 'child6to18', 3);
+const figures: Array<[string, string, string]> = [
+  ['SNAP maximum, 4 people', usd(snapMax(4, allot)), `FY 2027, from ${day(P.snap.from)}${area === 'ak' ? ' (urban Alaska)' : ''}`],
+  ['SNAP gross income limit, 3 people', `${usd(snapGrossState(def.slug, 3))}/mo`, b ? `${b.grossPct}% of poverty (BBCE)` : S.snap.bbce.length ? 'depends on the household' : '130% of poverty'],
+  ['Medicaid, single adult', adult.monthly != null ? `${usd(adult.monthly)}/mo` : 'not expanded', adult.effectivePct != null ? `${adult.effectivePct}% of poverty` : 'no adult group'],
+  ['Children, family of 3', kid.monthly != null ? `${usd(kid.monthly)}/mo` : '–', kid.effectivePct != null ? `${kid.effectivePct}% of poverty, ${kid.program}` : ''],
+  ['WIC limit, 3 people', `${usd(wicAnnual(3))}/yr`, `185% of poverty, to ${day(P.wic.to)}`],
+  ['Section 8 very low income, 4 people', `${usd(S.hud.vli4Min)} to ${usd(S.hud.vli4Max)}`, `${S.hud.rows} counties or towns, FY 2026`],
+];
+
+// SNAP panel
+const sizes = [1, 2, 3, 4, 5, 6, 7, 8];
+const snapRows = sizes.map((n) => [String(n), usd(snapGrossState(def.slug, n)), usd(snapNet(n, area)), usd(snapMax(n, allot))]);
+const suaRows = S.snap.sua.map((r) => r.pending ? [r.variant ?? S.name, 'pending', '', ''] : [r.variant ?? S.name, r.hcsua ? usdx(r.hcsua) : 'none', r.lua ? usdx(r.lua) : 'none', r.phone ? usdx(r.phone) : 'none']);
+const bbceText = S.snap.bbce.length
+  ? S.snap.bbce.map((x) => `${x.who === 'all' ? 'All households' : x.who === 'elderly-disabled' ? 'Households with a member 60+ or disabled' : x.who === 'non-elderly-disabled' ? 'Other households' : x.who === 'dependent-care' ? 'Households with dependent care costs' : 'Households with earnings'}: gross income up to ${x.grossPct}% of the poverty guideline, ${x.assetLimit ? `assets up to ${usdx(x.assetLimit)}` : 'no asset limit'}.`).join(' ')
+  : `${S.name} does not use broad-based categorical eligibility: the federal tests apply (gross income at 130% of the poverty guideline, net income at 100%, assets up to ${usdx(P.snap.assets.general)}, or ${usdx(P.snap.assets.elderlyDisabled)} with a member 60+ or disabled).`;
+
+// Medicaid panel
+const groups: Array<[MedicaidGroup, string]> = [['adult', 'Adults 19 to 64 without children'], ['parent', 'Parents and caretakers'], ['pregnant', 'Pregnant women'], ['infant', 'Babies under 1'], ['child1to5', 'Children 1 to 5'], ['child6to18', 'Children 6 to 18']];
+const medRows = groups.map(([g, l]) => { const m1 = medLimit(def.slug, g, g === 'pregnant' ? 2 : 1); const lim = (n: number) => { const m = medLimit(def.slug, g, n); return m.monthly != null ? usd(m.monthly) : '–'; };
+  return [l, m1.effectivePct != null ? `${m1.effectivePct}%` : 'not covered', m1.program === 'none' ? '–' : m1.program, lim(g === 'adult' ? 1 : 2), lim(3), lim(4)]; });
+const bhp = bhpOf(def.slug, 1);
+const sources = [
+  ...[S.snap.agencyUrl && { name: `${S.snap.agency ?? S.name} (${S.snap.programName ?? 'SNAP'})`, url: S.snap.agencyUrl }, S.medicaid.agencyUrl && { name: `${S.medicaid.agency ?? S.name} (${S.medicaid.programName ?? 'Medicaid'})`, url: S.medicaid.agencyUrl }, S.marketplace?.url && { name: `${S.marketplace.name}: health insurance marketplace for ${S.name}`, url: S.marketplace.url }, S.wic?.url && { name: `${S.wic.agency ?? S.name} WIC program`, url: S.wic.url }].filter(Boolean) as Array<{ name: string; url: string }>,
+  ...['usdaCola27', 'fnaBbce', 'fnaSua', 'cmsLevels', 'hudIl', 'hhsPoverty', 'frWic'].map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url })),
+];
+---
+<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={sources} breadcrumbs={[{ label: 'Benefits by state', href: route('states', lang) }, { label: S.name }]}>
+  <article>
+    <header class="mb-5">
+      <p class="text-sm font-semibold uppercase tracking-wide text-accent-700">{S.abbr} · benefits by state</p>
+      <h1 class="mt-1 font-serif text-3xl font-bold text-navy-900 md:text-4xl">{h1}</h1>
+      <p class="mt-3 text-lg text-navy-700">{def.intro}</p>
+      <p class="mt-3 text-sm text-navy-600">Federal and {S.name} figures read on official sources on <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> · {ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={methodHref} class="underline hover:text-navy-900">{label('method')}</a></p>
+    </header>
+    <dl data-chrome class="mb-6 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-navy-200 bg-navy-200 lg:grid-cols-3">
+      {figures.map(([k, v, n]) => <div class="bg-white p-3"><dt class="text-xs font-medium text-navy-600">{k}</dt><dd class="tabular-nums mt-0.5 text-lg font-bold text-navy-900">{v}</dd><dd class="text-xs text-navy-600">{n}</dd></div>)}
+    </dl>
+    <Clamp text={def.resume} lang={lang} id={`clamp-${def.slug}`} class="mb-5" />
+    <div data-outil class="mb-10"><Tool kind="screener" state={def.slug} lock={true} idPrefix={`s${S.abbr.toLowerCase()}`} /></div>
+    <div class="prose prose-slate max-w-none prose-headings:font-serif">
+      {parts.map((p, i) => i % 3 === 0 ? <Fragment set:html={p ?? ''} /> : i % 3 === 1 ? <MiniSim client:load kind={p} arg={decode(parts[i + 1])} href={snapHref} /> : null)}
+    </div>
+    <section data-chrome id="snap" class="prose prose-slate mt-10 max-w-none prose-headings:font-serif">
+      <h2>{S.snap.programName && S.snap.programName !== 'SNAP' ? `${S.snap.programName} (SNAP)` : 'SNAP'} rules in {S.name}, FY 2027</h2>
+      <p>{S.snap.agency ? <>Run by the {S.snap.agencyUrl ? <a href={S.snap.agencyUrl} target="_blank" rel="nofollow noopener noreferrer">{S.snap.agency}</a> : S.snap.agency}{S.snap.applyUrl ? <> · <a href={S.snap.applyUrl} target="_blank" rel="nofollow noopener noreferrer">apply online</a></> : ''}. </> : ''}{bbceText}</p>
+      <Fragment set:html={table(['Household', 'Gross income limit', 'Net income limit', 'Maximum benefit'], snapRows, `Monthly amounts, October 1, 2026 to September 30, 2027. Gross limit: ${b ? `${S.name}'s ${b.grossPct}% rule` : 'federal 130% rule'}; a member 60+ or disabled skips the gross test under federal rules.`, ['l', 'r', 'r', 'r'])} />
+      <Fragment set:html={table(['Allowance area', 'Heating or cooling (HCSUA)', 'Other utilities (LUA)', 'Telephone'], suaRows, `Standard utility allowances, USDA FY 2026 table (May 21, 2026). The FY 2027 values are set by ${S.name} and approved by USDA.`, ['l', 'r', 'r', 'r'])} />
+    </section>
+    <section data-chrome id="medicaid" class="prose prose-slate mt-10 max-w-none prose-headings:font-serif">
+      <h2>{S.medicaid.programName && S.medicaid.programName !== 'Medicaid' ? `${S.medicaid.programName} (Medicaid)` : 'Medicaid'} and CHIP income limits in {S.name}</h2>
+      <p>{S.medicaid.expansion ? `${S.name} covers adults up to ${adult.effectivePct}% of the poverty guideline under the ACA expansion.` : `${S.name} has not adopted the ACA Medicaid expansion.`}{S.medicaid.chipName ? ` Children's coverage above Medicaid is called ${S.medicaid.chipName}.` : ''}{bhp ? ` Adults above Medicaid and up to ${bhp.effectivePct}% are covered by the Basic Health Program.` : ''}{S.medicaid.note ? ` ${S.medicaid.note}` : ''}{S.medicaid.agencyUrl ? <> Agency: <a href={S.medicaid.agencyUrl} target="_blank" rel="nofollow noopener noreferrer">{S.medicaid.agency ?? 'state Medicaid agency'}</a>{S.medicaid.applyUrl ? <> · <a href={S.medicaid.applyUrl} target="_blank" rel="nofollow noopener noreferrer">apply</a></> : ''}.</> : ''}{S.marketplace ? <> Marketplace for 2026: <a href={S.marketplace.url} target="_blank" rel="nofollow noopener noreferrer">{S.marketplace.name}</a>.</> : ''}</p>
+      <Fragment set:html={table(['Group', 'Limit (% of poverty)', 'Program', '1 or 2 people', '3 people', '4 people'], medRows, `Monthly income limits: CMS state levels (as of December 1, 2023) plus the 5% disregard, on the 2026 poverty guideline. The first column of amounts is 1 person, or 2 for a pregnant woman.`, ['l', 'r', 'l', 'r', 'r', 'r'])} />
+    </section>
+    <section id="section-8" class="mt-10">
+      <h2 class="font-serif text-2xl font-bold text-navy-900">Section 8 income limits by county in {S.name}</h2>
+      <p data-chrome class="mt-2 text-navy-800">HUD sets the limits for each of the {S.hud.rows} counties or towns of {S.name} ({S.hud.areas} HUD areas). For a family of four, the very low income limit that opens a Housing Choice Voucher ranges from {usd(S.hud.vli4Min)} ({S.hud.vli4MinName}) to {usd(S.hud.vli4Max)} ({S.hud.vli4MaxName}).</p>
+      <div data-outil class="mt-4"><Tool kind="section8" state={def.slug} lock={true} idPrefix={`h${S.abbr.toLowerCase()}`} /></div>
+    </section>
+  </article>
+</PageLayout>

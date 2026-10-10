@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, LEGAL, SITE_NAMES, SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`Legal notice of ${SITE_NAMES[lang]}: publisher, host and terms`} description="Publisher and host of the state-by-state SNAP, Medicaid, ACA, EITC, WIC and Section 8 calculators, why every result is an estimate, intellectual property and governing law." lang={lang} noindex={true} breadcrumbs={[{ label: 'Legal notice' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Legal notice and terms of use</h1>
+    <p>Information given under Article 6 III-1 of French law no. 2004-575 of 21 June 2004, the publisher being established in France.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Publication director: {AUTHOR_NAME}, responsible for the content of {SITE_URL}.</p>
+    <h2>Host</h2>
+    <LegalIdentity mode="hosting" lang={lang} />
+    <h2>Not a government website</h2>
+    <p>{SITE_NAMES[lang]} is an independent site. It is not run by, endorsed by or connected to the U.S. Department of Agriculture, the Department of Health and Human Services, the Centers for Medicare &amp; Medicaid Services, the Internal Revenue Service, the Department of Housing and Urban Development, the Social Security Administration or any state agency, and it does not take applications. The calculators apply the rules and amounts those agencies publish to the figures you enter. An agency may count income differently, verify facts you did not mention or apply a rule not modeled here; its written decision is the one that counts, and you have the right to appeal it. Method and limits: <a href={route('method', lang)}>method page</a>.</p>
+    <h2>Liability</h2><p>Every figure is read on an agency document and every engine is tested before each release, but errors cannot be ruled out and rules change, sometimes quickly. The publisher is not liable for a decision taken on an estimate alone. Please report errors through the <a href={route('contact', lang)}>contact page</a>.</p>
+    <h2>Intellectual property</h2><p>Texts, design and code belong to the publisher; short quotations with a link are welcome. Federal and state documents quoted or summarized remain public records of the agencies that issued them.</p>
+    <h2>Embedding</h2><p>The benefits screener and the SNAP calculator may be embedded for free with their credit link visible: see the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Personal data</h2><p>The site sets no cookie and the publisher keeps no data entered in the calculators. Details: <a href={route('privacy', lang)}>privacy policy</a> and <a href={route('cookies', lang)}>cookies page</a>.</p>
+    <h2>Reporting unlawful content</h2><p>Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the address of the page.</p>
+    <h2>Governing law</h2><p>French law applies; failing an amicable settlement, the courts of {LEGAL.jurisdiction} have jurisdiction. Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

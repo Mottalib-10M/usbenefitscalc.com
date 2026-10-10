@@ -1,0 +1,49 @@
+---
+/**
+ * Renders a calculator with the data it needs (server side), as a hydrated island.
+ * `state` preselects (or, with `lock`, fixes) the state.
+ */
+import Screener from './calc/Screener';
+import SnapCalculator from './calc/SnapCalculator';
+import FplCalculator from './calc/FplCalculator';
+import MedicaidCalculator from './calc/MedicaidCalculator';
+import AcaCalculator from './calc/AcaCalculator';
+import EitcCalculator from './calc/EitcCalculator';
+import WicCalculator from './calc/WicCalculator';
+import Section8Calculator from './calc/Section8Calculator';
+import SsiCalculator from './calc/SsiCalculator';
+import { STATES, hudRows } from '../lib/kit';
+import { route, ROUTES } from '../i18n/routes';
+import type { ToolKind } from '../lib/page-types';
+import type { ClientState } from './calc/client-types';
+interface Props { kind: ToolKind; state?: string; lock?: boolean; idPrefix?: string; methodHref?: string; size?: number; income?: number }
+const { kind, state = 'california', lock = false, idPrefix, methodHref = route('method', 'en'), size, income } = Astro.props;
+const client: ClientState[] = STATES.map((s) => ({ slug: s.slug, name: s.name, abbr: s.abbr, area: s.area, bbce: s.snap.bbce.map(({ who, grossPct, assetLimit }) => ({ who, grossPct, assetLimit })), sua: s.snap.sua, snapName: s.snap.programName, medicaid: s.medicaid, medicaidName: s.medicaid.programName, chipName: s.medicaid.chipName ?? null, marketplace: s.marketplace }));
+const one = client.filter((s) => s.slug === state);
+const list = lock ? one : client;
+const r = (id: string, fb: string) => (ROUTES.some((x) => x.id === id) ? route(id, 'en') : fb);
+const links = { snap: r('snap-calculator', '/en/'), medicaid: r('medicaid-income-limits', '/en/'), aca: r('aca-subsidy-calculator', '/en/'), eitc: r('eitc-calculator', '/en/'), wic: r('wic-income-guidelines', '/en/'), ssi: r('ssi-payment-amount', '/en/'), section8: lock ? '#section-8' : r('section-8-income-limits', '/en/'), fpl: r('federal-poverty-level', '/en/') };
+const meta = STATES.map(({ slug, name, abbr }) => ({ slug, name, abbr }));
+const s8rows = kind === 'section8' ? hudRows(state).map((x) => (lock ? { n: x.n, a: x.area, v: x.v, e: x.e, l: x.l } : { n: x.n, v: x.v, e: x.e, l: x.l })) : [];
+/** Every state's rows for the program page, deduplicated: 682 distinct limit vectors for 4,680 counties and towns. */
+function hudAll() {
+  const vecs: number[][] = []; const idx = new Map<string, number>();
+  const states = Object.fromEntries(STATES.map((s) => [s.slug, hudRows(s.slug).map((x) => {
+    const v = [...x.v, ...x.e, ...x.l]; const k = v.join(',');
+    if (!idx.has(k)) { idx.set(k, vecs.length); vecs.push(v); }
+    return [x.n, idx.get(k)];
+  })]));
+  return JSON.stringify({ vecs, states });
+}
+const pre = idPrefix ?? `${kind.slice(0, 3)}${state.slice(0, 3)}`;
+---
+{kind === 'screener' && <Screener client:load states={list} state={state} lockState={lock} methodHref={methodHref} idPrefix={pre} links={links} />}
+{kind === 'snap' && <SnapCalculator client:load states={list} state={state} lockState={lock} methodHref={methodHref} idPrefix={pre} size={size} earned={income} />}
+{kind === 'fpl' && <FplCalculator client:load methodHref={methodHref} idPrefix={pre} size={size} income={income} />}
+{kind === 'medicaid' && <MedicaidCalculator client:load states={list} state={state} lockState={lock} methodHref={methodHref} idPrefix={pre} acaHref={links.aca} />}
+{kind === 'aca' && <AcaCalculator client:load states={list} state={state} lockState={lock} methodHref={methodHref} idPrefix={pre} income={income} />}
+{kind === 'eitc' && <EitcCalculator client:load methodHref={methodHref} idPrefix={pre} earned={income} />}
+{kind === 'wic' && <WicCalculator client:load methodHref={methodHref} idPrefix={pre} />}
+{kind === 'section8' && <Section8Calculator client:load states={lock ? meta.filter((m) => m.slug === state) : meta} state={state} rows={s8rows} lockState={lock} methodHref={methodHref} idPrefix={pre} />}
+{kind === 'ssi' && <SsiCalculator client:load methodHref={methodHref} idPrefix={pre} />}
+{kind === 'section8' && !lock && <script type="application/json" id="hud-all" set:html={hudAll()} />}

@@ -1,0 +1,27 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, REVIEW_CYCLE_MONTHS, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { contactPageSchema } from '../../lib/seo';
+const lang = 'en';
+const description = 'Write to us when a state changes a SNAP option or Medicaid level, when an estimate differs from your notice, or to embed the benefits screener on your own site.';
+---
+<PageLayout title={`Contact ${SITE_NAMES[lang]}: changed rules, errors and embedding`} description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path: route('contact', lang), lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Contact</h1>
+    <p>One mailbox, read on working days: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>A rule changed in your state</h2>
+    <p>States revise SNAP utility allowances every October, change broad-based eligibility options with little notice, and adjust Medicaid and CHIP levels through state plan amendments and waivers. Send the official document (state manual page, policy memo, CMS approval letter, notice on the agency site) and tell us which page here is affected. We read the source, update the data file, rerun the tests and date the page.</p>
+    <h2>Your notice shows a different amount</h2>
+    <p>Send the share link of your calculation and the figure on your eligibility notice. Differences usually come from income the agency counted differently (overtime averaged over months, self-employment costs), a utility allowance you were not given, a household member the agency added or removed, or a deduction for medical or child care costs. We will tell you which, and fix the site if the error is ours.</p>
+    <h2>Embedding the screener</h2>
+    <p>Food banks, community action agencies, libraries and free tax sites can place the benefits screener or the SNAP calculator on their pages for free: the code is on the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>What we cannot do</h2>
+    <p>We cannot see your case, submit an application, speed up a decision or appeal one. Your state agency, a local legal aid office or a benefits navigator can; the state pages link the agencies that run each program.</p>
+    <h2>Response time</h2><p>Usually within five working days, corrections first. Every figure is re-read at least every {REVIEW_CYCLE_MONTHS} months and on each scheduled change: October 1 for SNAP, January for tax credits and poverty guidelines, May for HUD limits, July 1 for WIC.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Content owner: {AUTHOR_NAME}. See the <a href={route('terms', lang)}>legal notice</a>. Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

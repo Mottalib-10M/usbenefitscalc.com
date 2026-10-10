@@ -1,0 +1,29 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { personSchema, organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { STATES, P, usd, snapMax, snapMaxPrev, day } from '../../lib/kit';
+const lang = 'en';
+const nRows = STATES.reduce((a, s) => a + s.hud.rows, 0);
+const nBbce = STATES.filter((s) => s.snap.bbce.length).length;
+---
+<PageLayout title={`Radif Partners and US Benefits Calc: Sources and Corrections`} description="Who publishes this SNAP, Medicaid, ACA, EITC and Section 8 calculator, which agency documents feed it in 2026, how it is paid for and how to report errors." lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path: route('about', lang) }])]} breadcrumbs={[{ label: 'About' }]}>
+  <header class="mb-6"><h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">About {SITE_NAMES[lang]}</h1></header>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>{SITE_NAMES[lang]} is published by Radif Partners, a small company that builds free calculators on top of official rules. This one answers a question millions of households ask each year, usually after a job loss, a new baby, a move or a letter from an agency: what can we get, and from which program? The rules that answer it are public, but they are spread across a USDA memo, a CMS spreadsheet, an IRS revenue procedure, a HUD file with thousands of rows and fifty state manuals.</p>
+    <h2>Why this site does better than the first search result</h2>
+    <p>The tools that rank first for SNAP or Medicaid questions usually handle one program, apply one national limit, and some still show last fiscal year's amounts. This site takes one household through every program at once and applies the rules of its own state: the SNAP gross income test that each of the {nBbce} broad-based eligibility states chose, its utility allowance, its Medicaid and CHIP levels, its marketplace, and the HUD limit of its county among {nRows.toLocaleString('en-US')} counties and towns. The amounts are the current ones, for example {usd(snapMax(4))} for a family of four in SNAP since {day(P.snap.from)} (it was {usd(snapMaxPrev(4))} before), and each one links to the agency document it comes from.</p>
+    <h2>What we do not do</h2>
+    <p>We are not a government agency and we do not take applications. We do not ask for your name, email or phone number, and we do not pass visitors to insurance brokers, tax preparers or lenders for a fee. When a figure depends on something only the agency can check, such as a medical expense or a household member's status, the calculator says so rather than guessing.</p>
+    <h2>How the figures are produced</h2>
+    <p>Federal amounts live in one parameter file; state choices and HUD county limits live in data files built by a script from the downloaded agency documents, which are kept with the code. The calculations run in your browser. Before each release, automated tests check the engines against the agency tables (every SNAP income limit is recomputed from the poverty guideline, every WIC limit too) and against cases worked by hand from the regulations. The full description and the limits of each calculator are on the <a href={route('method', lang)}>method page</a>.</p>
+    <h2>Funding</h2>
+    <p>The site is free and needs no account. If advertising is added one day, it will never sit above a calculator and will never use what you type, since nothing you type leaves your browser.</p>
+    <h2>Reporting a mistake</h2>
+    <p>If your eligibility notice, a caseworker or an agency page gives a different figure, write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the share link of your calculation and the official document. Confirmed errors are fixed in the data, turned into a test and dated. See also the <a href={route('editorial', lang)}>editorial policy</a> and the <a href={route('terms', lang)}>legal notice</a>.</p>
+    <p class="text-sm text-navy-600">Figures last checked on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time>.</p>
+  </div>
+</PageLayout>

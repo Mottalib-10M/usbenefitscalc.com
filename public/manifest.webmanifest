@@ -1,0 +1,21 @@
+{
+ "name": "US Benefits Calc",
+ "short_name": "US Benefits Calc",
+ "description": "SNAP, Medicaid, ACA subsidy, EITC, WIC and Section 8 calculators for every US state, built on the official USDA, HHS, CMS, IRS and HUD figures for 2026.",
+ "start_url": "/en/",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#1D4E89",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+---
+/** Every program page and guide (src/content/pages/) and every state page (src/content/states/). */
+import ContentPage from '../../components/ContentPage.astro';
+import StatePage from '../../components/StatePage.astro';
+import { PAGES, STATE_PAGES } from '../../lib/pages';
+import type { PageDef, StatePageDef } from '../../lib/page-types';
+export function getStaticPaths() {
+  return [
+    ...PAGES.map((page) => ({ params: { slug: page.slug }, props: { page, state: undefined } })),
+    ...STATE_PAGES.map((state) => ({ params: { slug: `states/${state.slug}` }, props: { page: undefined, state } })),
+  ];
+}
+const { page, state } = Astro.props as { page?: PageDef; state?: StatePageDef };
+---
+{page ? <ContentPage page={page} /> : <StatePage def={state!} />}

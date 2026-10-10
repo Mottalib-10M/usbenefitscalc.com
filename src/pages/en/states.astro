@@ -1,0 +1,35 @@
+---
+/** Index of the 51 state pages (RECETTE §9: page de sommaire, data-sommaire on the grid). */
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route, ROUTES } from '../../i18n/routes';
+import { STATES, snapGrossState, bbceAll, medLimit, usd, P } from '../../lib/kit';
+import { stateId } from '../../lib/topics';
+import { breadcrumbSchema, webPageSchema } from '../../lib/seo';
+import { STATES_INDEX as X } from '../../content/states-index';
+import { helpers } from '../../lib/helpers';
+import MiniSim from '../../components/calc/MiniSim';
+import { faqSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('states', lang);
+const h = helpers();
+const has = (id: string) => ROUTES.some((r) => r.id === id);
+const exp = STATES.filter((s) => s.medicaid.expansion);
+const non = STATES.filter((s) => !s.medicaid.expansion);
+const cmp = { states: STATES.map((s) => { const b = bbceAll(s.slug); const a = medLimit(s.slug, 'adult', 1); const k = medLimit(s.slug, 'child6to18', 1); return [s.name, s.area, b ? b.grossPct : null, a.effectivePct, k.effectivePct]; }) };
+---
+<PageLayout title={X.title} description={X.description} lang={lang} faqs={X.faqs} jsonLd={[faqSchema(X.faqs, lang), webPageSchema({ name: X.h1, description: X.description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Benefits by state', path }])]} breadcrumbs={[{ label: 'Benefits by state' }]}>
+  <header class="mb-6">
+    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{X.h1}</h1>
+    <p class="mt-3 text-lg text-navy-700">{X.intro}</p>
+  </header>
+  <p class="mb-6 text-navy-800">{X.resume}</p>
+  <MiniSim client:load kind="stateCompare" arg={JSON.stringify(cmp)} href={route('home', lang)} />
+  <ul data-sommaire class="grid grid-cols-1 gap-x-6 gap-y-2 border-y border-navy-200 py-4 sm:grid-cols-2 lg:grid-cols-3">
+    {STATES.map((s) => { const b = bbceAll(s.slug); const a = medLimit(s.slug, 'adult', 1); return (
+      <li class="py-1">{has(stateId(s.slug)) ? <a class="font-semibold text-accent-700 hover:underline" href={route(stateId(s.slug), lang)}>{s.name}</a> : <span class="font-semibold text-navy-900">{s.name}</span>}
+        <span class="block text-xs text-navy-600">SNAP gross limit for 3: {usd(snapGrossState(s.slug, 3))}{b ? ` (${b.grossPct}%)` : ''} · Medicaid adults: {a.effectivePct != null ? `${a.effectivePct}%` : 'not expanded'}</span></li>); })}
+  </ul>
+  <div class="prose prose-slate mt-10 max-w-none prose-headings:font-serif">
+    <Fragment set:html={X.body(h, exp.map((s) => s.name), non.map((s) => s.name))} />
+  </div>
+</PageLayout>

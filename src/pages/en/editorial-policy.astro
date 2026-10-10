@@ -1,0 +1,31 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, REVIEW_CYCLE_MONTHS, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`Editorial policy of ${SITE_NAMES[lang]}: agency sources and fixes`} description="Which agency documents the SNAP, Medicaid, ACA, EITC, WIC, Section 8 and SSI figures come from, which sources never supply a number here, and how a reported error is fixed." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Editorial and corrections policy</h1>
+    <p>People use these calculators to decide whether to apply, to check a notice that cut their benefits, or to plan a raise that might cost them coverage. A stale table can make someone skip an application they would have won. This page says where each number comes from and what happens when one is wrong.</p>
+    <h2>Who is responsible</h2><p>Content and calculations: {AUTHOR_NAME}, <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>Sources that supply figures</h2>
+    <ul>
+      <li>USDA Food and Nutrition Administration: the annual SNAP cost-of-living memo, the broad-based categorical eligibility chart, the standard utility allowance table, and the implementation memos of the 2025 budget law;</li>
+      <li>HHS: the poverty guidelines published each January in the Federal Register;</li>
+      <li>CMS and Medicaid.gov: the table of Medicaid, CHIP and Basic Health Program eligibility levels by state;</li>
+      <li>the IRS: revenue procedures for the premium tax credit table and the EITC amounts, and its EITC tables;</li>
+      <li>HUD: the Section 8 income limit file for every county and the yearly deduction amounts;</li>
+      <li>the Social Security Administration for SSI amounts and exclusions, and the Federal Register for WIC guidelines;</li>
+      <li>state agencies for program names, application portals and marketplaces;</li>
+      <li>the statutes and regulations themselves (Public Law 119-21, Title 7 and Title 24 of the Code of Federal Regulations) where a rule needs its exact wording.</li>
+    </ul>
+    <h2>Sources that never supply a number</h2>
+    <p>Other calculators, benefit blogs, news articles and advocacy summaries can alert us to a change. They never provide a figure on this site: we go to the agency document, and when the two disagree the agency wins. When an agency has not published the current year's figure, as with state utility allowances for fiscal year 2027, we say so on the page and use the latest official value with its date.</p>
+    <h2>Review cycle</h2><p>Every figure is re-read at least every {REVIEW_CYCLE_MONTHS} months and on each known date of change. A change announced but not yet in force is written with its date and never applied early.</p>
+    <h2>Corrections</h2>
+    <ol><li>We check the report against the agency document.</li><li>We correct the data file or the engine and add a test reproducing the case.</li><li>The page shows its new reading date.</li></ol>
+    <h2>Independence</h2><p>No insurer, broker, lender, tax preparer or lead-generation company pays to be on the site, and no calculator asks for a name, a phone number or an email. If that ever changed, it would be written next to the link concerned.</p>
+    <p>See also the <a href={route('method', lang)}>method page</a>. Policy version: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

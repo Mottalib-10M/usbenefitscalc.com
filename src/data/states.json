@@ -1,0 +1,4433 @@
+[
+ {
+  "slug": "alabama",
+  "name": "Alabama",
+  "abbr": "AL",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 130,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 637.0,
+     "lua": 466.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 53.0,
+     "smdOffset": 4.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Alabama Department of Human Resources",
+   "agencyUrl": "https://dhr.alabama.gov/food-assistance/",
+   "applyUrl": "https://mydhr.alabama.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 141,
+   "child1to5": 141,
+   "child6to18": 141,
+   "chip": 312,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 141,
+   "pregnantChip": null,
+   "parent": 13,
+   "parentDollarStandard": false,
+   "expansion": false,
+   "adultPct": null,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Alabama Medicaid Agency",
+   "agencyUrl": "https://medicaid.alabama.gov/",
+   "applyUrl": "https://insurealabama.adph.state.al.us/",
+   "chipName": "ALL Kids",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Alabama Department of Public Health",
+   "url": "https://www.alabamapublichealth.gov/wic/"
+  },
+  "notes": [
+   "ALL Kids is Alabama's CHIP, run by the Alabama Department of Public Health; online application for ALL Kids and Medicaid at https://insurealabama.adph.state.al.us/ (https://www.alabamapublichealth.gov/allkids/)"
+  ],
+  "hud": {
+   "rows": 67,
+   "areas": 55,
+   "vli4Max": 57550,
+   "vli4MaxName": "Limestone County",
+   "vli4MaxArea": "Huntsville, AL MSA",
+   "vli4Min": 37100,
+   "vli4MinName": "Barbour County",
+   "vli4MinArea": "Barbour County, AL"
+  }
+ },
+ {
+  "slug": "alaska",
+  "name": "Alaska",
+  "abbr": "AK",
+  "area": "ak",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (Support for you and your family notice)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": "Central",
+     "hcsua": 625.0,
+     "lua": 0.0,
+     "electricity": 134.0,
+     "gas": 310.0,
+     "water": 59.0,
+     "sewage": 61.0,
+     "trash": 37.0,
+     "phone": 26.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "Northern",
+     "hcsua": 825.0,
+     "lua": 0.0,
+     "electricity": 170.0,
+     "gas": 492.0,
+     "water": 44.0,
+     "sewage": 45.0,
+     "trash": 38.0,
+     "phone": 35.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "Northwest",
+     "hcsua": 1107.0,
+     "lua": 0.0,
+     "electricity": 158.0,
+     "gas": 761.0,
+     "water": 63.0,
+     "sewage": 48.0,
+     "trash": 40.0,
+     "phone": 37.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "Southcentral",
+     "hcsua": 591.0,
+     "lua": 0.0,
+     "electricity": 109.0,
+     "gas": 308.0,
+     "water": 42.0,
+     "sewage": 65.0,
+     "trash": 40.0,
+     "phone": 27.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "Southeast",
+     "hcsua": 517.0,
+     "lua": 0.0,
+     "electricity": 72.0,
+     "gas": 244.0,
+     "water": 49.0,
+     "sewage": 81.0,
+     "trash": 34.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "Southwest",
+     "hcsua": 1064.0,
+     "lua": 0.0,
+     "electricity": 169.0,
+     "gas": 676.0,
+     "water": 111.0,
+     "sewage": 54.0,
+     "trash": 17.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Alaska Department of Health, Division of Public Assistance",
+   "agencyUrl": "https://health.alaska.gov/dpa/Pages/snap/default.aspx",
+   "applyUrl": "https://aries.alaska.gov/screener/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 203,
+   "child1to5": 203,
+   "child6to18": 203,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 200,
+   "pregnantChip": null,
+   "parent": 130,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Alaska Department of Health, Division of Public Assistance",
+   "agencyUrl": "https://health.alaska.gov/dpa/Pages/medicaid/default.aspx",
+   "applyUrl": "https://aries.alaska.gov/screener/",
+   "chipName": "Denali KidCare",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Alaska Department of Health, Division of Public Assistance",
+   "url": "https://health.alaska.gov/dpa/Pages/nutri/wic/default.aspx"
+  },
+  "notes": [
+   "Denali KidCare is listed as a program of the Alaska Department of Health (https://health.alaska.gov/en/services/denali-kidcare/)"
+  ],
+  "hud": {
+   "rows": 30,
+   "areas": 30,
+   "vli4Max": 73100,
+   "vli4MaxName": "Denali Borough",
+   "vli4MaxArea": "Denali Borough, AK",
+   "vli4Min": 52950,
+   "vli4MinName": "Aleutians East Borough",
+   "vli4MinArea": "Aleutians East Borough, AK"
+  }
+ },
+ {
+  "slug": "arizona",
+  "name": "Arizona",
+  "abbr": "AZ",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (referral on application)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": "1 to 3 members",
+     "hcsua": 323.0,
+     "lua": 149.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 44.0,
+     "smdOffset": 6.0,
+     "mandatory": true
+    },
+    {
+     "variant": "4 or more members",
+     "hcsua": 438.0,
+     "lua": 201.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 44.0,
+     "smdOffset": 6.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "Nutrition Assistance",
+   "agency": "Arizona Department of Economic Security",
+   "agencyUrl": "https://des.az.gov/services/basic-needs/food/nutrition-assistance",
+   "applyUrl": "https://www.healthearizonaplus.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 147,
+   "child1to5": 141,
+   "child6to18": 133,
+   "chip": 200,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 156,
+   "pregnantChip": null,
+   "parent": 106,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "AHCCCS",
+   "agency": "Arizona Health Care Cost Containment System (AHCCCS)",
+   "agencyUrl": "https://www.azahcccs.gov/",
+   "applyUrl": "https://www.healthearizonaplus.gov/",
+   "chipName": "KidsCare",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Arizona Department of Health Services",
+   "url": "https://www.azdhs.gov/prevention/azwic/"
+  },
+  "notes": [
+   "Arizona calls SNAP 'Nutrition Assistance (NA)' (https://des.az.gov/services/basic-needs/food/nutrition-assistance); AHCCCS homepage offers 'Apply for Medicaid or KidsCare' (https://www.azahcccs.gov/)"
+  ],
+  "hud": {
+   "rows": 15,
+   "areas": 14,
+   "vli4Max": 56200,
+   "vli4MaxName": "Maricopa County",
+   "vli4MaxArea": "Phoenix-Mesa-Chandler, AZ MSA",
+   "vli4Min": 33250,
+   "vli4MinName": "Santa Cruz County",
+   "vli4MinArea": "Santa Cruz County, AZ"
+  }
+ },
+ {
+  "slug": "arkansas",
+  "name": "Arkansas",
+  "abbr": "AR",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "elderly-disabled",
+     "grossPct": 165,
+     "assetLimit": 5500,
+     "assetText": "$5,500 2",
+     "program": "All elderly or disabled households are eligible (brochure)"
+    },
+    {
+     "who": "non-elderly-disabled",
+     "grossPct": 130,
+     "assetLimit": 5500,
+     "assetText": "$5,500 2",
+     "program": "All non-elderly or disabled households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 342.0,
+     "lua": 274.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 51.0,
+     "smdOffset": 4.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Arkansas Department of Human Services",
+   "agencyUrl": "https://humanservices.arkansas.gov/divisions-shared-services/county-operations/supplemental-nutrition-assistance-snap/",
+   "applyUrl": "https://access.arkansas.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 142,
+   "child1to5": 142,
+   "child6to18": 142,
+   "chip": 211,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 209,
+   "pregnantChip": null,
+   "parent": 13,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Arkansas Department of Human Services, Division of Medical Services",
+   "agencyUrl": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/",
+   "applyUrl": "https://access.arkansas.gov/",
+   "chipName": "ARKids First",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Arkansas Department of Health",
+   "url": "https://healthy.arkansas.gov/programs-services/community-family-child-health/wic-women-infants-children/"
+  },
+  "notes": [
+   "Arkansas is a State-based Exchange on the Federal Platform for PY2026 (My Arkansas Health Insurance Marketplace, myarinsurance.com): residents enroll through HealthCare.gov (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)",
+   "ARHOME is Arkansas's Medicaid expansion program name; ARKids First covers children (https://humanservices.arkansas.gov/divisions-shared-services/medical-services/)"
+  ],
+  "hud": {
+   "rows": 75,
+   "areas": 68,
+   "vli4Max": 53450,
+   "vli4MaxName": "Benton County",
+   "vli4MaxArea": "Fayetteville-Springdale-Rogers, AR MSA",
+   "vli4Min": 35550,
+   "vli4MinName": "Ashley County",
+   "vli4MinArea": "Ashley County, AR"
+  }
+ },
+ {
+  "slug": "california",
+  "name": "California",
+  "abbr": "CA",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (pamphlet)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 663.0,
+     "lua": 170.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 20.0,
+     "smdOffset": 4.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "CalFresh",
+   "agency": "California Department of Social Services",
+   "agencyUrl": "https://www.cdss.ca.gov/inforesources/calfresh",
+   "applyUrl": "https://benefitscal.com/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 261,
+   "child1to5": 261,
+   "child6to18": 261,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": "See note 6",
+   "pregnant": 208,
+   "pregnantChip": null,
+   "parent": 109,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": "CMS note 6: the separate CHIP in California covers certain children up to age 2 with incomes up to 317% of the FPL statewide, and children up to age 19 up to 317% in three counties only.",
+   "programName": "Medi-Cal",
+   "agency": "California Department of Health Care Services",
+   "agencyUrl": "https://www.dhcs.ca.gov/services/medi-cal",
+   "applyUrl": "https://benefitscal.com/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Covered California",
+   "url": "https://www.coveredca.com/"
+  },
+  "wic": {
+   "agency": "California Department of Public Health",
+   "url": "https://www.cdph.ca.gov/Programs/CFH/DWICSN"
+  },
+  "notes": [
+   "Covered California is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 58,
+   "areas": 51,
+   "vli4Max": 108750,
+   "vli4MaxName": "Santa Cruz County",
+   "vli4MaxArea": "Santa Cruz-Watsonville, CA MSA",
+   "vli4Min": 48550,
+   "vli4MinName": "Butte County",
+   "vli4MinArea": "Chico, CA MSA"
+  }
+ },
+ {
+  "slug": "colorado",
+  "name": "Colorado",
+  "abbr": "CO",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (notice on application)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 594.0,
+     "lua": 377.0,
+     "electricity": 71.0,
+     "gas": 71.0,
+     "water": 71.0,
+     "sewage": 71.0,
+     "trash": 71.0,
+     "phone": 97.0,
+     "smdOffset": 7.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Colorado Department of Human Services",
+   "agencyUrl": "https://cdhs.colorado.gov/snap",
+   "applyUrl": "https://www.colorado.gov/PEAK",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 142,
+   "child1to5": 142,
+   "child6to18": 142,
+   "chip": 260,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 195,
+   "pregnantChip": 260,
+   "parent": 68,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Health First Colorado",
+   "agency": "Colorado Department of Health Care Policy & Financing",
+   "agencyUrl": "https://www.healthfirstcolorado.gov/",
+   "applyUrl": "https://www.colorado.gov/PEAK",
+   "chipName": "Child Health Plan Plus (CHP+)",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Connect for Health Colorado",
+   "url": "https://connectforhealthco.com/"
+  },
+  "wic": {
+   "agency": "Colorado Department of Public Health & Environment",
+   "url": "https://www.coloradowic.gov/homepage"
+  },
+  "notes": [
+   "Child Health Plan Plus (CHP+) named on the Health First Colorado site (https://www.healthfirstcolorado.gov/)",
+   "PEAK (https://www.colorado.gov/PEAK) redirects to peak.my.site.com, the state's PEAK portal",
+   "Connect for Health Colorado is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 64,
+   "areas": 55,
+   "vli4Max": 75000,
+   "vli4MaxName": "Boulder County",
+   "vli4MaxArea": "Boulder, CO MSA",
+   "vli4Min": 48700,
+   "vli4MinName": "Alamosa County",
+   "vli4MinArea": "Alamosa County, CO"
+  }
+ },
+ {
+  "slug": "connecticut",
+  "name": "Connecticut",
+  "abbr": "CT",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (Help for People in Need brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 976.0,
+     "lua": 430.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Connecticut Department of Social Services",
+   "agencyUrl": "https://portal.ct.gov/dss/snap",
+   "applyUrl": "https://www.connect.ct.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 196,
+   "child1to5": 196,
+   "child6to18": 196,
+   "chip": 318,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 258,
+   "pregnantChip": null,
+   "parent": 155,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "HUSKY Health",
+   "agency": "Connecticut Department of Social Services",
+   "agencyUrl": "https://portal.ct.gov/husky",
+   "applyUrl": "https://www.accesshealthct.com/",
+   "chipName": "HUSKY B",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Access Health CT",
+   "url": "https://www.accesshealthct.com/"
+  },
+  "wic": {
+   "agency": "Connecticut Department of Public Health",
+   "url": "https://portal.ct.gov/dph/wic/wic"
+  },
+  "notes": [
+   "Access Health CT is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 169,
+   "areas": 32,
+   "vli4Max": 81500,
+   "vli4MaxName": "Darien town",
+   "vli4MaxArea": "Darien town, CT Exception Area",
+   "vli4Min": 62250,
+   "vli4MinName": "Ansonia town",
+   "vli4MinArea": "Waterbury-Shelton, CT MSA"
+  }
+ },
+ {
+  "slug": "delaware",
+  "name": "Delaware",
+  "abbr": "DE",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (application refers to pregnancy prevention hotline)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 543.0,
+     "lua": 369.0,
+     "electricity": 102.0,
+     "gas": 102.0,
+     "water": 102.0,
+     "sewage": 102.0,
+     "trash": 102.0,
+     "phone": 24.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Delaware Health and Social Services, Division of Social Services",
+   "agencyUrl": "https://dhss.delaware.gov/dss/division-of-social-services/snap/",
+   "applyUrl": "https://assist.dhss.delaware.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 212,
+   "child1to5": 142,
+   "child6to18": 133,
+   "chip": 212,
+   "chipAges": "1 up to 19",
+   "chipNote": null,
+   "pregnant": 212,
+   "pregnantChip": null,
+   "parent": 87,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Delaware Health and Social Services, Division of Medicaid & Medical Assistance",
+   "agencyUrl": "https://dhss.delaware.gov/dmma/",
+   "applyUrl": "https://assist.dhss.delaware.gov/",
+   "chipName": "Delaware Healthy Children Program",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Delaware Health and Social Services, Division of Public Health",
+   "url": "https://dhss.delaware.gov/dph/homepage/about/sections/imimep/imhome/dhmic/wic/"
+  },
+  "notes": [
+   "Delaware DHSS site restructured in 2025: old /dhss/dss/ URLs return 404; current SNAP page is under /dss/division-of-social-services/snap/ (https://dhss.delaware.gov/dss/division-of-social-services/snap/)"
+  ],
+  "hud": {
+   "rows": 3,
+   "areas": 3,
+   "vli4Max": 61350,
+   "vli4MaxName": "New Castle County",
+   "vli4MaxArea": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",
+   "vli4Min": 51600,
+   "vli4MinName": "Sussex County",
+   "vli4MinArea": "Sussex County, DE"
+  }
+ },
+ {
+  "slug": "district-of-columbia",
+  "name": "District of Columbia",
+  "abbr": "DC",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 384.0,
+     "lua": 348.0,
+     "electricity": 90.0,
+     "gas": 90.0,
+     "water": 90.0,
+     "sewage": 90.0,
+     "trash": 90.0,
+     "phone": 76.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "DC Department of Human Services",
+   "agencyUrl": "https://dhs.dc.gov/service/supplemental-nutrition-assistance-program-snap",
+   "applyUrl": "https://districtdirect.dc.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 319,
+   "child1to5": 319,
+   "child6to18": 319,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 319,
+   "pregnantChip": null,
+   "parent": 216,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 210,
+   "bhpPct": null,
+   "note": "CMS note 7: DC also covers ages 19 and 20 up to 216% of the FPL.",
+   "programName": "Medicaid",
+   "agency": "DC Department of Health Care Finance",
+   "agencyUrl": "https://dhcf.dc.gov/service/medicaid",
+   "applyUrl": "https://districtdirect.dc.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "DC Health Link",
+   "url": "https://dchealthlink.com/"
+  },
+  "wic": {
+   "agency": "DC Health",
+   "url": "https://dchealth.dc.gov/service/special-supplemental-nutrition-program-women-infants-and-children-wic"
+  },
+  "notes": [
+   "DC Health Link is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 1,
+   "areas": 1,
+   "vli4Max": 83050,
+   "vli4MaxName": "District of Columbia",
+   "vli4MaxArea": "Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area",
+   "vli4Min": 83050,
+   "vli4MinName": "District of Columbia",
+   "vli4MinArea": "Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area"
+  }
+ },
+ {
+  "slug": "florida",
+  "name": "Florida",
+  "abbr": "FL",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (notice)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 430.0,
+     "lua": 348.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 56.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Florida Department of Children and Families",
+   "agencyUrl": "https://www.myflfamilies.com/services/public-assistance/supplemental-nutrition-assistance-program-snap",
+   "applyUrl": "https://myaccess.myflfamilies.com/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 206,
+   "child1to5": 140,
+   "child6to18": 133,
+   "chip": 210,
+   "chipAges": "1 up to 19",
+   "chipNote": null,
+   "pregnant": 191,
+   "pregnantChip": null,
+   "parent": 24,
+   "parentDollarStandard": true,
+   "expansion": false,
+   "adultPct": null,
+   "bhpPct": null,
+   "note": "CMS note 8: Florida also covers ages 19 and 20 up to 24% of the FPL.",
+   "programName": "Medicaid",
+   "agency": "Agency for Health Care Administration",
+   "agencyUrl": "https://ahca.myflorida.com/medicaid",
+   "applyUrl": "https://myaccess.myflfamilies.com/",
+   "chipName": "Florida KidCare",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Florida Department of Health",
+   "url": "https://www.floridahealth.gov/programs-and-services/wic/"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 67,
+   "areas": 52,
+   "vli4Max": 71650,
+   "vli4MaxName": "Monroe County",
+   "vli4MaxArea": "Monroe County, FL",
+   "vli4Min": 39150,
+   "vli4MinName": "DeSoto County",
+   "vli4MinArea": "DeSoto County, FL"
+  }
+ },
+ {
+  "slug": "georgia",
+  "name": "Georgia",
+  "abbr": "GA",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 130,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (TANF Community Outreach Services brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 405.0,
+     "lua": 358.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 47.0,
+     "smdOffset": 4.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Georgia Department of Human Services, Division of Family & Children Services",
+   "agencyUrl": "https://dfcs.georgia.gov/services/snap",
+   "applyUrl": "https://gateway.ga.gov/",
+   "applyUrlStatus": 403
+  },
+  "medicaid": {
+   "child0to1": 205,
+   "child1to5": 149,
+   "child6to18": 133,
+   "chip": 247,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 220,
+   "pregnantChip": null,
+   "parent": 28,
+   "parentDollarStandard": true,
+   "expansion": false,
+   "adultPct": null,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Georgia Department of Community Health",
+   "agencyUrl": "https://medicaid.georgia.gov/",
+   "applyUrl": "https://gateway.ga.gov/",
+   "chipName": "PeachCare for Kids",
+   "applyUrlStatus": 403
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Georgia Access",
+   "url": "https://georgiaaccess.gov/"
+  },
+  "wic": {
+   "agency": "Georgia Department of Public Health",
+   "url": "https://dph.georgia.gov/WIC"
+  },
+  "notes": [
+   "Georgia Access is a full State-based Exchange for PY2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)",
+   "Georgia Pathways to Coverage: Medicaid pathway with a qualifying-activities (work/activity) reporting requirement; site also has an 'H.R. 1 Changes to Pathways' section (https://pathways.georgia.gov/)",
+   "Georgia Access is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 159,
+   "areas": 112,
+   "vli4Max": 58900,
+   "vli4MaxName": "Barrow County",
+   "vli4MaxArea": "Atlanta-Sandy Springs-Roswell, GA HUD Metro FMR Area",
+   "vli4Min": 38500,
+   "vli4MinName": "Appling County",
+   "vli4MinArea": "Appling County, GA"
+  }
+ },
+ {
+  "slug": "hawaii",
+  "name": "Hawaii",
+  "abbr": "HI",
+  "area": "hi",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": "1 member",
+     "hcsua": 0.0,
+     "lua": 0.0,
+     "electricity": 299.0,
+     "gas": 299.0,
+     "water": 67.0,
+     "sewage": 100.0,
+     "trash": 100.0,
+     "phone": 43.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "2 members",
+     "hcsua": 0.0,
+     "lua": 0.0,
+     "electricity": 324.0,
+     "gas": 324.0,
+     "water": 75.0,
+     "sewage": 100.0,
+     "trash": 100.0,
+     "phone": 43.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "3 members",
+     "hcsua": 0.0,
+     "lua": 0.0,
+     "electricity": 376.0,
+     "gas": 376.0,
+     "water": 83.0,
+     "sewage": 100.0,
+     "trash": 100.0,
+     "phone": 43.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "4 to 5 members",
+     "hcsua": 0.0,
+     "lua": 0.0,
+     "electricity": 469.0,
+     "gas": 469.0,
+     "water": 98.0,
+     "sewage": 100.0,
+     "trash": 100.0,
+     "phone": 43.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "6 members",
+     "hcsua": 0.0,
+     "lua": 0.0,
+     "electricity": 554.0,
+     "gas": 554.0,
+     "water": 112.0,
+     "sewage": 100.0,
+     "trash": 100.0,
+     "phone": 43.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "7 to 10 members",
+     "hcsua": 0.0,
+     "lua": 0.0,
+     "electricity": 625.0,
+     "gas": 625.0,
+     "water": 135.0,
+     "sewage": 100.0,
+     "trash": 100.0,
+     "phone": 43.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Hawaii Department of Human Services, Benefit, Employment & Support Services Division",
+   "agencyUrl": "https://humanservices.hawaii.gov/bessd/snap/",
+   "applyUrl": "https://pais-benefits.dhs.hawaii.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 308,
+   "child1to5": 308,
+   "child6to18": 308,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 191,
+   "pregnantChip": null,
+   "parent": 105,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Med-QUEST",
+   "agency": "Hawaii Department of Human Services, Med-QUEST Division",
+   "agencyUrl": "https://medquest.hawaii.gov/",
+   "applyUrl": "https://medical.mybenefits.hawaii.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "State of Hawaii Department of Health",
+   "url": "https://health.hawaii.gov/wic/"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 5,
+   "areas": 5,
+   "vli4Max": 77000,
+   "vli4MaxName": "Honolulu County",
+   "vli4MaxArea": "Urban Honolulu, HI MSA",
+   "vli4Min": 60500,
+   "vli4MinName": "Hawaii County",
+   "vli4MinArea": "Hawaii County, HI"
+  }
+ },
+ {
+  "slug": "idaho",
+  "name": "Idaho",
+  "abbr": "ID",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 130,
+     "assetLimit": 5000,
+     "assetText": "$5,000",
+     "program": "All households are eligible (flyer about referral service)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 390.0,
+     "lua": 133.0,
+     "electricity": 133.0,
+     "gas": 133.0,
+     "water": 133.0,
+     "sewage": 133.0,
+     "trash": 133.0,
+     "phone": 49.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Idaho Department of Health and Welfare",
+   "agencyUrl": "https://healthandwelfare.idaho.gov/services-programs/food-assistance",
+   "applyUrl": "https://idalink.idaho.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 142,
+   "child1to5": 142,
+   "child6to18": 133,
+   "chip": 185,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 133,
+   "pregnantChip": null,
+   "parent": 19,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Idaho Department of Health and Welfare",
+   "agencyUrl": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health",
+   "applyUrl": "https://idalink.idaho.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Your Health Idaho",
+   "url": "https://www.yourhealthidaho.org/"
+  },
+  "wic": {
+   "agency": "Idaho Department of Health and Welfare",
+   "url": "https://healthandwelfare.idaho.gov/services-programs/food-assistance/about-wic"
+  },
+  "notes": [
+   "Your Health Idaho is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 44,
+   "areas": 40,
+   "vli4Max": 59650,
+   "vli4MaxName": "Teton County",
+   "vli4MaxArea": "Teton County, ID",
+   "vli4Min": 44000,
+   "vli4MinName": "Adams County",
+   "vli4MinArea": "Adams County, ID"
+  }
+ },
+ {
+  "slug": "illinois",
+  "name": "Illinois",
+  "abbr": "IL",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 165,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (guide to services brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 546.0,
+     "lua": 457.0,
+     "electricity": 78.0,
+     "gas": 78.0,
+     "water": 78.0,
+     "sewage": 78.0,
+     "trash": 78.0,
+     "phone": 67.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Illinois Department of Human Services",
+   "agencyUrl": "https://www.dhs.state.il.us/page.aspx?item=30357",
+   "applyUrl": "https://abe.illinois.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 313,
+   "child1to5": 313,
+   "child6to18": 313,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 208,
+   "pregnantChip": null,
+   "parent": 133,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Illinois Department of Healthcare and Family Services",
+   "agencyUrl": "https://hfs.illinois.gov/medicalclients.html",
+   "applyUrl": "https://abe.illinois.gov/",
+   "chipName": "All Kids",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Get Covered Illinois",
+   "url": "https://getcovered.illinois.gov/"
+  },
+  "wic": {
+   "agency": "Illinois Department of Human Services",
+   "url": "https://www.dhs.state.il.us/page.aspx?item=31907"
+  },
+  "notes": [
+   "Illinois moved to its own State-based Exchange, Get Covered Illinois, for PY2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces, https://getcovered.illinois.gov/)",
+   "Get Covered Illinois is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 102,
+   "areas": 83,
+   "vli4Max": 67900,
+   "vli4MaxName": "Kendall County",
+   "vli4MaxArea": "Kendall County, IL HUD Metro FMR Area",
+   "vli4Min": 44850,
+   "vli4MinName": "Boone County",
+   "vli4MinArea": "Rockford, IL MSA"
+  }
+ },
+ {
+  "slug": "indiana",
+  "name": "Indiana",
+  "abbr": "IN",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 130,
+     "assetLimit": 5000,
+     "assetText": "$5,000",
+     "program": "All households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 486.0,
+     "lua": 283.0,
+     "electricity": 62.0,
+     "gas": 62.0,
+     "water": 62.0,
+     "sewage": 62.0,
+     "trash": 62.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Indiana Family and Social Services Administration, Division of Family Resources",
+   "agencyUrl": "https://www.in.gov/fssa/dfr/snap-food-assistance/",
+   "applyUrl": "https://fssabenefits.in.gov/",
+   "applyUrlStatus": 403
+  },
+  "medicaid": {
+   "child0to1": 208,
+   "child1to5": 158,
+   "child6to18": 158,
+   "chip": 250,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 208,
+   "pregnantChip": null,
+   "parent": 15,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Indiana Medicaid",
+   "agency": "Indiana Family and Social Services Administration (FSSA)",
+   "agencyUrl": "https://www.in.gov/medicaid/",
+   "applyUrl": "https://fssabenefits.in.gov/",
+   "chipName": "Hoosier Healthwise",
+   "applyUrlStatus": 403
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Indiana Department of Health",
+   "url": "https://www.in.gov/health/wic/"
+  },
+  "notes": [
+   "Hoosier Healthwise page: https://www.in.gov/medicaid/members/member-programs/hoosier-healthwise/"
+  ],
+  "hud": {
+   "rows": 92,
+   "areas": 73,
+   "vli4Max": 55150,
+   "vli4MaxName": "Boone County",
+   "vli4MaxArea": "Indianapolis-Carmel, IN HUD Metro FMR Area",
+   "vli4Min": 42400,
+   "vli4MinName": "Adams County",
+   "vli4MinArea": "Adams County, IN"
+  }
+ },
+ {
+  "slug": "iowa",
+  "name": "Iowa",
+  "abbr": "IA",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 160,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (notice of eligibility and brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 554.0,
+     "lua": 292.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 4.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "Food Assistance",
+   "agency": "Iowa Department of Health and Human Services",
+   "agencyUrl": "https://hhs.iowa.gov/assistance-programs/food-assistance",
+   "applyUrl": "https://hhsservices.iowa.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 375,
+   "child1to5": 167,
+   "child6to18": 167,
+   "chip": 302,
+   "chipAges": "1 up to 19",
+   "chipNote": null,
+   "pregnant": 375,
+   "pregnantChip": null,
+   "parent": 44,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Iowa Department of Health and Human Services",
+   "agencyUrl": "https://hhs.iowa.gov/medicaid",
+   "applyUrl": "https://hhsservices.iowa.gov/",
+   "chipName": "Hawki",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Iowa Department of Health and Human Services",
+   "url": "https://hhs.iowa.gov/wic"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 99,
+   "areas": 92,
+   "vli4Max": 61200,
+   "vli4MaxName": "Story County",
+   "vli4MaxArea": "Ames, IA HUD Metro FMR Area",
+   "vli4Min": 47050,
+   "vli4MinName": "Allamakee County",
+   "vli4MinArea": "Allamakee County, IA"
+  }
+ },
+ {
+  "slug": "kansas",
+  "name": "Kansas",
+  "abbr": "KS",
+  "area": "us",
+  "snap": {
+   "bbce": [],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 469.0,
+     "lua": 345.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 44.0,
+     "smdOffset": 10.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "Food Assistance",
+   "agency": "Kansas Department for Children and Families",
+   "agencyUrl": "https://www.dcf.ks.gov/services/ees/Pages/Food/FoodAssistance.aspx",
+   "applyUrl": "https://cssp.kees.ks.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 166,
+   "child1to5": 149,
+   "child6to18": 133,
+   "chip": 250,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 166,
+   "pregnantChip": null,
+   "parent": 33,
+   "parentDollarStandard": false,
+   "expansion": false,
+   "adultPct": null,
+   "bhpPct": null,
+   "note": null,
+   "programName": "KanCare",
+   "agency": "Kansas Department of Health and Environment",
+   "agencyUrl": "https://www.kancare.ks.gov/",
+   "applyUrl": "https://cssp.kees.ks.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Kansas Department of Health and Environment",
+   "url": "https://www.kdhe.ks.gov/1000/Nutrition-WIC-Services"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 105,
+   "areas": 94,
+   "vli4Max": 56700,
+   "vli4MaxName": "Johnson County",
+   "vli4MaxArea": "Kansas City, MO-KS HUD Metro FMR Area",
+   "vli4Min": 42850,
+   "vli4MinName": "Barber County",
+   "vli4MinArea": "Barber County, KS"
+  }
+ },
+ {
+  "slug": "kentucky",
+  "name": "Kentucky",
+  "abbr": "KY",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (resource guide)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 388.0,
+     "lua": 331.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 64.0,
+     "smdOffset": 4.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Cabinet for Health and Family Services, Department for Community Based Services",
+   "agencyUrl": "https://www.chfs.ky.gov/agencies/dcbs/dfs/nab/Pages/snap.aspx",
+   "applyUrl": "https://kynect.ky.gov/benefits",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 213,
+   "child1to5": 213,
+   "child6to18": 213,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 195,
+   "pregnantChip": 213,
+   "parent": 19,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Cabinet for Health and Family Services, Department for Medicaid Services",
+   "agencyUrl": "https://www.chfs.ky.gov/agencies/dms/",
+   "applyUrl": "https://kynect.ky.gov/benefits",
+   "chipName": "KCHIP",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "kynect",
+   "url": "https://kynect.ky.gov/healthcoverage"
+  },
+  "wic": {
+   "agency": "Cabinet for Health and Family Services, Department for Public Health",
+   "url": "https://www.chfs.ky.gov/agencies/dph/dmch/nsb/Pages/wic.aspx"
+  },
+  "notes": [
+   "KCHIP (Kentucky Children's Health Insurance Program) linked from the DMS page to https://kidshealth.ky.gov/Pages/index.aspx",
+   "kynect is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 120,
+   "areas": 101,
+   "vli4Max": 54950,
+   "vli4MaxName": "Boone County",
+   "vli4MaxArea": "Cincinnati, OH-KY-IN  HUD Metro FMR Area",
+   "vli4Min": 35950,
+   "vli4MinName": "Adair County",
+   "vli4MinArea": "Adair County, KY"
+  }
+ },
+ {
+  "slug": "louisiana",
+  "name": "Louisiana",
+  "abbr": "LA",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (notice)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 465.0,
+     "lua": 0.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 76.0,
+     "smdOffset": 4.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Louisiana Department of Health",
+   "agencyUrl": "https://ldh.la.gov/supplemental-nutrition-assistance-program",
+   "applyUrl": "https://sspweb.ie.dcfs.la.gov/selfservice/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 212,
+   "child1to5": 212,
+   "child6to18": 212,
+   "chip": 250,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 133,
+   "pregnantChip": null,
+   "parent": 19,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Louisiana Department of Health",
+   "agencyUrl": "https://ldh.la.gov/medicaid",
+   "applyUrl": "https://sspweb.lameds.ldh.la.gov/selfservice/",
+   "chipName": "LaCHIP",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Louisiana Department of Health",
+   "url": "https://ldh.la.gov/bureau-of-nutrition-services/women-infants-children-program"
+  },
+  "notes": [
+   "SNAP is now administered by the Louisiana Department of Health (SNAP program pages are on ldh.la.gov); online application still goes through the LA CAFE portal on a dcfs.la.gov host (https://ldh.la.gov/page/snap-eligibility-application)",
+   "LaCHIP page: https://ldh.la.gov/medicaid/lachip"
+  ],
+  "hud": {
+   "rows": 64,
+   "areas": 45,
+   "vli4Max": 52100,
+   "vli4MaxName": "St. Tammany Parish",
+   "vli4MaxArea": "Slidell-Mandeville-Covington, LA MSA",
+   "vli4Min": 33850,
+   "vli4MinName": "Allen Parish",
+   "vli4MinArea": "Allen Parish, LA"
+  }
+ },
+ {
+  "slug": "maine",
+  "name": "Maine",
+  "abbr": "ME",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (resource guide)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 1096.0,
+     "lua": 598.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 0.0,
+     "smdOffset": 114.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Maine Department of Health and Human Services, Office for Family Independence",
+   "agencyUrl": "https://www.maine.gov/dhhs/ofi/programs-services/food-supplement",
+   "applyUrl": "https://www.mymaineconnection.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 300,
+   "child1to5": 300,
+   "child6to18": 300,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 209,
+   "pregnantChip": null,
+   "parent": 100,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": "CMS note 7: Maine also covers ages 19 and 20 up to 300% of the FPL.",
+   "programName": "MaineCare",
+   "agency": "Maine Department of Health and Human Services, Office of MaineCare Services",
+   "agencyUrl": "https://www.maine.gov/dhhs/oms/mainecare-options",
+   "applyUrl": "https://www.mymaineconnection.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "CoverME.gov",
+   "url": "https://www.coverme.gov/"
+  },
+  "wic": {
+   "agency": "Maine Center for Disease Control & Prevention",
+   "url": "https://www.maine.gov/dhhs/mecdc/healthy-living/wic"
+  },
+  "notes": [
+   "CoverME.gov is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 529,
+   "areas": 19,
+   "vli4Max": 69550,
+   "vli4MaxName": "Buxton town",
+   "vli4MaxArea": "Portland, ME HUD Metro FMR Area",
+   "vli4Min": 45950,
+   "vli4MinName": "Abbot town",
+   "vli4MinArea": "Piscataquis County, ME"
+  }
+ },
+ {
+  "slug": "maryland",
+  "name": "Maryland",
+  "abbr": "MD",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (referral to services on application)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 572.0,
+     "lua": 350.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 41.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Maryland Department of Human Services",
+   "agencyUrl": "https://dhs.maryland.gov/supplemental-nutrition-assistance-program/",
+   "applyUrl": "https://mymdthink.maryland.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 317,
+   "child1to5": 317,
+   "child6to18": 317,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 259,
+   "pregnantChip": null,
+   "parent": 123,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Maryland Department of Health",
+   "agencyUrl": "https://health.maryland.gov/mmcp/",
+   "applyUrl": "https://www.marylandhealthconnection.gov/",
+   "chipName": "Maryland Children's Health Program (MCHP)",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Maryland Health Connection",
+   "url": "https://www.marylandhealthconnection.gov/"
+  },
+  "wic": {
+   "agency": "Maryland Department of Health",
+   "url": "https://health.maryland.gov/phpa/wic/"
+  },
+  "notes": [
+   "Maryland Children's Health Program (MCHP) page: https://health.maryland.gov/mmcp/chp",
+   "Maryland Health Connection is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 24,
+   "areas": 15,
+   "vli4Max": 83050,
+   "vli4MaxName": "Charles County",
+   "vli4MaxArea": "Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area",
+   "vli4Min": 47500,
+   "vli4MinName": "Allegany County",
+   "vli4MinArea": "Allegany County, MD"
+  }
+ },
+ {
+  "slug": "massachusetts",
+  "name": "Massachusetts",
+  "abbr": "MA",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 914.0,
+     "lua": 556.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 64.0,
+     "smdOffset": 6.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Department of Transitional Assistance (DTA)",
+   "agencyUrl": "https://www.mass.gov/snap-benefits-formerly-food-stamps",
+   "applyUrl": "https://dtaconnect.eohhs.mass.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 200,
+   "child1to5": 150,
+   "child6to18": 150,
+   "chip": 300,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 200,
+   "pregnantChip": null,
+   "parent": 133,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": "CMS note 7: Massachusetts also covers ages 19 and 20 up to 150% of the FPL.",
+   "programName": "MassHealth",
+   "agency": "Executive Office of Health and Human Services (EOHHS)",
+   "agencyUrl": "https://www.mass.gov/masshealth",
+   "applyUrl": "https://www.mahealthconnector.org/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Massachusetts Health Connector",
+   "url": "https://www.mahealthconnector.org/"
+  },
+  "wic": {
+   "agency": "Massachusetts Department of Public Health",
+   "url": "https://www.mass.gov/wic"
+  },
+  "notes": [
+   "Massachusetts Health Connector is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 351,
+   "areas": 20,
+   "vli4Max": 91050,
+   "vli4MaxName": "Nantucket town",
+   "vli4MaxArea": "Nantucket County, MA",
+   "vli4Min": 56050,
+   "vli4MinName": "Attleboro city",
+   "vli4MinArea": "Providence-Fall River, RI-MA HUD Metro FMR Area"
+  }
+ },
+ {
+  "slug": "michigan",
+  "name": "Michigan",
+  "abbr": "MI",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (language on application and notice)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 682.0,
+     "lua": 0.0,
+     "electricity": 181.0,
+     "gas": 33.0,
+     "water": 119.0,
+     "sewage": 119.0,
+     "trash": 30.0,
+     "phone": 31.0,
+     "smdOffset": 4.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "Food Assistance Program",
+   "agency": "Michigan Department of Health and Human Services",
+   "agencyUrl": "https://www.michigan.gov/mdhhs/assistance-programs/food",
+   "applyUrl": "https://newmibridges.michigan.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 212,
+   "child1to5": 212,
+   "child6to18": 212,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 195,
+   "pregnantChip": null,
+   "parent": 54,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Michigan Department of Health and Human Services",
+   "agencyUrl": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid",
+   "applyUrl": "https://newmibridges.michigan.gov/",
+   "chipName": "MIChild",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Michigan Department of Health and Human Services",
+   "url": "https://www.michigan.gov/mdhhs/assistance-programs/wic"
+  },
+  "notes": [
+   "MIChild still has its own page but MDHHS notes 'MIChild converting to Medicaid' (letter on the January 1, 2024 change) (https://www.michigan.gov/mdhhs/assistance-programs/healthcare/childrenteens/michild)"
+  ],
+  "hud": {
+   "rows": 83,
+   "areas": 77,
+   "vli4Max": 69200,
+   "vli4MaxName": "Washtenaw County",
+   "vli4MaxArea": "Ann Arbor, MI MSA",
+   "vli4Min": 41800,
+   "vli4MinName": "Alcona County",
+   "vli4MinArea": "Alcona County, MI"
+  }
+ },
+ {
+  "slug": "minnesota",
+  "name": "Minnesota",
+  "abbr": "MN",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (domestic violence brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 667.0,
+     "lua": 0.0,
+     "electricity": 235.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 62.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Minnesota Department of Children, Youth, and Families",
+   "agencyUrl": "https://dcyf.mn.gov/snap",
+   "applyUrl": "https://mnbenefits.mn.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 283,
+   "child1to5": 275,
+   "child6to18": 275,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 278,
+   "pregnantChip": null,
+   "parent": 133,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": 200,
+   "note": "CMS notes 10 and 11: Minnesota covers children up to age 2 to 283% of the FPL; adults above 133% and up to 200% are covered through the Basic Health Program (MinnesotaCare).",
+   "programName": "Medical Assistance",
+   "agency": "Minnesota Department of Human Services",
+   "agencyUrl": "https://mn.gov/dhs/people-we-serve/adults/health-care/health-care-programs/programs-and-services/medical-assistance.jsp",
+   "applyUrl": "https://www.mnsure.org/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "MNsure",
+   "url": "https://www.mnsure.org/"
+  },
+  "wic": {
+   "agency": "Minnesota Department of Health",
+   "url": "https://www.health.state.mn.us/people/wic/"
+  },
+  "notes": [
+   "SNAP is run by the Minnesota Department of Children, Youth, and Families (DCYF), not DHS (https://dcyf.mn.gov/snap)",
+   "Medical Assistance is Minnesota's Medicaid program (https://mn.gov/dhs/health-care/medical-assistance/)",
+   "MNsure is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 87,
+   "areas": 73,
+   "vli4Max": 67900,
+   "vli4MaxName": "Dodge County",
+   "vli4MaxArea": "Rochester, MN HUD Metro FMR Area",
+   "vli4Min": 49000,
+   "vli4MinName": "Aitkin County",
+   "vli4MinArea": "Aitkin County, MN"
+  }
+ },
+ {
+  "slug": "mississippi",
+  "name": "Mississippi",
+  "abbr": "MS",
+  "area": "us",
+  "snap": {
+   "bbce": [],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 308.0,
+     "lua": 228.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 50.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Mississippi Department of Human Services",
+   "agencyUrl": "https://www.mdhs.ms.gov/help/snap/",
+   "applyUrl": "https://www.access.ms.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 194,
+   "child1to5": 143,
+   "child6to18": 133,
+   "chip": 209,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 194,
+   "pregnantChip": null,
+   "parent": 19,
+   "parentDollarStandard": true,
+   "expansion": false,
+   "adultPct": null,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Mississippi Division of Medicaid",
+   "agencyUrl": "https://medicaid.ms.gov/",
+   "applyUrl": null,
+   "chipName": "CHIP",
+   "applyUrlStatus": null
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Mississippi State Department of Health",
+   "url": "https://msdh.ms.gov/page/41,0,128.html"
+  },
+  "notes": [
+   "CHIP page on the Division of Medicaid site: https://medicaid.ms.gov/programs/childrens-health-insurance-program-chip/"
+  ],
+  "hud": {
+   "rows": 82,
+   "areas": 76,
+   "vli4Max": 49050,
+   "vli4MaxName": "Lafayette County",
+   "vli4MaxArea": "Lafayette County, MS",
+   "vli4Min": 36000,
+   "vli4MinName": "Adams County",
+   "vli4MinArea": "Adams County, MS"
+  }
+ },
+ {
+  "slug": "missouri",
+  "name": "Missouri",
+  "abbr": "MO",
+  "area": "us",
+  "snap": {
+   "bbce": [],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 509.0,
+     "lua": 373.0,
+     "electricity": 162.0,
+     "gas": 162.0,
+     "water": 162.0,
+     "sewage": 162.0,
+     "trash": 162.0,
+     "phone": 81.0,
+     "smdOffset": 7.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Missouri Department of Social Services, Family Support Division",
+   "agencyUrl": "https://dss.mo.gov/food-assistance",
+   "applyUrl": "https://mydss.mo.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 196,
+   "child1to5": 150,
+   "child6to18": 150,
+   "chip": 300,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 196,
+   "pregnantChip": 300,
+   "parent": 15,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "MO HealthNet",
+   "agency": "Missouri Department of Social Services, MO HealthNet Division",
+   "agencyUrl": "https://mydss.mo.gov/healthcare",
+   "applyUrl": "https://mydss.mo.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Missouri Department of Health and Senior Services",
+   "url": "https://health.mo.gov/living/families/wic/"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 116,
+   "areas": 95,
+   "vli4Max": 58150,
+   "vli4MaxName": "Boone County",
+   "vli4MaxArea": "Columbia, MO HUD Metro FMR Area",
+   "vli4Min": 38750,
+   "vli4MinName": "Atchison County",
+   "vli4MinArea": "Atchison County, MO"
+  }
+ },
+ {
+  "slug": "montana",
+  "name": "Montana",
+  "abbr": "MT",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 799.0,
+     "lua": 267.0,
+     "electricity": 116.0,
+     "gas": 116.0,
+     "water": 116.0,
+     "sewage": 116.0,
+     "trash": 116.0,
+     "phone": 34.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Montana Department of Public Health and Human Services",
+   "agencyUrl": "https://dphhs.mt.gov/hcsd/snap/",
+   "applyUrl": "https://apply.mt.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 143,
+   "child1to5": 143,
+   "child6to18": 143,
+   "chip": 261,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 157,
+   "pregnantChip": null,
+   "parent": 24,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Montana Medicaid",
+   "agency": "Montana Department of Public Health and Human Services",
+   "agencyUrl": "https://dphhs.mt.gov/MontanaHealthcarePrograms/",
+   "applyUrl": "https://apply.mt.gov/",
+   "chipName": "Healthy Montana Kids",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Montana Department of Public Health and Human Services",
+   "url": "https://dphhs.mt.gov/ecfsd/wic/"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 56,
+   "areas": 55,
+   "vli4Max": 65100,
+   "vli4MaxName": "Gallatin County",
+   "vli4MaxArea": "Bozeman, MT MSA",
+   "vli4Min": 45500,
+   "vli4MinName": "Beaverhead County",
+   "vli4MinArea": "Beaverhead County, MT"
+  }
+ },
+ {
+  "slug": "nebraska",
+  "name": "Nebraska",
+  "abbr": "NE",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 165,
+     "assetLimit": 25000,
+     "assetText": "$25,000 for liquid assets",
+     "program": "All households are eligible (pamphlet, statement on notices and applications)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 615.0,
+     "lua": 321.0,
+     "electricity": 63.0,
+     "gas": 63.0,
+     "water": 63.0,
+     "sewage": 63.0,
+     "trash": 63.0,
+     "phone": 54.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Nebraska Department of Health and Human Services",
+   "agencyUrl": "https://dhhs.ne.gov/Pages/SNAP.aspx",
+   "applyUrl": "https://iserve.nebraska.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 213,
+   "child1to5": 213,
+   "child6to18": 213,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 194,
+   "pregnantChip": null,
+   "parent": 58,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Nebraska Department of Health and Human Services",
+   "agencyUrl": "https://dhhs.ne.gov/Pages/Medicaid-and-Long-Term-Care.aspx",
+   "applyUrl": "https://iserve.nebraska.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Nebraska Department of Health and Human Services",
+   "url": "https://dhhs.ne.gov/Pages/WIC.aspx"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 93,
+   "areas": 90,
+   "vli4Max": 58800,
+   "vli4MaxName": "Saunders County",
+   "vli4MaxArea": "Saunders County, NE HUD Metro FMR Area",
+   "vli4Min": 47050,
+   "vli4MinName": "Antelope County",
+   "vli4MinArea": "Antelope County, NE"
+  }
+ },
+ {
+  "slug": "nevada",
+  "name": "Nevada",
+  "abbr": "NV",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (pregnancy prevention information on application)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 446.0,
+     "lua": 361.0,
+     "electricity": 77.0,
+     "gas": 77.0,
+     "water": 77.0,
+     "sewage": 77.0,
+     "trash": 77.0,
+     "phone": 52.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Nevada Department of Human Services, Division of Social Services",
+   "agencyUrl": "https://www.dss.nv.gov/Programs/SNAP/",
+   "applyUrl": "https://accessnevada.nv.gov/public/landing-page",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 160,
+   "child1to5": 160,
+   "child6to18": 133,
+   "chip": 200,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 160,
+   "pregnantChip": null,
+   "parent": 26,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Nevada Medicaid",
+   "agency": "Nevada Health Authority",
+   "agencyUrl": "https://www.nevadamedicaid.nv.gov/",
+   "applyUrl": "https://accessnevada.nv.gov/public/landing-page",
+   "chipName": "Nevada Check Up",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Nevada Health Link",
+   "url": "https://www.nevadahealthlink.com/"
+  },
+  "wic": {
+   "agency": "Nevada Department of Human Services, Division of Public and Behavioral Health",
+   "url": "https://www.dpbh.nv.gov/programs/women-infants-and-children/"
+  },
+  "notes": [
+   "Former Division of Welfare and Supportive Services now named Division of Social Services (dss.nv.gov) within the Nevada Department of Human Services; dwss.nv.gov redirects (https://www.dss.nv.gov/)",
+   "Online applications moved to Access Nevada at https://accessnevada.nv.gov/public/landing-page",
+   "Nevada Medicaid site is branded Nevada Health Authority and announces 'Medicaid eligibility rules change January 1, 2027' (https://www.nevadamedicaid.nv.gov/)",
+   "Nevada Check Up named on the Medicaid site ('Apply for Medicaid & NV Check Up') (https://www.nevadamedicaid.nv.gov/)",
+   "Nevada Health Link is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 17,
+   "areas": 16,
+   "vli4Max": 58400,
+   "vli4MaxName": "Storey County",
+   "vli4MaxArea": "Reno, NV HUD Metro FMR Area",
+   "vli4Min": 51400,
+   "vli4MinName": "Carson City",
+   "vli4MinArea": "Carson City, NV MSA"
+  }
+ },
+ {
+  "slug": "new-hampshire",
+  "name": "New Hampshire",
+  "abbr": "NH",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 1018.0,
+     "lua": 373.0,
+     "electricity": 217.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 39.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "New Hampshire Department of Health and Human Services",
+   "agencyUrl": "https://www.dhhs.nh.gov/programs-services/food-meals-assistance/supplemental-nutrition-assistance-program-snap",
+   "applyUrl": "https://nheasy.nh.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 318,
+   "child1to5": 318,
+   "child6to18": 318,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 196,
+   "pregnantChip": null,
+   "parent": 55,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "New Hampshire Department of Health and Human Services",
+   "agencyUrl": "https://www.dhhs.nh.gov/programs-services/medicaid",
+   "applyUrl": "https://nheasy.nh.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "New Hampshire Department of Health and Human Services",
+   "url": "https://www.dhhs.nh.gov/programs-services/population-health/women-infants-children-nutrition-program"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 259,
+   "areas": 14,
+   "vli4Max": 85700,
+   "vli4MaxName": "Seabrook town",
+   "vli4MaxArea": "Boston-Cambridge-Quincy, MA-NH HUD Metro FMR Area",
+   "vli4Min": 58800,
+   "vli4MinName": "Acworth town",
+   "vli4MinArea": "Sullivan County, NH"
+  }
+ },
+ {
+  "slug": "new-jersey",
+  "name": "New Jersey",
+  "abbr": "NJ",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 185,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "pending": true
+    }
+   ],
+   "programName": "NJ SNAP",
+   "agency": "New Jersey Department of Human Services, Division of Family Development",
+   "agencyUrl": "https://www.nj.gov/humanservices/dfd/programs/njsnap/",
+   "applyUrl": "https://www.njhelps.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 194,
+   "child1to5": 142,
+   "child6to18": 142,
+   "chip": 350,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 194,
+   "pregnantChip": 200,
+   "parent": 26,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "NJ FamilyCare",
+   "agency": "New Jersey Department of Human Services, Division of Medical Assistance and Health Services",
+   "agencyUrl": "https://njfamilycare.dhs.state.nj.us/",
+   "applyUrl": "https://njfamilycare.dhs.state.nj.us/",
+   "chipName": "NJ FamilyCare",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Get Covered New Jersey",
+   "url": "https://nj.gov/getcoverednj/"
+  },
+  "wic": {
+   "agency": "New Jersey Department of Health",
+   "url": "https://www.nj.gov/health/fhs/wic/"
+  },
+  "notes": [
+   "NJ FamilyCare covers both Medicaid and CHIP (https://www.nj.gov/humanservices/dmahs/)",
+   "Get Covered New Jersey is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 21,
+   "areas": 11,
+   "vli4Max": 77400,
+   "vli4MaxName": "Hunterdon County",
+   "vli4MaxArea": "Middlesex-Somerset-Hunterdon, NJ HUD Metro FMR Area",
+   "vli4Min": 48750,
+   "vli4MinName": "Cumberland County",
+   "vli4MinArea": "Vineland, NJ MSA"
+  }
+ },
+ {
+  "slug": "new-mexico",
+  "name": "New Mexico",
+  "abbr": "NM",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 419.0,
+     "lua": 289.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 51.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "New Mexico Health Care Authority",
+   "agencyUrl": "https://www.hca.nm.gov/lookingforassistance/supplemental_nutrition_assistance_program/",
+   "applyUrl": "https://www.yes.state.nm.us/yesnm/home/index",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 300,
+   "child1to5": 300,
+   "child6to18": 240,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 250,
+   "pregnantChip": null,
+   "parent": 37,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "New Mexico Health Care Authority",
+   "agencyUrl": "https://www.hca.nm.gov/turquoise-care/",
+   "applyUrl": "https://www.yes.state.nm.us/yesnm/home/index",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "beWellnm",
+   "url": "https://www.bewellnm.com/"
+  },
+  "wic": {
+   "agency": "New Mexico Department of Health",
+   "url": "https://www.nmhealth.org/about/phd/fhb/wic/"
+  },
+  "notes": [
+   "Turquoise Care is the name of New Mexico Medicaid managed care since July 1, 2024 (https://www.hca.nm.gov/turquoise-care/)",
+   "SNAP and Medicaid both run by the New Mexico Health Care Authority (https://www.hca.nm.gov/lookingforassistance/supplemental_nutrition_assistance_program/)",
+   "beWellnm is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 33,
+   "areas": 30,
+   "vli4Max": 85450,
+   "vli4MaxName": "Los Alamos County",
+   "vli4MaxArea": "Los Alamos County, NM",
+   "vli4Min": 36450,
+   "vli4MinName": "Catron County",
+   "vli4MinArea": "Catron County, NM"
+  }
+ },
+ {
+  "slug": "new-york",
+  "name": "New York",
+  "abbr": "NY",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "dependent-care",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "Households with dependent care expenses are eligible (“Helping Hands” brochure mailed yearly)"
+    },
+    {
+     "who": "earned-income",
+     "grossPct": 150,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "Households with earned income are eligible (“Helping Hands” brochure mailed yearly)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": "Nassau and Suffolk Counties",
+     "hcsua": 988.0,
+     "lua": 419.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 32.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "New York City",
+     "hcsua": 1062.0,
+     "lua": 419.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 32.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "Rest of New York State",
+     "hcsua": 877.0,
+     "lua": 388.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 32.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Office of Temporary and Disability Assistance (OTDA)",
+   "agencyUrl": "https://otda.ny.gov/programs/snap/",
+   "applyUrl": "https://mybenefits.ny.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 218,
+   "child1to5": 149,
+   "child6to18": 149,
+   "chip": 400,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 218,
+   "pregnantChip": null,
+   "parent": 133,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": 200,
+   "note": "CMS note 11: adults above 133% and up to 200% of the FPL are covered through the Basic Health Program.",
+   "programName": "Medicaid",
+   "agency": "New York State Department of Health",
+   "agencyUrl": "https://www.health.ny.gov/health_care/medicaid/",
+   "applyUrl": "https://nystateofhealth.ny.gov/",
+   "chipName": "Child Health Plus",
+   "applyUrlStatus": 503
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "NY State of Health",
+   "url": "https://nystateofhealth.ny.gov/"
+  },
+  "wic": {
+   "agency": "New York State Department of Health",
+   "url": "https://www.health.ny.gov/prevention/nutrition/wic/"
+  },
+  "notes": [
+   "NY State of Health is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 62,
+   "areas": 41,
+   "vli4Max": 84800,
+   "vli4MaxName": "Bronx County",
+   "vli4MaxArea": "New York, NY HUD Metro FMR Area",
+   "vli4Min": 44950,
+   "vli4MinName": "Allegany County",
+   "vli4MinArea": "Allegany County, NY"
+  }
+ },
+ {
+  "slug": "north-carolina",
+  "name": "North Carolina",
+  "abbr": "NC",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (statement on application/recertification forms)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": "1 member",
+     "hcsua": 636.74,
+     "lua": 392.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 42.11,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "2 members",
+     "hcsua": 699.0,
+     "lua": 431.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 42.11,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "3 members",
+     "hcsua": 768.0,
+     "lua": 474.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 42.11,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "4 members",
+     "hcsua": 837.0,
+     "lua": 518.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 42.11,
+     "smdOffset": 0.0,
+     "mandatory": true
+    },
+    {
+     "variant": "5 or more members",
+     "hcsua": 912.0,
+     "lua": 564.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 42.11,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "Food and Nutrition Services (FNS)",
+   "agency": "North Carolina Department of Health and Human Services",
+   "agencyUrl": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/food-and-nutrition-services-food-stamps",
+   "applyUrl": "https://epass.nc.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 211,
+   "child1to5": 211,
+   "child6to18": 211,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 196,
+   "pregnantChip": null,
+   "parent": 36,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "NC Medicaid",
+   "agency": "North Carolina Department of Health and Human Services",
+   "agencyUrl": "https://medicaid.ncdhhs.gov/",
+   "applyUrl": "https://epass.nc.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "North Carolina Department of Health and Human Services",
+   "url": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/community-nutrition-services-section/special-supplemental-nutrition-program-women-infants-and-children-wic-program"
+  },
+  "notes": [
+   "NC calls SNAP 'Food and Nutrition Services (FNS)' (https://www.ncdhhs.gov/divisions/child-and-family-well-being/food-and-nutrition-services-food-stamps)"
+  ],
+  "hud": {
+   "rows": 100,
+   "areas": 83,
+   "vli4Max": 66150,
+   "vli4MaxName": "Franklin County",
+   "vli4MaxArea": "Raleigh-Cary, NC MSA",
+   "vli4Min": 39150,
+   "vli4MinName": "Alleghany County",
+   "vli4MinArea": "Alleghany County, NC"
+  }
+ },
+ {
+  "slug": "north-dakota",
+  "name": "North Dakota",
+  "abbr": "ND",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (Statement on application/ recertification forms and pamphlet)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 772.0,
+     "lua": 286.0,
+     "electricity": 126.0,
+     "gas": 126.0,
+     "water": 126.0,
+     "sewage": 126.0,
+     "trash": 126.0,
+     "phone": 35.0,
+     "smdOffset": 7.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "North Dakota Health and Human Services",
+   "agencyUrl": "https://www.hhs.nd.gov/applyforhelp/snap",
+   "applyUrl": "https://www.hhs.nd.gov/applyforhelp",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 170,
+   "child1to5": 170,
+   "child6to18": 170,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 170,
+   "pregnantChip": null,
+   "parent": 43,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "North Dakota Health and Human Services",
+   "agencyUrl": "https://www.hhs.nd.gov/healthcare/medicaid",
+   "applyUrl": "https://www.hhs.nd.gov/applyforhelp",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "North Dakota Health and Human Services",
+   "url": "https://www.hhs.nd.gov/food-programs/WIC"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 53,
+   "areas": 51,
+   "vli4Max": 65400,
+   "vli4MaxName": "Dunn County",
+   "vli4MaxArea": "Dunn County, ND",
+   "vli4Min": 53550,
+   "vli4MinName": "Barnes County",
+   "vli4MinArea": "Barnes County, ND"
+  }
+ },
+ {
+  "slug": "ohio",
+  "name": "Ohio",
+  "abbr": "OH",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 130,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (Ohio Benefit Bank info on approval notice)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 766.0,
+     "lua": 479.0,
+     "electricity": 108.0,
+     "gas": 108.0,
+     "water": 108.0,
+     "sewage": 108.0,
+     "trash": 108.0,
+     "phone": 46.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Ohio Department of Job and Family Services",
+   "agencyUrl": "https://jfs.ohio.gov/public-assistance/food-assistance/food-programs/what-is-snap",
+   "applyUrl": "https://benefits.ohio.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 206,
+   "child1to5": 206,
+   "child6to18": 206,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 200,
+   "pregnantChip": null,
+   "parent": 90,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Ohio Department of Medicaid",
+   "agencyUrl": "https://medicaid.ohio.gov/",
+   "applyUrl": "https://benefits.ohio.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Ohio Department of Health",
+   "url": "https://odh.ohio.gov/know-our-programs/women-infants-children"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 88,
+   "areas": 68,
+   "vli4Max": 70500,
+   "vli4MaxName": "Union County",
+   "vli4MaxArea": "Union County, OH HUD Metro FMR Area",
+   "vli4Min": 39450,
+   "vli4MinName": "Belmont County",
+   "vli4MinArea": "Wheeling, WV-OH MSA"
+  }
+ },
+ {
+  "slug": "oklahoma",
+  "name": "Oklahoma",
+  "abbr": "OK",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 130,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (2-1-1 number for information and referral to community services)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 412.0,
+     "lua": 354.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 49.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Oklahoma Human Services",
+   "agencyUrl": "https://oklahoma.gov/okdhs/services/snap.html",
+   "applyUrl": "https://www.okdhslive.org/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 205,
+   "child1to5": 205,
+   "child6to18": 205,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 205,
+   "pregnantChip": null,
+   "parent": 33,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": "CMS note 9: section 1115 demonstration covering some additional low-income adults.",
+   "programName": "SoonerCare",
+   "agency": "Oklahoma Health Care Authority",
+   "agencyUrl": "https://oklahoma.gov/ohca.html",
+   "applyUrl": "https://www.mysoonercare.org/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Oklahoma State Department of Health",
+   "url": "https://oklahoma.gov/health/services/children-family-health/wic.html"
+  },
+  "notes": [
+   "Oklahoma became a State-based Exchange on the Federal Platform effective May 1, 2026 and seeks a full SBE for PY2028; residents still use HealthCare.gov for 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 77,
+   "areas": 69,
+   "vli4Max": 48650,
+   "vli4MaxName": "Canadian County",
+   "vli4MaxArea": "Oklahoma City, OK HUD Metro FMR Area",
+   "vli4Min": 37950,
+   "vli4MinName": "Adair County",
+   "vli4MinArea": "Adair County, OK"
+  }
+ },
+ {
+  "slug": "oregon",
+  "name": "Oregon",
+  "abbr": "OR",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (pamphlet)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 515.0,
+     "lua": 404.0,
+     "electricity": 65.0,
+     "gas": 65.0,
+     "water": 65.0,
+     "sewage": 65.0,
+     "trash": 65.0,
+     "phone": 81.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Oregon Department of Human Services",
+   "agencyUrl": "https://www.oregon.gov/odhs/food/pages/snap.aspx",
+   "applyUrl": "https://one.oregon.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 185,
+   "child1to5": 133,
+   "child6to18": 133,
+   "chip": 300,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 185,
+   "pregnantChip": null,
+   "parent": 33,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Oregon Health Plan",
+   "agency": "Oregon Health Authority",
+   "agencyUrl": "https://www.oregon.gov/oha/hsd/ohp/Pages/index.aspx",
+   "applyUrl": "https://one.oregon.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Oregon Health Authority",
+   "url": "https://www.oregon.gov/oha/ph/healthypeoplefamilies/wic/Pages/index.aspx"
+  },
+  "notes": [
+   "Oregon uses HealthCare.gov for 2026 coverage (SBE on the Federal Platform); from November 1, 2026 residents use ExploreHealthOR.gov for 2027 coverage (https://www.healthcare.gov/marketplace-in-your-state/, https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 36,
+   "areas": 31,
+   "vli4Max": 64150,
+   "vli4MaxName": "Clackamas County",
+   "vli4MaxArea": "Portland-Vancouver-Hillsboro, OR-WA MSA",
+   "vli4Min": 41800,
+   "vli4MinName": "Coos County",
+   "vli4MinArea": "Coos County, OR"
+  }
+ },
+ {
+  "slug": "pennsylvania",
+  "name": "Pennsylvania",
+  "abbr": "PA",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (pamphlet)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 857.0,
+     "lua": 488.0,
+     "electricity": 128.0,
+     "gas": 128.0,
+     "water": 128.0,
+     "sewage": 128.0,
+     "trash": 128.0,
+     "phone": 107.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Pennsylvania Department of Human Services",
+   "agencyUrl": "https://www.pa.gov/agencies/dhs/resources/snap",
+   "applyUrl": "https://www.compass.dhs.pa.gov/home/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 215,
+   "child1to5": 157,
+   "child6to18": 133,
+   "chip": 314,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 215,
+   "pregnantChip": null,
+   "parent": 33,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medical Assistance",
+   "agency": "Pennsylvania Department of Human Services",
+   "agencyUrl": "https://www.pa.gov/agencies/dhs/resources/medicaid",
+   "applyUrl": "https://www.compass.dhs.pa.gov/home/",
+   "chipName": "CHIP",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Pennie",
+   "url": "https://pennie.com/"
+  },
+  "wic": {
+   "agency": "Pennsylvania Department of Health",
+   "url": "https://www.pa.gov/agencies/health/programs/maternal-health-and-infant-care/wic"
+  },
+  "notes": [
+   "Pennie is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 67,
+   "areas": 52,
+   "vli4Max": 61350,
+   "vli4MaxName": "Bucks County",
+   "vli4MaxArea": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",
+   "vli4Min": 43100,
+   "vli4MinName": "Armstrong County",
+   "vli4MinArea": "Armstrong County, PA HUD Metro FMR Area"
+  }
+ },
+ {
+  "slug": "rhode-island",
+  "name": "Rhode Island",
+  "abbr": "RI",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 185,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (publication)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 844.0,
+     "lua": 0.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 27.0,
+     "smdOffset": 7.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Rhode Island Department of Human Services",
+   "agencyUrl": "https://dhs.ri.gov/programs-and-services/supplemental-nutrition-assistance-program-snap",
+   "applyUrl": "https://healthyrhode.ri.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 261,
+   "child1to5": 261,
+   "child6to18": 261,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 190,
+   "pregnantChip": 253,
+   "parent": 116,
+   "parentDollarStandard": false,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Rhode Island Executive Office of Health and Human Services",
+   "agencyUrl": "https://eohhs.ri.gov/",
+   "applyUrl": "https://healthyrhode.ri.gov/",
+   "chipName": "RIte Care",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "HealthSource RI",
+   "url": "https://healthsourceri.com/"
+  },
+  "wic": {
+   "agency": "Rhode Island Department of Health",
+   "url": "https://health.ri.gov/programs/wic"
+  },
+  "notes": [
+   "RIte Care described on EOHHS health care programs page (https://eohhs.ri.gov/consumer/families-children/health-care-programs)",
+   "HealthSource RI is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 39,
+   "areas": 3,
+   "vli4Max": 68850,
+   "vli4MaxName": "Middletown town",
+   "vli4MaxArea": "Newport-Middleton-Portsmouth, RI HUD Metro FMR Area",
+   "vli4Min": 56050,
+   "vli4MinName": "Barrington town",
+   "vli4MinArea": "Providence-Fall River, RI-MA HUD Metro FMR Area"
+  }
+ },
+ {
+  "slug": "south-carolina",
+  "name": "South Carolina",
+  "abbr": "SC",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 130,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (pamphlet)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 388.0,
+     "lua": 265.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 27.0,
+     "smdOffset": 9.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "South Carolina Department of Social Services",
+   "agencyUrl": "https://dss.sc.gov/assistance-programs/snap/",
+   "applyUrl": "https://benefitsportal.dss.sc.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 208,
+   "child1to5": 208,
+   "child6to18": 208,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 194,
+   "pregnantChip": null,
+   "parent": 62,
+   "parentDollarStandard": false,
+   "expansion": false,
+   "adultPct": null,
+   "bhpPct": null,
+   "note": "CMS note 9: section 1115 demonstration covering some additional low-income adults, with limits.",
+   "programName": "Medicaid",
+   "agency": "South Carolina Department of Health and Human Services",
+   "agencyUrl": "https://www.scdhhs.gov/",
+   "applyUrl": "https://apply.scdhhs.gov/",
+   "chipName": null,
+   "applyUrlStatus": 403
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "South Carolina Department of Public Health",
+   "url": "https://dph.sc.gov/"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 46,
+   "areas": 38,
+   "vli4Max": 58750,
+   "vli4MaxName": "Berkeley County",
+   "vli4MaxArea": "Charleston-North Charleston, SC MSA",
+   "vli4Min": 37300,
+   "vli4MinName": "Abbeville County",
+   "vli4MinArea": "Abbeville County, SC"
+  }
+ },
+ {
+  "slug": "south-dakota",
+  "name": "South Dakota",
+  "abbr": "SD",
+  "area": "us",
+  "snap": {
+   "bbce": [],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 950.0,
+     "lua": 265.0,
+     "electricity": 109.0,
+     "gas": 109.0,
+     "water": 109.0,
+     "sewage": 109.0,
+     "trash": 109.0,
+     "phone": 60.0,
+     "smdOffset": 14.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "South Dakota Department of Social Services",
+   "agencyUrl": "https://dss.sd.gov/economicassistance/snap.aspx",
+   "applyUrl": "https://eaportal.sd.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 182,
+   "child1to5": 182,
+   "child6to18": 182,
+   "chip": 204,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 133,
+   "pregnantChip": null,
+   "parent": 46,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "South Dakota Department of Social Services",
+   "agencyUrl": "https://dss.sd.gov/medicaid/",
+   "applyUrl": "https://eaportal.sd.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "South Dakota Department of Health",
+   "url": "https://www.sd.gov/wic"
+  },
+  "notes": [
+   "Online applications via SD BEES (South Dakota Benefits Eligibility and Enrollment System), linked 'Apply Online' from dss.sd.gov (https://eaportal.sd.gov/)"
+  ],
+  "hud": {
+   "rows": 66,
+   "areas": 63,
+   "vli4Max": 59900,
+   "vli4MaxName": "Stanley County",
+   "vli4MaxArea": "Stanley County, SD",
+   "vli4Min": 47250,
+   "vli4MinName": "Beadle County",
+   "vli4MinArea": "Beadle County, SD"
+  }
+ },
+ {
+  "slug": "tennessee",
+  "name": "Tennessee",
+  "abbr": "TN",
+  "area": "us",
+  "snap": {
+   "bbce": [],
+   "sua": [
+    {
+     "variant": "1 members",
+     "hcsua": 451.0,
+     "lua": 162.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "2 members",
+     "hcsua": 466.0,
+     "lua": 162.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "3 members",
+     "hcsua": 485.0,
+     "lua": 162.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "4 members",
+     "hcsua": 503.0,
+     "lua": 162.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "5 members",
+     "hcsua": 519.0,
+     "lua": 162.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "6 members",
+     "hcsua": 536.0,
+     "lua": 162.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "7 members",
+     "hcsua": 551.0,
+     "lua": 162.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "8 members",
+     "hcsua": 568.0,
+     "lua": 162.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "9 members",
+     "hcsua": 587.0,
+     "lua": 162.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    },
+    {
+     "variant": "10 or more members",
+     "hcsua": 602.0,
+     "lua": 162.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 36.0,
+     "smdOffset": 0.0,
+     "mandatory": false
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Tennessee Department of Human Services",
+   "agencyUrl": "https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap.html",
+   "applyUrl": "https://onedhs.tn.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 195,
+   "child1to5": 142,
+   "child6to18": 133,
+   "chip": 250,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 195,
+   "pregnantChip": null,
+   "parent": 84,
+   "parentDollarStandard": true,
+   "expansion": false,
+   "adultPct": null,
+   "bhpPct": null,
+   "note": null,
+   "programName": "TennCare",
+   "agency": "Division of TennCare",
+   "agencyUrl": "https://www.tn.gov/tenncare.html",
+   "applyUrl": "https://tenncareconnect.tn.gov/",
+   "chipName": "CoverKids",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Tennessee Department of Health",
+   "url": "https://www.tn.gov/health/wic.html"
+  },
+  "notes": [
+   "CoverKids is Tennessee's CHIP (https://www.tn.gov/coverkids.html)"
+  ],
+  "hud": {
+   "rows": 95,
+   "areas": 72,
+   "vli4Max": 58050,
+   "vli4MaxName": "Cannon County",
+   "vli4MaxArea": "Nashville-Davidson--Murfreesboro--Franklin, TN HUD Metro FMR Area",
+   "vli4Min": 39000,
+   "vli4MinName": "Benton County",
+   "vli4MinArea": "Benton County, TN"
+  }
+ },
+ {
+  "slug": "texas",
+  "name": "Texas",
+  "abbr": "TX",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 165,
+     "assetLimit": 5000,
+     "assetText": "Asset limit of $5,000 (excludes 1 vehicle up to $22,000 & includes excess vehicle value)",
+     "program": "All households are eligible (info on various services provided on application)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 445.0,
+     "lua": 400.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 62.0,
+     "smdOffset": 4.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Texas Health and Human Services Commission",
+   "agencyUrl": "https://www.hhs.texas.gov/services/food/snap-food-benefits",
+   "applyUrl": "https://www.yourtexasbenefits.com/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 198,
+   "child1to5": 144,
+   "child6to18": 133,
+   "chip": 201,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 198,
+   "pregnantChip": null,
+   "parent": 12,
+   "parentDollarStandard": true,
+   "expansion": false,
+   "adultPct": null,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Texas Health and Human Services Commission",
+   "agencyUrl": "https://www.hhs.texas.gov/services/health/medicaid-chip",
+   "applyUrl": "https://www.yourtexasbenefits.com/",
+   "chipName": "CHIP",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Texas Health and Human Services Commission",
+   "url": "https://www.texaswic.org/"
+  },
+  "notes": [],
+  "hud": {
+   "rows": 254,
+   "areas": 215,
+   "vli4Max": 69850,
+   "vli4MaxName": "Kendall County",
+   "vli4MaxArea": "Kendall County, TX HUD Metro FMR Area",
+   "vli4Min": 41850,
+   "vli4MinName": "Anderson County",
+   "vli4MinArea": "Anderson County, TX"
+  }
+ },
+ {
+  "slug": "utah",
+  "name": "Utah",
+  "abbr": "UT",
+  "area": "us",
+  "snap": {
+   "bbce": [],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 514.0,
+     "lua": 431.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 59.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Utah Department of Workforce Services",
+   "agencyUrl": "https://jobs.utah.gov/customereducation/services/foodstamps/",
+   "applyUrl": "https://jobs.utah.gov/mycase/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 139,
+   "child1to5": 139,
+   "child6to18": 133,
+   "chip": 200,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 139,
+   "pregnantChip": null,
+   "parent": 36,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": "CMS note 9: section 1115 demonstration covering some additional low-income adults.",
+   "programName": "Medicaid",
+   "agency": "Utah Department of Health and Human Services",
+   "agencyUrl": "https://medicaid.utah.gov/",
+   "applyUrl": "https://jobs.utah.gov/mycase/",
+   "chipName": "CHIP",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Utah Department of Health and Human Services",
+   "url": "https://wic.utah.gov/"
+  },
+  "notes": [
+   "Utah CHIP site: https://chip.utah.gov/ (Children's Health Insurance Program – Utah DHHS)"
+  ],
+  "hud": {
+   "rows": 29,
+   "areas": 26,
+   "vli4Max": 83850,
+   "vli4MaxName": "Summit County",
+   "vli4MaxArea": "Summit County, UT",
+   "vli4Min": 53150,
+   "vli4MinName": "Beaver County",
+   "vli4MinArea": "Beaver County, UT"
+  }
+ },
+ {
+  "slug": "vermont",
+  "name": "Vermont",
+  "abbr": "VT",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 185,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (notice with language on website for services)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 1096.0,
+     "lua": 311.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 37.0,
+     "smdOffset": 7.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "3SquaresVT",
+   "agency": "Vermont Department for Children and Families",
+   "agencyUrl": "https://dcf.vermont.gov/benefits/3SquaresVT",
+   "applyUrl": "https://dcf.vermont.gov/esd/applicants/mybenefits",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 312,
+   "child1to5": 312,
+   "child6to18": 312,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 208,
+   "pregnantChip": null,
+   "parent": 43,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Green Mountain Care",
+   "agency": "Department of Vermont Health Access",
+   "agencyUrl": "https://dvha.vermont.gov/",
+   "applyUrl": "https://healthconnect.vermont.gov/",
+   "chipName": "Dr. Dynasaur",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Vermont Health Connect",
+   "url": "https://healthconnect.vermont.gov/"
+  },
+  "wic": {
+   "agency": "Vermont Department of Health",
+   "url": "https://www.healthvermont.gov/family/wic"
+  },
+  "notes": [
+   "Dr. Dynasaur page: https://dvha.vermont.gov/members/dr-dynasaur",
+   "Vermont Health Connect is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 256,
+   "areas": 12,
+   "vli4Max": 62350,
+   "vli4MaxName": "Alburgh town",
+   "vli4MaxArea": "Burlington-South Burlington, VT MSA",
+   "vli4Min": 52350,
+   "vli4MinName": "Albany town",
+   "vli4MinArea": "Orleans County, VT"
+  }
+ },
+ {
+  "slug": "virginia",
+  "name": "Virginia",
+  "abbr": "VA",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": "1 to 3 members",
+     "hcsua": 375.0,
+     "lua": 0.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 54.0,
+     "smdOffset": 10.0,
+     "mandatory": false
+    },
+    {
+     "variant": "4 or more members",
+     "hcsua": 476.0,
+     "lua": 0.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 54.0,
+     "smdOffset": 10.0,
+     "mandatory": false
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Virginia Department of Social Services",
+   "agencyUrl": "https://www.dss.virginia.gov/relief/food-assistance/snap/",
+   "applyUrl": "https://commonhelp.virginia.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 143,
+   "child1to5": 143,
+   "child6to18": 143,
+   "chip": 200,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 143,
+   "pregnantChip": 200,
+   "parent": 49,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Cardinal Care",
+   "agency": "Virginia Department of Medical Assistance Services",
+   "agencyUrl": "https://www.dmas.virginia.gov/",
+   "applyUrl": "https://commonhelp.virginia.gov/",
+   "chipName": "FAMIS",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Virginia's Insurance Marketplace",
+   "url": "https://www.marketplace.virginia.gov/"
+  },
+  "wic": {
+   "agency": "Virginia Department of Health",
+   "url": "https://www.vdh.virginia.gov/wic/"
+  },
+  "notes": [
+   "Cardinal Care is the name used by DMAS for Virginia Medicaid members (https://www.dmas.virginia.gov/); FAMIS for children (https://coverva.dmas.virginia.gov/)",
+   "Virginia's Insurance Marketplace is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 133,
+   "areas": 64,
+   "vli4Max": 83050,
+   "vli4MaxName": "Alexandria city",
+   "vli4MaxArea": "Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area",
+   "vli4Min": 39950,
+   "vli4MinName": "Accomack County",
+   "vli4MinArea": "Accomack County, VA"
+  }
+ },
+ {
+  "slug": "washington",
+  "name": "Washington",
+  "abbr": "WA",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (info & referral services provided on approval letter)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 515.0,
+     "lua": 406.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 58.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "Basic Food",
+   "agency": "Washington State Department of Social and Health Services",
+   "agencyUrl": "https://www.dshs.wa.gov/family-food-and-housing-services/food-assistance/basic-food-benefits",
+   "applyUrl": "https://www.washingtonconnection.org/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 210,
+   "child1to5": 210,
+   "child6to18": 210,
+   "chip": 312,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 193,
+   "pregnantChip": null,
+   "parent": 33,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Apple Health",
+   "agency": "Washington State Health Care Authority",
+   "agencyUrl": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care",
+   "applyUrl": "https://www.wahealthplanfinder.org/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Washington Healthplanfinder",
+   "url": "https://www.wahealthplanfinder.org/"
+  },
+  "wic": {
+   "agency": "Washington State Department of Health",
+   "url": "https://doh.wa.gov/you-and-your-family/wic"
+  },
+  "notes": [
+   "Washington calls SNAP 'Basic Food' (https://www.dshs.wa.gov/family-food-and-housing-services/food-assistance/basic-food-benefits)",
+   "Washington Healthplanfinder is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "hud": {
+   "rows": 39,
+   "areas": 35,
+   "vli4Max": 82200,
+   "vli4MaxName": "King County",
+   "vli4MaxArea": "Seattle-Bellevue, WA HUD Metro FMR Area",
+   "vli4Min": 47900,
+   "vli4MinName": "Asotin County",
+   "vli4MinArea": "Lewiston, ID-WA MSA"
+  }
+ },
+ {
+  "slug": "west-virginia",
+  "name": "West Virginia",
+  "abbr": "WV",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (information and referral services program brochure)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 518.0,
+     "lua": 330.0,
+     "electricity": 88.0,
+     "gas": 88.0,
+     "water": 88.0,
+     "sewage": 88.0,
+     "trash": 88.0,
+     "phone": 0.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "West Virginia Department of Human Services",
+   "agencyUrl": "https://dohs.wv.gov/",
+   "applyUrl": "https://www.wvpath.wv.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 158,
+   "child1to5": 141,
+   "child6to18": 133,
+   "chip": 300,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 185,
+   "pregnantChip": 300,
+   "parent": 16,
+   "parentDollarStandard": true,
+   "expansion": true,
+   "adultPct": 133,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "West Virginia Department of Human Services, Bureau for Medical Services",
+   "agencyUrl": "https://bms.wv.gov/",
+   "applyUrl": "https://www.wvpath.wv.gov/",
+   "chipName": "WVCHIP",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "West Virginia Bureau for Public Health, Office of Nutrition Services",
+   "url": "https://dhhr.wv.gov/wic/Pages/default.aspx"
+  },
+  "notes": [
+   "SNAP and Medicaid (Bureau for Medical Services) are under the West Virginia Department of Human Services (DoHS) (https://dohs.wv.gov/, https://bms.wv.gov/)",
+   "WVCHIP site: https://chip.wv.gov/"
+  ],
+  "hud": {
+   "rows": 55,
+   "areas": 49,
+   "vli4Max": 64200,
+   "vli4MaxName": "Jefferson County",
+   "vli4MaxArea": "Jefferson County, WV HUD Metro FMR Area",
+   "vli4Min": 37550,
+   "vli4MinName": "Barbour County",
+   "vli4MinArea": "Barbour County, WV"
+  }
+ },
+ {
+  "slug": "wisconsin",
+  "name": "Wisconsin",
+  "abbr": "WI",
+  "area": "us",
+  "snap": {
+   "bbce": [
+    {
+     "who": "all",
+     "grossPct": 200,
+     "assetLimit": null,
+     "assetText": "No limit on assets",
+     "program": "All households are eligible (Job Net Services language on approval and change notices)"
+    }
+   ],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 870.0,
+     "lua": 436.0,
+     "electricity": 139.0,
+     "gas": 34.0,
+     "water": 112.0,
+     "sewage": 112.0,
+     "trash": 47.0,
+     "phone": 106.0,
+     "smdOffset": 0.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "FoodShare",
+   "agency": "Wisconsin Department of Health Services",
+   "agencyUrl": "https://www.dhs.wisconsin.gov/foodshare/index.htm",
+   "applyUrl": "https://access.wisconsin.gov/",
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "child0to1": 301,
+   "child1to5": 186,
+   "child6to18": 151,
+   "chip": 301,
+   "chipAges": "1 up to 19",
+   "chipNote": null,
+   "pregnant": 301,
+   "pregnantChip": null,
+   "parent": 95,
+   "parentDollarStandard": false,
+   "expansion": false,
+   "adultPct": 95,
+   "bhpPct": null,
+   "note": "CMS note 9: Wisconsin did not adopt the ACA expansion; a section 1115 demonstration covers adults up to 95% of the FPL (100% with the 5% disregard).",
+   "programName": "BadgerCare Plus",
+   "agency": "Wisconsin Department of Health Services",
+   "agencyUrl": "https://www.dhs.wisconsin.gov/badgercareplus/index.htm",
+   "applyUrl": "https://access.wisconsin.gov/",
+   "chipName": null,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Wisconsin Department of Health Services",
+   "url": "https://www.dhs.wisconsin.gov/wic/index.htm"
+  },
+  "notes": [
+   "FoodShare and BadgerCare Plus are run by the Wisconsin Department of Health Services (https://www.dhs.wisconsin.gov/foodshare/index.htm)"
+  ],
+  "hud": {
+   "rows": 72,
+   "areas": 65,
+   "vli4Max": 67650,
+   "vli4MaxName": "Dane County",
+   "vli4MaxArea": "Madison, WI HUD Metro FMR Area",
+   "vli4Min": 48000,
+   "vli4MinName": "Adams County",
+   "vli4MinArea": "Adams County, WI"
+  }
+ },
+ {
+  "slug": "wyoming",
+  "name": "Wyoming",
+  "abbr": "WY",
+  "area": "us",
+  "snap": {
+   "bbce": [],
+   "sua": [
+    {
+     "variant": null,
+     "hcsua": 510.0,
+     "lua": 340.0,
+     "electricity": 0.0,
+     "gas": 0.0,
+     "water": 0.0,
+     "sewage": 0.0,
+     "trash": 0.0,
+     "phone": 57.0,
+     "smdOffset": 10.0,
+     "mandatory": true
+    }
+   ],
+   "programName": "SNAP",
+   "agency": "Wyoming Department of Family Services",
+   "agencyUrl": "https://dfs.wyo.gov/assistance-programs/food-assistance/supplemental-nutrition-assistance-program-snap/",
+   "applyUrl": null,
+   "applyUrlStatus": null
+  },
+  "medicaid": {
+   "child0to1": 200,
+   "child1to5": 200,
+   "child6to18": 200,
+   "chip": null,
+   "chipAges": null,
+   "chipNote": null,
+   "pregnant": 154,
+   "pregnantChip": null,
+   "parent": 45,
+   "parentDollarStandard": true,
+   "expansion": false,
+   "adultPct": null,
+   "bhpPct": null,
+   "note": null,
+   "programName": "Medicaid",
+   "agency": "Wyoming Department of Health",
+   "agencyUrl": "https://health.wyo.gov/healthcarefin/medicaid/",
+   "applyUrl": "https://www.wesystem.wyo.gov/",
+   "chipName": "Kid Care CHIP",
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/"
+  },
+  "wic": {
+   "agency": "Wyoming Department of Health",
+   "url": "https://health.wyo.gov/publichealth/wic/"
+  },
+  "notes": [
+   "Kid Care CHIP page: https://health.wyo.gov/healthcarefin/chip/",
+   "DFS SNAP page offers only a downloadable application to submit to a local DFS office, by mail, fax or e-mail (no online SNAP portal linked); snap.applyUrl null (https://dfs.wyo.gov/assistance-programs/food-assistance/supplemental-nutrition-assistance-program-snap/)"
+  ],
+  "hud": {
+   "rows": 23,
+   "areas": 23,
+   "vli4Max": 74250,
+   "vli4MaxName": "Teton County",
+   "vli4MaxArea": "Teton County, WY",
+   "vli4Min": 49700,
+   "vli4MinName": "Big Horn County",
+   "vli4MinArea": "Big Horn County, WY"
+  }
+ }
+]

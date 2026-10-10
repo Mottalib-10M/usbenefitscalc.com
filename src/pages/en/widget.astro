@@ -1,0 +1,25 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const frames = [
+  { slug: 'benefits-screener', title: 'Benefits screener: SNAP, Medicaid, ACA, EITC and WIC by state', h: 1100, who: 'Food banks, community action agencies, school family liaisons, libraries and tax preparation sites' },
+  { slug: 'snap-calculator', title: 'SNAP benefit calculator for every state, FY 2027 amounts', h: 1250, who: 'Food pantries, case managers, senior centers and local newsrooms explaining the October change' },
+];
+const code = (f: (typeof frames)[number]) => `<iframe src="${SITE_URL}/embed/${f.slug}/" title="${f.title}" width="100%" height="${f.h}" style="border:0;max-width:1000px" loading="lazy"></iframe>`;
+---
+<PageLayout title="Embed the benefits screener or SNAP calculator on your site" description="Embed a free benefits screener (SNAP, Medicaid, ACA, EITC, WIC) or a SNAP calculator with FY 2027 amounts and each state's options, with one iframe line and no tracking." lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Embed a calculator', path: route('widget', lang) }])]} breadcrumbs={[{ label: 'Embed a calculator' }]} showAuthor={false}>
+  <header class="mb-6">
+    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">Embed a calculator</h1>
+    <p class="mt-3 text-lg text-navy-700">One line of code. Each October, when USDA publishes new SNAP amounts, and each January, when the poverty guidelines move, the embedded tool updates itself.</p>
+  </header>
+  <div class="prose prose-slate max-w-none">
+    <p>Terms of use: keep the credit link under the frame visible, do not change the frame, and present the result as an estimate, since the agency that receives an application decides. The frame sets no cookie and sends us nothing about the people who use it. Questions: <a href={route('contact', lang)}>contact page</a>.</p>
+    {frames.map((f) => <><h2>{f.title}</h2><p>Used by: {f.who}.</p><pre class="overflow-x-auto rounded-lg bg-navy-900 p-4 text-sm text-white"><code>{code(f)}</code></pre></>)}
+  </div>
+  <div class="mt-8 overflow-hidden rounded-xl border border-navy-200">
+    <iframe src="/embed/benefits-screener/" title="Benefits screener" width="100%" height="1100" style="border:0" loading="lazy"></iframe>
+  </div>
+</PageLayout>

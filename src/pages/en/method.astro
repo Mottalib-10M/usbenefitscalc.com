@@ -1,0 +1,47 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, webPageSchema } from '../../lib/seo';
+import { STATES, P, usd, usdx, day, pct, listOf, snapMax, snapStd } from '../../lib/kit';
+import { table, ext, SOURCES } from '../../lib/helpers';
+const lang = 'en';
+const title = 'Benefits Calculator Method 2026: Formulas, Sources, Limits';
+const description = 'How the 2026 SNAP, Medicaid, ACA, EITC, WIC, Section 8 and SSI calculators apply USDA, HHS, CMS, IRS, HUD and SSA rules, with their data and their limits.';
+const path = route('method', lang);
+const sp = P.snap;
+const srcRows = Object.entries(SOURCES).map(([k, s]) => [s.label, ext(s.url, new URL(s.url).hostname.replace(/^www\./, ''))]);
+const noSua = STATES.filter((s) => !s.snap.sua.some((r) => r.hcsua)).map((s) => s.name);
+const nRows = STATES.reduce((a, s) => a + s.hud.rows, 0);
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'How we calculate', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'How we calculate', path }])]} breadcrumbs={[{ label: 'How we calculate' }]}>
+  <header class="mb-6"><h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">How the calculators work</h1>
+  <p class="mt-3 text-lg text-navy-700">Federal amounts in one parameter file, state choices and county limits in data files built from the agency documents, small functions that apply the rules in your browser, and tests that recompute the agencies' own tables before every release.</p></header>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>SNAP</h2>
+    <p>The engine follows 7 CFR 273.9 and 273.10 with the fiscal year {sp.fy} amounts of the USDA memo of August 21, 2026, in force from {day(sp.from)} to {day(sp.to)}. Gross income is earnings plus other income. Net income is gross income minus 20% of earnings, the standard deduction for the household size ({usd(snapStd(1))} for one to three people in the 48 states and DC), dependent care, child support paid, medical costs above {usd(sp.medicalThreshold)} for a member 60 or older or disabled, and the excess shelter deduction: housing costs plus the utility allowance, minus half of the income left after the other deductions, capped at {usd(sp.shelterCap.us)} ({usd(sp.shelterCap.ak)} in Alaska, {usd(sp.shelterCap.hi)} in Hawaii) unless a member is 60+ or disabled. The benefit is the maximum allotment ({usd(snapMax(4))} for four) minus 30% of net income rounded up to the dollar; eligible households of one or two receive at least {usd(sp.minBenefit.us)}.</p>
+    <p>Eligibility uses the state's broad-based categorical eligibility when the household fits it (USDA chart updated June 29, 2026): gross income up to the state percentage of the 2026 poverty guideline, the state asset limit if any, and no net income test. Otherwise the federal tests apply: 130% gross (not applied when a member is 60+ or disabled), 100% net, and assets up to {usdx(sp.assets.general)} or {usdx(sp.assets.elderlyDisabled)}. Utility allowances come from the USDA table of fiscal year 2026 (May 21, 2026); for fiscal year 2027 USDA asked states to raise their values by the CPI change of {pct(sp.sua27CpiChange)} and approve them one by one, and no consolidated table was published when we checked, so the calculators keep the FY 2026 values and let you enter your own bills. {listOf(noSua)} {noSua.length > 1 ? 'have' : 'has'} no single heating and cooling allowance in the table: the calculator asks for actual costs there.</p>
+    <h2>Medicaid and CHIP</h2>
+    <p>Each state's income level for children by age, pregnant women, parents and expansion adults comes from the CMS table of MAGI eligibility levels, which describes state decisions as of December 1, 2023 and is the latest consolidated table CMS publishes. The calculator adds the 5% of poverty disregard of 42 CFR 435.603 and applies the result to the 2026 poverty guideline. Where a state covers a group through a separate CHIP, the higher of the two lines is used and named. State changes adopted after that date may not be reflected; state pages note the CMS footnotes, and corrections are welcome. The medically needy path, long-term care rules, disability-based Medicaid and asset tests for people 65 and older are not modeled.</p>
+    <h2>Premium tax credit (ACA)</h2>
+    <p>Credit = benchmark premium minus the applicable percentage of household income, with the 2026 table of IRS Rev. Proc. 2025-25 ({pct(P.aca.table2026[0][2])} below 133% of poverty, rising linearly within each band to {pct(P.aca.table2026[5][3])} from 300% to 400%), income measured against the 2025 poverty guideline as the Marketplace does for 2026 coverage. No credit below {P.aca.minPct}% or above {P.aca.maxPct}%, and none when the person qualifies for Medicaid. The comparison line uses the 2021 to 2025 table written in 26 U.S.C. 36B(b)(3)(A)(iii), which expired after 2025. The benchmark premium depends on age, county and household; you enter it from the Marketplace, which is why no national default is presented as yours.</p>
+    <h2>EITC</h2>
+    <p>The credit is the phase-in rate times earned income, up to the maximum, minus the phase-out rate times the part of income (the larger of AGI and earned income) above the threshold, using 26 U.S.C. 32(b)(1) for the rates and IRS Rev. Proc. 2025-32 for the 2026 amounts. For tax year 2025, the IRS publishes the maximum credit and the income at which it ends; the thresholds are derived from those with the statutory rates, and the test suite checks that the derived figures meet the IRS table. The IRS table works in $50 bands, so results can differ by a few dollars.</p>
+    <h2>WIC</h2>
+    <p>Income is compared with 185% of the 2026 poverty guideline, the 2026/2027 table published in the Federal Register on April 29, 2026 (in force from {day(P.wic.from)} to {day(P.wic.to)}). A pregnant woman counts each expected baby. Receiving SNAP, Medicaid or TANF makes a person income-eligible (7 CFR 246.7). The nutrition risk assessment is done by the clinic and is not modeled.</p>
+    <h2>Section 8 and public housing</h2>
+    <p>The lookup reads HUD's FY 2026 income limit file (effective May 1, 2026): extremely low, very low and low income limits for household sizes one to eight, for {nRows.toLocaleString('en-US')} counties and New England towns. The tenant payment follows 24 CFR 5.628: the highest of 30% of monthly adjusted income, 10% of monthly gross income and the minimum rent; adjusted income subtracts {usd(P.hud.dependentDeduction)} per dependent and {usd(P.hud.elderlyDisabledDeduction)} for an elderly or disabled family in 2026 (HUD inflation-adjusted values), child care, and medical costs of an elderly or disabled family above {P.hud.medicalThresholdPct}% of income. Payment standards and utility allowances of each housing authority are not included, so the figure is the tenant payment, not the rent of a given unit.</p>
+    <h2>SSI</h2>
+    <p>The federal payment is the 2026 federal benefit rate ({usd(P.ssi.individual)} for one person, {usd(P.ssi.couple)} for a couple) minus countable income: unearned income after the {usd(P.ssi.generalExclusion)} general exclusion, and earnings after any unused part of it, the next {usd(P.ssi.earnedExclusion)} and one half of the rest. State supplements, in-kind support and maintenance, and deeming are not modeled.</p>
+    <h2>Tests</h2>
+    <p>The engines are pure functions tested on every build. The tests recompute every SNAP gross, net and 165% limit for eight household sizes in three areas from the 2026 poverty guideline and compare them with the USDA tables; recompute the WIC table from the guideline; check the 2026 EITC completed phase-outs against the IRS amounts; check HUD limits on rows of the county file; and replay hand-worked cases for SNAP (shelter cap, elderly household, minimum benefit, states with and without broad-based eligibility, Alaska and Hawaii), Medicaid, the premium tax credit at the 400% line, the tenant payment and SSI. A failing case blocks publication.</p>
+    <h2>What the calculators do not do</h2>
+    <ul>
+      <li>They do not apply for you, verify documents or decide; the agency does, and its notice can be appealed.</li>
+      <li>They do not model programs that exist in one state only, nor emergency, disaster or summer food programs.</li>
+      <li>They use the latest published figure when the current one has not been released, and say so.</li>
+    </ul>
+    <h2>Every source</h2>
+    <Fragment set:html={table(['Document', 'Site'], srcRows, `Read on ${day(P.retrieved_at)}; copies are kept with the code.`, ['l', 'l'])} />
+    <p>Questions or corrections: <a href={route('contact', lang)}>contact page</a>. See also the <a href={route('editorial', lang)}>editorial policy</a>.</p>
+  </div>
+</PageLayout>
