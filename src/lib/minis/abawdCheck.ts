@@ -4,7 +4,7 @@ import { P, yesNo } from './_kit';
 const A = P.snap.abawd;
 export default (): MiniSpec => ({
   title: 'Does the SNAP time limit apply to you?',
-  cta: 'Estimate your SNAP benefit',
+  cta: 'Estimate your SNAP benefit', ctaHref: '/en/snap-calculator/',
   inputs: [
     { id: 'age', label: 'Your age', def: 45, unit: 'years', max: 120 },
     { id: 'kid', label: `Child under ${A.childUnder} in your SNAP household?`, def: 0, options: yesNo },

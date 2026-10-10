@@ -13,7 +13,7 @@ const groups = [
 ];
 export default (): MiniSpec => ({
   title: 'Which federal Medicaid line applies to you?',
-  cta: 'Apply your state level in the full calculator',
+  cta: 'Apply your state level in the full calculator', ctaHref: '/en/medicaid-income-limits/',
   inputs: [
     { id: 'g', label: 'Who needs coverage', def: 0, options: groups },
     { id: 'n', label: 'Household size (count an unborn child)', def: 1, options: sizes(8) },

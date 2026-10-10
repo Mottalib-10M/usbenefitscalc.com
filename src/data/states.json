@@ -2265,7 +2265,7 @@
    "programName": "SNAP",
    "agency": "Montana Department of Public Health and Human Services",
    "agencyUrl": "https://dphhs.mt.gov/hcsd/snap/",
-   "applyUrl": "https://apply.mt.gov/",
+   "applyUrl": null,
    "applyUrlStatus": 200
   },
   "medicaid": {
@@ -2286,7 +2286,7 @@
    "programName": "Montana Medicaid",
    "agency": "Montana Department of Public Health and Human Services",
    "agencyUrl": "https://dphhs.mt.gov/MontanaHealthcarePrograms/",
-   "applyUrl": "https://apply.mt.gov/",
+   "applyUrl": null,
    "chipName": "Healthy Montana Kids",
    "applyUrlStatus": 200
   },

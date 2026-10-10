@@ -11,7 +11,7 @@ const RULES = [130, 150, 160, 165, 185, 200];
 
 export default (): MiniSpec => ({
   title: 'Do you pass the SNAP income tests?',
-  cta: 'Estimate your SNAP benefit',
+  cta: 'Estimate your SNAP benefit', ctaHref: '/en/snap-calculator/',
   inputs: [
     { id: 'n', label: 'Household size', def: 3, options: sizes(8) },
     { id: 'pay', label: 'Gross monthly pay (wages)', def: 3200, unit: '$', max: 100000 },

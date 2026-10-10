@@ -6,7 +6,7 @@ const H = P.hud;
 const deps = Array.from({ length: 7 }, (_, i) => ({ value: String(i), label: i === 0 ? 'None' : String(i) }));
 export default (): MiniSpec => ({
   title: 'Your monthly share with a Housing Choice Voucher',
-  cta: 'Check the income limit in your county',
+  cta: 'Check the income limit in your county', ctaHref: '/en/section-8-income-limits/',
   inputs: [
     { id: 'income', label: 'Household income per year, before tax', def: 24000, unit: '$', max: 500000 },
     { id: 'dep', label: 'Dependents in the household', def: 2, options: deps },

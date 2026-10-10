@@ -1,0 +1,664 @@
+[
+  {
+    "slug": "alabama",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://medicaid.alabama.gov/documents/3.0_Apply/3.2_Qualifying_Medicaid/3.2_Medicaid_Income_Limits_2026_3-11-26.pdf",
+        "title": "Medicaid Income Limits for 2026 (Alabama Medicaid Agency Form 207)",
+        "read": "2026-10-10",
+        "quote": "The amount above is based on the 146% Federal Poverty Level (The amount includes the 5% FPL disregard)"
+      },
+      {
+        "url": "https://medicaid.alabama.gov/documents/3.0_Apply/3.2_Qualifying_Medicaid/3.2_Medicaid_Income_Limits_2026_3-11-26.pdf",
+        "title": "Medicaid Income Limits for 2026 (Alabama Medicaid Agency Form 207)",
+        "read": "2026-10-10",
+        "quote": "The amount above is based on the 18% Federal Poverty Level (The amount includes the 5% FPL disregard)"
+      }
+    ],
+    "note": "Alabama Medicaid 2026 limits match CMS: children and pregnant women 141% of FPL (146% with the 5% disregard), parents and caretakers 13% (18% with the disregard)."
+  },
+  {
+    "slug": "alaska",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "arizona",
+    "status": "changed",
+    "changes": {
+      "chip": 225
+    },
+    "effective": "2024-03-01",
+    "sources": [
+      {
+        "url": "https://www.azahcccs.gov/Members/Downloads/EligibilityRequirements.pdf",
+        "title": "FPL and Income Eligibility Chart (AHCCCS Eligibility Requirements February 1, 2026)",
+        "read": "2026-10-10",
+        "quote": "KidsCare Children Under Age 19 ... 225% FPL 1 $2,993.00"
+      },
+      {
+        "url": "https://www.azahcccs.gov/shared/Downloads/News/2024/FactSheet_KidsCareExpansion_ParentsAsPaidCaregivers.pdf",
+        "title": "Fact Sheet: KidsCare Expansion & Parents as Paid Caregivers",
+        "read": "2026-10-10",
+        "quote": "Arizona increased the KidsCare income eligibility limit to 225% of the federal poverty level (FPL ),up from 200% FPL."
+      }
+    ],
+    "note": "Arizona raised KidsCare (CHIP) from 200% to 225% of FPL, with enrollment open from March 1, 2024; the other AHCCCS limits (children 147/141/133%, pregnant women 156%, parents 106%, adults 133%) are unchanged in the February 2026 chart."
+  },
+  {
+    "slug": "arkansas",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://humanservices.arkansas.gov/divisions-shared-services/county-operations/medicaid-quick-reference-chart/",
+        "title": "Medicaid Quick Reference Chart - Arkansas Department of Human Services",
+        "read": "2026-10-10",
+        "quote": "ARKids B *Limited Benefit **Income Limit** 211% of FPL"
+      },
+      {
+        "url": "https://humanservices.arkansas.gov/divisions-shared-services/county-operations/medicaid-quick-reference-chart/",
+        "title": "Medicaid Quick Reference Chart - Arkansas Department of Human Services",
+        "read": "2026-10-10",
+        "quote": "ARHOME Program (Adult Expansion Group) *Full Benefit **Income Limit** 133% of FPL"
+      }
+    ],
+    "note": "Arkansas 2026 chart matches CMS: ARKids A 142%, ARKids B 211%, pregnant women 209%, ARHOME adults 133% of FPL; parents and caretakers keep a fixed dollar standard ($276 a month for 3 people)."
+  },
+  {
+    "slug": "california",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://www.dhcs.ca.gov/medi-cal/qualify/qualify-for-medi-cal-eligibility-chart/",
+        "title": "Eligibility by Federal Poverty Level | DHCS",
+        "read": "2026-10-10",
+        "quote": "Income Limit (138% FPL) ... 1 | $21,597"
+      },
+      {
+        "url": "https://www.dhcs.ca.gov/services/HACCP/Documents/HACCP-FPL-Chart.pdf",
+        "title": "Income Eligibility Comparison Chart (HACCP-FPL-Chart, DHCS)",
+        "read": "2026-10-10",
+        "quote": "Optional Targeted Low-Income Children's Program (OTLICP), which is for children zero to 19 years of age up to 266% of the FPL"
+      }
+    ],
+    "note": "DHCS pages match CMS: adults up to 138% of FPL (133% plus the 5% disregard) and children 0-18 up to 266% (261% plus the disregard)."
+  },
+  {
+    "slug": "colorado",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://hcpf.colorado.gov/sites/hcpf/files/April%202026%20Medicaid%20Income%20Chart_Draft.pdf",
+        "title": "Medicaid Income Chart (MAGI Medicaid Monthly Maximum Income Guidelines Effective April 1, 2026)",
+        "read": "2026-10-10",
+        "quote": "Parents & Caretaker Relatives 68% Poverty Level Adults (Ages 19-65) 133% Poverty Level Children (Ages 0-18) 142% Poverty Level Pregnant Women 195% Poverty Level"
+      }
+    ],
+    "note": "Health First Colorado limits effective April 1, 2026 match CMS: parents 68%, adults 133%, children 142%, pregnant women 195% of FPL."
+  },
+  {
+    "slug": "connecticut",
+    "status": "changed",
+    "changes": {
+      "parent": 133
+    },
+    "effective": "2024-10-01",
+    "sources": [
+      {
+        "url": "https://portal.ct.gov/dss/health-and-home-care/information-about-the-2024-husky-a-parents-and-caretaker-relatives-transition",
+        "title": "Information about the 2024 HUSKY A Parents and Caretaker Relatives Transition",
+        "read": "2026-10-10",
+        "quote": "A new state law (Public Act 24-81) has lowered the income limit for parents and caretaker relatives to qualify for HUSKY A health coverage from 160% to 138% of the federal poverty level (FPL). This change starts October 1, 2024."
+      },
+      {
+        "url": "https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/fact-sheets-and-issue-briefs/fact-sheets/husky-income-charts/husky-health-annual-income-chart-march-1-2026.pdf?rev=3782dbda5be44199bcc83f107ea6c011&hash=AA5548EB22E2FE979BCBACC3C9FAE928",
+        "title": "Connecticut HUSKY Health Program Annual Income Guidelines – effective March 1, 2026",
+        "read": "2026-10-10",
+        "quote": "Smallest family is 2 (always requires child < 19 in home) Under $29,863 ... HUSKY A (parents/caretaker relatives)"
+      }
+    ],
+    "note": "Public Act 24-81 lowered the HUSKY A limit for parents and caretaker relatives from 160% to 138% of FPL (155% to 133% before the 5% disregard) starting October 1, 2024; the March 2026 HUSKY chart confirms the other limits."
+  },
+  {
+    "slug": "delaware",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://dhss.delaware.gov/wp-content/uploads/sites/11/2026/06/2026-Federal-Poverty-and-Medicaid-Assistance-Levels.pdf",
+        "title": "Administrative Notice A-03-2026: 2026 Federal Poverty and Medicaid Assistance Levels (Delaware DMMA)",
+        "read": "2026-10-10",
+        "quote": "Parents/Caretaker Relatives must have family income at or below 87% of poverty."
+      },
+      {
+        "url": "https://dhss.delaware.gov/wp-content/uploads/sites/11/2026/06/2026-Federal-Poverty-and-Medicaid-Assistance-Levels.pdf",
+        "title": "Administrative Notice A-03-2026: 2026 Federal Poverty and Medicaid Assistance Levels (Delaware DMMA)",
+        "read": "2026-10-10",
+        "quote": "Pregnant women and infants under age 1 must have family income at or below 212% of poverty."
+      }
+    ],
+    "note": "Delaware 2026 notice matches CMS: parents 87%, pregnant women and infants 212%, children 1-5 142%, 6-18 133%, adults 133%, Healthy Children Program 212% of FPL."
+  },
+  {
+    "slug": "district-of-columbia",
+    "status": "changed",
+    "changes": {
+      "adultPct": 133,
+      "parent": 133
+    },
+    "effective": "2026-01-01",
+    "sources": [
+      {
+        "url": "https://dhcf.dc.gov/node/892172",
+        "title": "Adults Without Dependent Children (Childless Adults) | dhcf",
+        "read": "2026-10-10",
+        "quote": "household income that does not exceed 138% (new as of 1/1/2026) of the Federal Poverty Level (FPL)"
+      },
+      {
+        "url": "https://dhcf.dc.gov/node/892382",
+        "title": "Parents and Caretaker Relatives | dhcf",
+        "read": "2026-10-10",
+        "quote": "Income limits changed for Parent/Caretaker relatives decreased 1/1/2026"
+      }
+    ],
+    "note": "On January 1, 2026 the District lowered Medicaid for adults without children (21-64) from 210% to 133% of FPL and for parents and caretaker relatives from 216% to 133% (138% with the 5% disregard)."
+  },
+  {
+    "slug": "florida",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "georgia",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://pamms.dhs.ga.gov/dfcs/medicaid/appendix-a2/2026-family-limits/",
+        "title": "Appendix A2 Family Medicaid Financial Limits 2026 :: Policy and Manual Management System (PAMMS)",
+        "read": "2026-10-10",
+        "quote": "247% PCK | Plus 5% | 205% Child 0-1 TMA | Plus 5% | 211% P4HB | Plus 5% | 149% Child 1-5 | Plus 5% | 133% Child 6-19"
+      },
+      {
+        "url": "https://pamms.dhs.ga.gov/dfcs/medicaid/appendix-a2/2026-family-limits/",
+        "title": "Appendix A2 Family Medicaid Financial Limits 2026 :: Policy and Manual Management System (PAMMS)",
+        "read": "2026-10-10",
+        "quote": "95% Pathways | Plus 5% Pathways | 220% PGW Newborn"
+      }
+    ],
+    "note": "Georgia 2026 limits (effective March 1, 2026) match CMS: PeachCare 247%, infants 205%, children 1-5 149%, 6-18 133%, pregnant women 220% of FPL; parents keep a fixed dollar standard and Georgia Pathways covers some adults up to 95%."
+  },
+  {
+    "slug": "hawaii",
+    "status": "changed",
+    "changes": {
+      "parent": 100
+    },
+    "effective": "2026-01-13",
+    "sources": [
+      {
+        "url": "https://medquest.hawaii.gov/content/dam/formsanddocuments/resources/magi-and-magi-excepted-income-standard-charts/2026%20PPDO%20MAGI%20and%20MAGI-Excepted%20Income%20Standards%20CHART.pdf",
+        "title": "2026 MAGI Income Standards (Effective: 01/13/2026), Med-QUEST Division",
+        "read": "2026-10-10",
+        "quote": "FPL** 100% 105% 133% 138% 133% 138% 139% 144% 191% 196% 191% 196% 308% 313%"
+      },
+      {
+        "url": "https://medquest.hawaii.gov/content/dam/formsanddocuments/resources/magi-and-magi-excepted-income-standard-charts/2026%20PPDO%20MAGI%20and%20MAGI-Excepted%20Income%20Standards%20CHART.pdf",
+        "title": "2026 MAGI Income Standards (Effective: 01/13/2026), Med-QUEST Division",
+        "read": "2026-10-10",
+        "quote": "MAX MAGI STANDARD: This is the minimum MAGI income standard plus the 5% disregard"
+      }
+    ],
+    "note": "Med-QUEST 2026 chart lists the parent and caretaker standard at 100% of the Hawaii FPL (105% only once the 5% disregard is added), where the CMS table showed 105%; adults 133%, pregnant women 191% and children up to 308% (S-CHIP) match CMS."
+  },
+  {
+    "slug": "idaho",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://healthandwelfare.idaho.gov/medicaid-program-income-limits",
+        "title": "Medicaid Program Income Limits | Idaho Department of Health and Welfare",
+        "read": "2026-10-10",
+        "quote": "Adult Medicaid (including Expansion) _Effective January 2026_ | 1 | $1,836 |"
+      },
+      {
+        "url": "https://healthandwelfare.idaho.gov/medicaid-program-income-limits",
+        "title": "Medicaid Program Income Limits | Idaho Department of Health and Welfare",
+        "read": "2026-10-10",
+        "quote": "Children's Health Insurance Plan (CHIP) _Effective January 2026_ | 2 | $3,427 |"
+      }
+    ],
+    "note": "Idaho January 2026 tables match CMS: adults and pregnant women at 138% of FPL ($1,836 a month for one; 133% plus the disregard) and CHIP at $3,427 for two (185% plus the disregard)."
+  },
+  {
+    "slug": "illinois",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://www.dhs.state.il.us/page.aspx?item=21741",
+        "title": "IDHS: WAG 25-03-02 (2) Medical FPLs",
+        "read": "2026-10-10",
+        "quote": "All Kids Assist MAGI- 318% FPL (includes 5% disregard) (Children) | FamilyCare and ACA Adults MAGI - 138% FPL (includes 5% disregard) (Adults) | MPE and Moms & Babies MAGI - 213% FPL (includes 5% disregard)"
+      }
+    ],
+    "note": "Illinois limits match CMS: All Kids 318% of FPL with the disregard (313% before it), FamilyCare and ACA adults 138% (133%), Moms & Babies 213% (208%)."
+  },
+  {
+    "slug": "indiana",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://www.in.gov/medicaid/members/apply-for-medicaid/eligibility-guide/",
+        "title": "Indiana Medicaid for Members: Eligibility Guide",
+        "read": "2026-10-10",
+        "quote": "| 2 | $3,841.20 | Family size is based on the tax household, including the unborn child(ren)."
+      },
+      {
+        "url": "https://www.in.gov/medicaid/members/apply-for-medicaid/eligibility-guide/",
+        "title": "Indiana Medicaid for Members: Eligibility Guide",
+        "read": "2026-10-10",
+        "quote": "| 1 | $1,835.50 | ... These income standards are effective March 1, 202"
+      }
+    ],
+    "note": "Indiana monthly standards effective March 1, 2026 match CMS: pregnancy $3,841.20 for two (208% plus the disregard), children up to $3,391.50 for one (250% plus the disregard), HIP adults $1,835.50 for one (133% plus the disregard)."
+  },
+  {
+    "slug": "iowa",
+    "status": "changed",
+    "changes": {
+      "pregnant": 215,
+      "child0to1": 300
+    },
+    "effective": "2025-04-01",
+    "sources": [
+      {
+        "url": "https://hhs.iowa.gov/medicaid/apply-medicaid/income-guidelines",
+        "title": "Medicaid Income Guidelines (Iowa HHS)",
+        "read": "2026-10-10",
+        "quote": "Infants Birth - 1 Year (300%) ... Pregnancy & Postpartum Care (215%)"
+      },
+      {
+        "url": "https://hhs.iowa.gov/media/14740/download?inline",
+        "title": "Postpartum Coverage Updates (Iowa HHS)",
+        "read": "2026-10-10",
+        "quote": "Beginning April 1, 2025, there will be some changes to eligibility. ... Pregnant Women Federal Poverty Level (FPL) limit updated to 215%"
+      }
+    ],
+    "note": "Since April 1, 2025 Iowa Medicaid covers pregnant women up to 215% of FPL (down from 375%) with 12 months of postpartum coverage, and infants under 1 up to 300% (the April 2026 table; a 2025 fact sheet says 302%); children 1-18 stay at 167%."
+  },
+  {
+    "slug": "kansas",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://khap.kdhe.ks.gov/kfmam/main.asp?tier1=02000&tier2=02270",
+        "title": "Kansas Family Medical Assistance Manual (KFMAM) 02270 Medicaid Poverty Level",
+        "read": "2026-10-10",
+        "quote": "2271.01 - For pregnant women and children under the age of 1, 171% of the appropriate federal Poverty Income Guidelines;"
+      }
+    ],
+    "note": "The KanCare eligibility manual (KFMAM 2271) lists infants and pregnant women at 171%, children 1-5 at 149% and 6-18 at 133% of FPL, and caretakers at 38%; it does not say whether the 5% disregard is included, and the 2026 KDHE income table is blocked, so no change is recorded."
+  },
+  {
+    "slug": "kentucky",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://khbe.ky.gov/About/Documents/FPL-Chart.pdf",
+        "title": "Federal Poverty Level Chart (kynect, 2026 Medicaid Table April 2026 ongoing)",
+        "read": "2026-10-10",
+        "quote": "100% 138%* 147%* 200%* 218%**"
+      },
+      {
+        "url": "https://khbe.ky.gov/About/Documents/FPL-Chart.pdf",
+        "title": "Federal Poverty Level Chart (kynect, 2026 Medicaid Table April 2026 ongoing)",
+        "read": "2026-10-10",
+        "quote": "**200 -218% FPL Medicaid for children and pregnant women who are uninsured"
+      }
+    ],
+    "note": "Kentucky 2026 table matches CMS once the 5% disregard is added: adults 138%, pregnant women 200%, uninsured children and pregnant women up to 218% of FPL (KCHIP)."
+  },
+  {
+    "slug": "louisiana",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://ldh.la.gov/assets/medicaid/MedicaidEligibilityPolicy/Z-200m.pdf",
+        "title": "Z-200m Louisiana Medicaid Eligibility Manual Charts (Programs Changing Effective March 1, 2026)",
+        "read": "2026-10-10",
+        "quote": "Children (LaCHIP) - Income is less than or equal to 217% FPIG (212 FPIG + 5% disregard)"
+      },
+      {
+        "url": "https://ldh.la.gov/assets/medicaid/MedicaidEligibilityPolicy/Z-200m.pdf",
+        "title": "Z-200m Louisiana Medicaid Eligibility Manual Charts (Programs Changing Effective March 1, 2026)",
+        "read": "2026-10-10",
+        "quote": "Parents/Caretakers - Income is less than or equal to 24% FPIG (19 % FPIG plus 5 % disregard)"
+      }
+    ],
+    "note": "Louisiana March 2026 charts match CMS: LaCHIP 212%, LaCHIP Affordable Plan 250%, pregnant women 133%, parents 19%, adult group 133% of FPL (each plus the 5% disregard)."
+  },
+  {
+    "slug": "maine",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2026%20MaineCare%20Eligibility%20Guidelines%206.23..26_0.pdf",
+        "title": "2026 MaineCare Eligibility Guidelines",
+        "read": "2026-10-10",
+        "quote": "Age 1-18 Full MaineCare Benefit 305% $4,057"
+      },
+      {
+        "url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2026%20MaineCare%20Eligibility%20Guidelines%206.23..26_0.pdf",
+        "title": "2026 MaineCare Eligibility Guidelines",
+        "read": "2026-10-10",
+        "quote": "Parents & Caretaker Relatives Full MaineCare Benefit 105% $1,397 ... Pregnant Individuals Full MaineCare Benefit 214% ... Expansion Adults Full MaineCare Benefit 138%"
+      }
+    ],
+    "note": "MaineCare 2026 guidelines match CMS once the 5% disregard is added: children 305%, parents 105%, pregnant individuals 214%, expansion adults 138% of FPL."
+  },
+  {
+    "slug": "maryland",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://health.maryland.gov/mmcp/Coverage%20Groups/coverage-group-quick-reference-guide.pdf",
+        "title": "QUICK REFERENCE to Medical Care Program Coverage Groups and HealthChoice Eligibility (Updated April, 2025)",
+        "read": "2026-10-10",
+        "quote": "Low-income parents/caretaker relatives, any age, Medicare permitted up to 123% FPL"
+      },
+      {
+        "url": "https://health.maryland.gov/mmcp/Coverage%20Groups/coverage-group-quick-reference-guide.pdf",
+        "title": "QUICK REFERENCE to Medical Care Program Coverage Groups and HealthChoice Eligibility (Updated April, 2025)",
+        "read": "2026-10-10",
+        "quote": "MCHP, 265 - 322% FPL (was called premium)"
+      }
+    ],
+    "note": "Maryland Medicaid coverage guide (April 2025) matches CMS: adults up to 138%, parents and caretakers up to 123%, pregnant women up to 264% and MCHP children up to 322% of FPL (the higher figures include the 5% disregard)."
+  },
+  {
+    "slug": "massachusetts",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "michigan",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "minnesota",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "mississippi",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "missouri",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "montana",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "nebraska",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "nevada",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "new-hampshire",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "new-jersey",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "new-mexico",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "new-york",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "north-carolina",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "north-dakota",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "ohio",
+    "status": "confirmed",
+    "changes": {},
+    "effective": null,
+    "sources": [
+      {
+        "url": "https://dam.assets.ohio.gov/image/upload/benefits.ohio.gov/2026_Medicaid_Standards_Help_Sheet.pdf",
+        "title": "Ohio Medicaid 2026 Monthly Financial Eligibility Children, Families, and Adults",
+        "read": "2026-10-10",
+        "quote": "Parents/ Caretaker Relatives 90% ... Pregnant Women & QDWI 200% CHIP 2** 206%"
+      },
+      {
+        "url": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Families%2C%20Individuals/Programs/whoQualifies/2026_Children_Families_Adults.pdf",
+        "title": "Ohio Medicaid 2026 Children, Families and Adults income limits",
+        "read": "2026-10-10",
+        "quote": "90% FPL 133% FPL 156% FPL 200% FPL 206% FPL"
+      }
+    ],
+    "note": "Ohio Medicaid 2026 monthly limits match the CMS levels: parents 90%, adults 133%, pregnant women 200%, children 206% of FPL."
+  },
+  {
+    "slug": "oklahoma",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "oregon",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "pennsylvania",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "rhode-island",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "south-carolina",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "south-dakota",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "tennessee",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "texas",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "utah",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "vermont",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "virginia",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "washington",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "west-virginia",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "wisconsin",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  },
+  {
+    "slug": "wyoming",
+    "status": "not checked",
+    "changes": {},
+    "effective": null,
+    "sources": [],
+    "note": null
+  }
+]

@@ -55,6 +55,8 @@ export interface PageDef {
   /** Mini-simulator after the answer block (guides, thresholds): `src/lib/minis/<kind>.ts`. */
   mini?: string;
   miniArg?: unknown;
+  /** Page id the mini-simulators' button leads to (default: the main calculator of the group). */
+  miniHref?: string;
   related: string[];
   /** Keys of params-2026.json > sources. */
   sources: string[];

@@ -5,7 +5,7 @@ import { yesNo } from './_kit';
 
 export default (): MiniSpec => ({
   title: 'Does a SNAP student exemption apply to you?',
-  cta: 'Estimate your SNAP benefit',
+  cta: 'Estimate your SNAP benefit', ctaHref: '/en/snap-calculator/',
   inputs: [
     { id: 'age', label: 'Your age', def: 20, unit: 'years', max: 120 },
     { id: 'hours', label: 'Paid work hours per week', def: 12, unit: 'h', max: 100 },

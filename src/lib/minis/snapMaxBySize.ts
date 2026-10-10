@@ -12,7 +12,7 @@ export default (arg?: string): MiniSpec => {
   const prev: Partial<Record<Area, number[]>> = { us: P.snap.previous.maxAllotmentUs, ...a.prev };
   return {
     title: 'Maximum SNAP benefit for your household',
-    cta: 'Estimate your own SNAP benefit',
+    cta: 'Estimate your own SNAP benefit', ctaHref: '/en/snap-calculator/',
     inputs: [
       { id: 'n', label: 'Household size', def: 4, options: sizes(12) },
       { id: 'area', label: 'Where you live', def: 0, options: AREAS.map(([, l], i) => ({ value: String(i), label: l })) },

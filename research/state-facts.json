@@ -1,1924 +1,1925 @@
 [
-  {
-    "slug": "alabama",
-    "name": "Alabama",
-    "abbr": "AL",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Alabama Department of Human Resources",
-      "agencyUrl": "https://dhr.alabama.gov/food-assistance/",
-      "applyUrl": "https://mydhr.alabama.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Alabama Medicaid Agency",
-      "agencyUrl": "https://medicaid.alabama.gov/",
-      "applyUrl": "https://insurealabama.adph.state.al.us/",
-      "chipName": "ALL Kids",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Alabama Department of Public Health",
-      "url": "https://www.alabamapublichealth.gov/wic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "ALL Kids is Alabama's CHIP, run by the Alabama Department of Public Health; online application for ALL Kids and Medicaid at https://insurealabama.adph.state.al.us/ (https://www.alabamapublichealth.gov/allkids/)"
-    ],
-    "uncertain": []
+ {
+  "slug": "alabama",
+  "name": "Alabama",
+  "abbr": "AL",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Alabama Department of Human Resources",
+   "agencyUrl": "https://dhr.alabama.gov/food-assistance/",
+   "applyUrl": "https://mydhr.alabama.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "alaska",
-    "name": "Alaska",
-    "abbr": "AK",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Alaska Department of Health, Division of Public Assistance",
-      "agencyUrl": "https://health.alaska.gov/dpa/Pages/snap/default.aspx",
-      "applyUrl": "https://aries.alaska.gov/screener/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Alaska Department of Health, Division of Public Assistance",
-      "agencyUrl": "https://health.alaska.gov/dpa/Pages/medicaid/default.aspx",
-      "applyUrl": "https://aries.alaska.gov/screener/",
-      "chipName": "Denali KidCare",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Alaska Department of Health, Division of Public Assistance",
-      "url": "https://health.alaska.gov/dpa/Pages/nutri/wic/default.aspx",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Denali KidCare is listed as a program of the Alaska Department of Health (https://health.alaska.gov/en/services/denali-kidcare/)"
-    ],
-    "uncertain": [
-      "Alaska SNAP page text does not itself name the Division of Public Assistance; inferred from the /dpa/ URL path and the department homepage link 'Division of Public Assistance (DPA) Services'"
-    ]
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Alabama Medicaid Agency",
+   "agencyUrl": "https://medicaid.alabama.gov/",
+   "applyUrl": "https://insurealabama.adph.state.al.us/",
+   "chipName": "ALL Kids",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "arizona",
-    "name": "Arizona",
-    "abbr": "AZ",
-    "snap": {
-      "programName": "Nutrition Assistance",
-      "agency": "Arizona Department of Economic Security",
-      "agencyUrl": "https://des.az.gov/services/basic-needs/food/nutrition-assistance",
-      "applyUrl": "https://www.healthearizonaplus.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "AHCCCS",
-      "agency": "Arizona Health Care Cost Containment System (AHCCCS)",
-      "agencyUrl": "https://www.azahcccs.gov/",
-      "applyUrl": "https://www.healthearizonaplus.gov/",
-      "chipName": "KidsCare",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Arizona Department of Health Services",
-      "url": "https://www.azdhs.gov/prevention/azwic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Arizona calls SNAP 'Nutrition Assistance (NA)' (https://des.az.gov/services/basic-needs/food/nutrition-assistance); AHCCCS homepage offers 'Apply for Medicaid or KidsCare' (https://www.azahcccs.gov/)"
-    ],
-    "uncertain": []
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
   },
-  {
-    "slug": "arkansas",
-    "name": "Arkansas",
-    "abbr": "AR",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Arkansas Department of Human Services",
-      "agencyUrl": "https://humanservices.arkansas.gov/divisions-shared-services/county-operations/supplemental-nutrition-assistance-snap/",
-      "applyUrl": "https://access.arkansas.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Arkansas Department of Human Services, Division of Medical Services",
-      "agencyUrl": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/",
-      "applyUrl": "https://access.arkansas.gov/",
-      "chipName": "ARKids First",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Arkansas Department of Health",
-      "url": "https://healthy.arkansas.gov/programs-services/community-family-child-health/wic-women-infants-children/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Arkansas is a State-based Exchange on the Federal Platform for PY2026 (My Arkansas Health Insurance Marketplace, myarinsurance.com): residents enroll through HealthCare.gov (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)",
-      "ARHOME is Arkansas's Medicaid expansion program name; ARKids First covers children (https://humanservices.arkansas.gov/divisions-shared-services/medical-services/)"
-    ],
-    "uncertain": []
+  "wic": {
+   "agency": "Alabama Department of Public Health",
+   "url": "https://www.alabamapublichealth.gov/wic/",
+   "urlStatus": 200
   },
-  {
-    "slug": "california",
-    "name": "California",
-    "abbr": "CA",
-    "snap": {
-      "programName": "CalFresh",
-      "agency": "California Department of Social Services",
-      "agencyUrl": "https://www.cdss.ca.gov/inforesources/calfresh",
-      "applyUrl": "https://benefitscal.com/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medi-Cal",
-      "agency": "California Department of Health Care Services",
-      "agencyUrl": "https://www.dhcs.ca.gov/services/medi-cal",
-      "applyUrl": "https://benefitscal.com/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Covered California",
-      "url": "https://www.coveredca.com/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "California Department of Public Health",
-      "url": "https://www.cdph.ca.gov/Programs/CFH/DWICSN",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Covered California is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": [
-      "Medi-Cal page confirmed only as 'DHCS' in title; full agency name from standard usage",
-      "CalFresh agency URL https://www.cdss.ca.gov/calfresh redirects to a login page; replaced with /inforesources/calfresh"
-    ]
+  "notes": [
+   "ALL Kids is Alabama's CHIP, run by the Alabama Department of Public Health; online application for ALL Kids and Medicaid at https://insurealabama.adph.state.al.us/ (https://www.alabamapublichealth.gov/allkids/)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "alaska",
+  "name": "Alaska",
+  "abbr": "AK",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Alaska Department of Health, Division of Public Assistance",
+   "agencyUrl": "https://health.alaska.gov/dpa/Pages/snap/default.aspx",
+   "applyUrl": "https://aries.alaska.gov/screener/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "colorado",
-    "name": "Colorado",
-    "abbr": "CO",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Colorado Department of Human Services",
-      "agencyUrl": "https://cdhs.colorado.gov/snap",
-      "applyUrl": "https://www.colorado.gov/PEAK",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Health First Colorado",
-      "agency": "Colorado Department of Health Care Policy & Financing",
-      "agencyUrl": "https://www.healthfirstcolorado.gov/",
-      "applyUrl": "https://www.colorado.gov/PEAK",
-      "chipName": "Child Health Plan Plus (CHP+)",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Connect for Health Colorado",
-      "url": "https://connectforhealthco.com/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Colorado Department of Public Health & Environment",
-      "url": "https://www.coloradowic.gov/homepage",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Child Health Plan Plus (CHP+) named on the Health First Colorado site (https://www.healthfirstcolorado.gov/)",
-      "PEAK (https://www.colorado.gov/PEAK) redirects to peak.my.site.com, the state's PEAK portal",
-      "Connect for Health Colorado is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": [
-      "Agency name 'Department of Health Care Policy & Financing' confirmed only via HCPF abbreviation on healthfirstcolorado.gov"
-    ]
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Alaska Department of Health, Division of Public Assistance",
+   "agencyUrl": "https://health.alaska.gov/dpa/Pages/medicaid/default.aspx",
+   "applyUrl": "https://aries.alaska.gov/screener/",
+   "chipName": "Denali KidCare",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "connecticut",
-    "name": "Connecticut",
-    "abbr": "CT",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Connecticut Department of Social Services",
-      "agencyUrl": "https://portal.ct.gov/dss/snap",
-      "applyUrl": "https://www.connect.ct.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "HUSKY Health",
-      "agency": "Connecticut Department of Social Services",
-      "agencyUrl": "https://portal.ct.gov/husky",
-      "applyUrl": "https://www.accesshealthct.com/",
-      "chipName": "HUSKY B",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Access Health CT",
-      "url": "https://www.accesshealthct.com/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Connecticut Department of Public Health",
-      "url": "https://portal.ct.gov/dph/wic/wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Access Health CT is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
   },
-  {
-    "slug": "delaware",
-    "name": "Delaware",
-    "abbr": "DE",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Delaware Health and Social Services, Division of Social Services",
-      "agencyUrl": "https://dhss.delaware.gov/dss/division-of-social-services/snap/",
-      "applyUrl": "https://assist.dhss.delaware.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Delaware Health and Social Services, Division of Medicaid & Medical Assistance",
-      "agencyUrl": "https://dhss.delaware.gov/dmma/",
-      "applyUrl": "https://assist.dhss.delaware.gov/",
-      "chipName": "Delaware Healthy Children Program",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Delaware Health and Social Services, Division of Public Health",
-      "url": "https://dhss.delaware.gov/dph/homepage/about/sections/imimep/imhome/dhmic/wic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Delaware DHSS site restructured in 2025: old /dhss/dss/ URLs return 404; current SNAP page is under /dss/division-of-social-services/snap/ (https://dhss.delaware.gov/dss/division-of-social-services/snap/)"
-    ],
-    "uncertain": []
+  "wic": {
+   "agency": "Alaska Department of Health, Division of Public Assistance",
+   "url": "https://health.alaska.gov/dpa/Pages/nutri/wic/default.aspx",
+   "urlStatus": 200
   },
-  {
-    "slug": "district-of-columbia",
-    "name": "District of Columbia",
-    "abbr": "DC",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "DC Department of Human Services",
-      "agencyUrl": "https://dhs.dc.gov/service/supplemental-nutrition-assistance-program-snap",
-      "applyUrl": "https://districtdirect.dc.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "DC Department of Health Care Finance",
-      "agencyUrl": "https://dhcf.dc.gov/service/medicaid",
-      "applyUrl": "https://districtdirect.dc.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "DC Health Link",
-      "url": "https://dchealthlink.com/",
-      "urlStatus": 403
-    },
-    "wic": {
-      "agency": "DC Health",
-      "url": "https://dchealth.dc.gov/service/special-supplemental-nutrition-program-women-infants-and-children-wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "DC Health Link is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": [
-      "DC Health Link (dchealthlink.com) returned a Cloudflare challenge (403) to both our requests; listed as DC's SBE website by CMS"
-    ]
+  "notes": [
+   "Denali KidCare is listed as a program of the Alaska Department of Health (https://health.alaska.gov/en/services/denali-kidcare/)"
+  ],
+  "uncertain": [
+   "Alaska SNAP page text does not itself name the Division of Public Assistance; inferred from the /dpa/ URL path and the department homepage link 'Division of Public Assistance (DPA) Services'"
+  ]
+ },
+ {
+  "slug": "arizona",
+  "name": "Arizona",
+  "abbr": "AZ",
+  "snap": {
+   "programName": "Nutrition Assistance",
+   "agency": "Arizona Department of Economic Security",
+   "agencyUrl": "https://des.az.gov/services/basic-needs/food/nutrition-assistance",
+   "applyUrl": "https://www.healthearizonaplus.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "florida",
-    "name": "Florida",
-    "abbr": "FL",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Florida Department of Children and Families",
-      "agencyUrl": "https://www.myflfamilies.com/services/public-assistance/supplemental-nutrition-assistance-program-snap",
-      "applyUrl": "https://myaccess.myflfamilies.com/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Agency for Health Care Administration",
-      "agencyUrl": "https://ahca.myflorida.com/medicaid",
-      "applyUrl": "https://myaccess.myflfamilies.com/",
-      "chipName": "Florida KidCare",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Florida Department of Health",
-      "url": "https://www.floridahealth.gov/programs-and-services/wic/",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": []
+  "medicaid": {
+   "programName": "AHCCCS",
+   "agency": "Arizona Health Care Cost Containment System (AHCCCS)",
+   "agencyUrl": "https://www.azahcccs.gov/",
+   "applyUrl": "https://www.healthearizonaplus.gov/",
+   "chipName": "KidsCare",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "georgia",
-    "name": "Georgia",
-    "abbr": "GA",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Georgia Department of Human Services, Division of Family & Children Services",
-      "agencyUrl": "https://dfcs.georgia.gov/services/snap",
-      "applyUrl": "https://gateway.ga.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 403
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Georgia Department of Community Health",
-      "agencyUrl": "https://medicaid.georgia.gov/",
-      "applyUrl": "https://gateway.ga.gov/",
-      "chipName": "PeachCare for Kids",
-      "urlStatus": 200,
-      "applyUrlStatus": 403
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Georgia Access",
-      "url": "https://georgiaaccess.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Georgia Department of Public Health",
-      "url": "https://dph.georgia.gov/WIC",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Georgia Access is a full State-based Exchange for PY2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)",
-      "Georgia Pathways to Coverage: Medicaid pathway with a qualifying-activities (work/activity) reporting requirement; site also has an 'H.R. 1 Changes to Pathways' section (https://pathways.georgia.gov/)",
-      "Georgia Access is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": [
-      "gateway.ga.gov returned 403 to our requests (geo/bot block); it is the portal linked from the DFCS SNAP page"
-    ]
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
   },
-  {
-    "slug": "hawaii",
-    "name": "Hawaii",
-    "abbr": "HI",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Hawaii Department of Human Services, Benefit, Employment & Support Services Division",
-      "agencyUrl": "https://humanservices.hawaii.gov/bessd/snap/",
-      "applyUrl": "https://pais-benefits.dhs.hawaii.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Med-QUEST",
-      "agency": "Hawaii Department of Human Services, Med-QUEST Division",
-      "agencyUrl": "https://medquest.hawaii.gov/",
-      "applyUrl": "https://medical.mybenefits.hawaii.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "State of Hawaii Department of Health",
-      "url": "https://health.hawaii.gov/wic/",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": []
+  "wic": {
+   "agency": "Arizona Department of Health Services",
+   "url": "https://www.azdhs.gov/prevention/azwic/",
+   "urlStatus": 200
   },
-  {
-    "slug": "idaho",
-    "name": "Idaho",
-    "abbr": "ID",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Idaho Department of Health and Welfare",
-      "agencyUrl": "https://healthandwelfare.idaho.gov/services-programs/food-assistance",
-      "applyUrl": "https://idalink.idaho.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Idaho Department of Health and Welfare",
-      "agencyUrl": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health",
-      "applyUrl": "https://idalink.idaho.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Your Health Idaho",
-      "url": "https://www.yourhealthidaho.org/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Idaho Department of Health and Welfare",
-      "url": "https://healthandwelfare.idaho.gov/services-programs/food-assistance/about-wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Your Health Idaho is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "notes": [
+   "Arizona calls SNAP 'Nutrition Assistance (NA)' (https://des.az.gov/services/basic-needs/food/nutrition-assistance); AHCCCS homepage offers 'Apply for Medicaid or KidsCare' (https://www.azahcccs.gov/)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "arkansas",
+  "name": "Arkansas",
+  "abbr": "AR",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Arkansas Department of Human Services",
+   "agencyUrl": "https://humanservices.arkansas.gov/divisions-shared-services/county-operations/supplemental-nutrition-assistance-snap/",
+   "applyUrl": "https://access.arkansas.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "illinois",
-    "name": "Illinois",
-    "abbr": "IL",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Illinois Department of Human Services",
-      "agencyUrl": "https://www.dhs.state.il.us/page.aspx?item=30357",
-      "applyUrl": "https://abe.illinois.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Illinois Department of Healthcare and Family Services",
-      "agencyUrl": "https://hfs.illinois.gov/medicalclients.html",
-      "applyUrl": "https://abe.illinois.gov/",
-      "chipName": "All Kids",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Get Covered Illinois",
-      "url": "https://getcovered.illinois.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Illinois Department of Human Services",
-      "url": "https://www.dhs.state.il.us/page.aspx?item=31907",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Illinois moved to its own State-based Exchange, Get Covered Illinois, for PY2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces, https://getcovered.illinois.gov/)",
-      "Get Covered Illinois is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Arkansas Department of Human Services, Division of Medical Services",
+   "agencyUrl": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/",
+   "applyUrl": "https://access.arkansas.gov/",
+   "chipName": "ARKids First",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "indiana",
-    "name": "Indiana",
-    "abbr": "IN",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Indiana Family and Social Services Administration, Division of Family Resources",
-      "agencyUrl": "https://www.in.gov/fssa/dfr/snap-food-assistance/",
-      "applyUrl": "https://fssabenefits.in.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 403
-    },
-    "medicaid": {
-      "programName": "Indiana Medicaid",
-      "agency": "Indiana Family and Social Services Administration (FSSA)",
-      "agencyUrl": "https://www.in.gov/medicaid/",
-      "applyUrl": "https://fssabenefits.in.gov/",
-      "chipName": "Hoosier Healthwise",
-      "urlStatus": 200,
-      "applyUrlStatus": 403
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Indiana Department of Health",
-      "url": "https://www.in.gov/health/wic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Hoosier Healthwise page: https://www.in.gov/medicaid/members/member-programs/hoosier-healthwise/"
-    ],
-    "uncertain": [
-      "fssabenefits.in.gov returned 403 'Maintenance' during checks (2026-10-10)"
-    ]
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
   },
-  {
-    "slug": "iowa",
-    "name": "Iowa",
-    "abbr": "IA",
-    "snap": {
-      "programName": "Food Assistance",
-      "agency": "Iowa Department of Health and Human Services",
-      "agencyUrl": "https://hhs.iowa.gov/assistance-programs/food-assistance",
-      "applyUrl": "https://hhsservices.iowa.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Iowa Department of Health and Human Services",
-      "agencyUrl": "https://hhs.iowa.gov/medicaid",
-      "applyUrl": "https://hhsservices.iowa.gov/",
-      "chipName": "Hawki",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Iowa Department of Health and Human Services",
-      "url": "https://hhs.iowa.gov/wic",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": []
+  "wic": {
+   "agency": "Arkansas Department of Health",
+   "url": "https://healthy.arkansas.gov/programs-services/community-family-child-health/wic-women-infants-children/",
+   "urlStatus": 200
   },
-  {
-    "slug": "kansas",
-    "name": "Kansas",
-    "abbr": "KS",
-    "snap": {
-      "programName": "Food Assistance",
-      "agency": "Kansas Department for Children and Families",
-      "agencyUrl": "https://www.dcf.ks.gov/services/ees/Pages/Food/FoodAssistance.aspx",
-      "applyUrl": "https://cssp.kees.ks.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "KanCare",
-      "agency": "Kansas Department of Health and Environment",
-      "agencyUrl": "https://www.kancare.ks.gov/",
-      "applyUrl": "https://cssp.kees.ks.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Kansas Department of Health and Environment",
-      "url": "https://www.kdhe.ks.gov/1000/Nutrition-WIC-Services",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": [
-      "KanCare administering agency (KDHE) inferred from KanCare link on kdhe.ks.gov; not stated on kancare.ks.gov homepage",
-      "kdhe.ks.gov WIC page sits behind Cloudflare (direct 403), content confirmed via a US proxy fetch"
-    ]
+  "notes": [
+   "Arkansas is a State-based Exchange on the Federal Platform for PY2026 (My Arkansas Health Insurance Marketplace, myarinsurance.com): residents enroll through HealthCare.gov (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)",
+   "ARHOME is Arkansas's Medicaid expansion program name; ARKids First covers children (https://humanservices.arkansas.gov/divisions-shared-services/medical-services/)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "california",
+  "name": "California",
+  "abbr": "CA",
+  "snap": {
+   "programName": "CalFresh",
+   "agency": "California Department of Social Services",
+   "agencyUrl": "https://www.cdss.ca.gov/inforesources/calfresh",
+   "applyUrl": "https://benefitscal.com/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "kentucky",
-    "name": "Kentucky",
-    "abbr": "KY",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Cabinet for Health and Family Services, Department for Community Based Services",
-      "agencyUrl": "https://www.chfs.ky.gov/agencies/dcbs/dfs/nab/Pages/snap.aspx",
-      "applyUrl": "https://kynect.ky.gov/benefits",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Cabinet for Health and Family Services, Department for Medicaid Services",
-      "agencyUrl": "https://www.chfs.ky.gov/agencies/dms/",
-      "applyUrl": "https://kynect.ky.gov/benefits",
-      "chipName": "KCHIP",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "kynect",
-      "url": "https://kynect.ky.gov/healthcoverage",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Cabinet for Health and Family Services, Department for Public Health",
-      "url": "https://www.chfs.ky.gov/agencies/dph/dmch/nsb/Pages/wic.aspx",
-      "urlStatus": 200
-    },
-    "notes": [
-      "KCHIP (Kentucky Children's Health Insurance Program) linked from the DMS page to https://kidshealth.ky.gov/Pages/index.aspx",
-      "kynect is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "medicaid": {
+   "programName": "Medi-Cal",
+   "agency": "California Department of Health Care Services",
+   "agencyUrl": "https://www.dhcs.ca.gov/services/medi-cal",
+   "applyUrl": "https://benefitscal.com/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "louisiana",
-    "name": "Louisiana",
-    "abbr": "LA",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Louisiana Department of Health",
-      "agencyUrl": "https://ldh.la.gov/supplemental-nutrition-assistance-program",
-      "applyUrl": "https://sspweb.ie.dcfs.la.gov/selfservice/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Louisiana Department of Health",
-      "agencyUrl": "https://ldh.la.gov/medicaid",
-      "applyUrl": "https://sspweb.lameds.ldh.la.gov/selfservice/",
-      "chipName": "LaCHIP",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Louisiana Department of Health",
-      "url": "https://ldh.la.gov/bureau-of-nutrition-services/women-infants-children-program",
-      "urlStatus": 200
-    },
-    "notes": [
-      "SNAP is now administered by the Louisiana Department of Health (SNAP program pages are on ldh.la.gov); online application still goes through the LA CAFE portal on a dcfs.la.gov host (https://ldh.la.gov/page/snap-eligibility-application)",
-      "LaCHIP page: https://ldh.la.gov/medicaid/lachip"
-    ],
-    "uncertain": []
+  "marketplace": {
+   "type": "state",
+   "name": "Covered California",
+   "url": "https://www.coveredca.com/",
+   "urlStatus": 200
   },
-  {
-    "slug": "maine",
-    "name": "Maine",
-    "abbr": "ME",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Maine Department of Health and Human Services, Office for Family Independence",
-      "agencyUrl": "https://www.maine.gov/dhhs/ofi/programs-services/food-supplement",
-      "applyUrl": "https://www.mymaineconnection.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "MaineCare",
-      "agency": "Maine Department of Health and Human Services, Office of MaineCare Services",
-      "agencyUrl": "https://www.maine.gov/dhhs/oms/mainecare-options",
-      "applyUrl": "https://www.mymaineconnection.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "CoverME.gov",
-      "url": "https://www.coverme.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Maine Center for Disease Control & Prevention",
-      "url": "https://www.maine.gov/dhhs/mecdc/healthy-living/wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "CoverME.gov is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "wic": {
+   "agency": "California Department of Public Health",
+   "url": "https://www.cdph.ca.gov/Programs/CFH/DWICSN",
+   "urlStatus": 200
   },
-  {
-    "slug": "maryland",
-    "name": "Maryland",
-    "abbr": "MD",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Maryland Department of Human Services",
-      "agencyUrl": "https://dhs.maryland.gov/supplemental-nutrition-assistance-program/",
-      "applyUrl": "https://mymdthink.maryland.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Maryland Department of Health",
-      "agencyUrl": "https://health.maryland.gov/mmcp/",
-      "applyUrl": "https://www.marylandhealthconnection.gov/",
-      "chipName": "Maryland Children's Health Program (MCHP)",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Maryland Health Connection",
-      "url": "https://www.marylandhealthconnection.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Maryland Department of Health",
-      "url": "https://health.maryland.gov/phpa/wic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Maryland Children's Health Program (MCHP) page: https://health.maryland.gov/mmcp/chp",
-      "Maryland Health Connection is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "notes": [
+   "Covered California is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": [
+   "Medi-Cal page confirmed only as 'DHCS' in title; full agency name from standard usage",
+   "CalFresh agency URL https://www.cdss.ca.gov/calfresh redirects to a login page; replaced with /inforesources/calfresh"
+  ]
+ },
+ {
+  "slug": "colorado",
+  "name": "Colorado",
+  "abbr": "CO",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Colorado Department of Human Services",
+   "agencyUrl": "https://cdhs.colorado.gov/snap",
+   "applyUrl": "https://www.colorado.gov/PEAK",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "massachusetts",
-    "name": "Massachusetts",
-    "abbr": "MA",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Department of Transitional Assistance (DTA)",
-      "agencyUrl": "https://www.mass.gov/snap-benefits-formerly-food-stamps",
-      "applyUrl": "https://dtaconnect.eohhs.mass.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "MassHealth",
-      "agency": "Executive Office of Health and Human Services (EOHHS)",
-      "agencyUrl": "https://www.mass.gov/masshealth",
-      "applyUrl": "https://www.mahealthconnector.org/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Massachusetts Health Connector",
-      "url": "https://www.mahealthconnector.org/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Massachusetts Department of Public Health",
-      "url": "https://www.mass.gov/wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Massachusetts Health Connector is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "medicaid": {
+   "programName": "Health First Colorado",
+   "agency": "Colorado Department of Health Care Policy & Financing",
+   "agencyUrl": "https://www.healthfirstcolorado.gov/",
+   "applyUrl": "https://www.colorado.gov/PEAK",
+   "chipName": "Child Health Plan Plus (CHP+)",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "michigan",
-    "name": "Michigan",
-    "abbr": "MI",
-    "snap": {
-      "programName": "Food Assistance Program",
-      "agency": "Michigan Department of Health and Human Services",
-      "agencyUrl": "https://www.michigan.gov/mdhhs/assistance-programs/food",
-      "applyUrl": "https://newmibridges.michigan.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Michigan Department of Health and Human Services",
-      "agencyUrl": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid",
-      "applyUrl": "https://newmibridges.michigan.gov/",
-      "chipName": "MIChild",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Michigan Department of Health and Human Services",
-      "url": "https://www.michigan.gov/mdhhs/assistance-programs/wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "MIChild still has its own page but MDHHS notes 'MIChild converting to Medicaid' (letter on the January 1, 2024 change) (https://www.michigan.gov/mdhhs/assistance-programs/healthcare/childrenteens/michild)"
-    ],
-    "uncertain": [
-      "Abbreviation 'FAP' not seen on the pages read; program called 'Food Assistance Program'"
-    ]
+  "marketplace": {
+   "type": "state",
+   "name": "Connect for Health Colorado",
+   "url": "https://connectforhealthco.com/",
+   "urlStatus": 200
   },
-  {
-    "slug": "minnesota",
-    "name": "Minnesota",
-    "abbr": "MN",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Minnesota Department of Children, Youth, and Families",
-      "agencyUrl": "https://dcyf.mn.gov/snap",
-      "applyUrl": "https://mnbenefits.mn.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medical Assistance",
-      "agency": "Minnesota Department of Human Services",
-      "agencyUrl": "https://mn.gov/dhs/people-we-serve/adults/health-care/health-care-programs/programs-and-services/medical-assistance.jsp",
-      "applyUrl": "https://www.mnsure.org/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "MNsure",
-      "url": "https://www.mnsure.org/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Minnesota Department of Health",
-      "url": "https://www.health.state.mn.us/people/wic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "SNAP is run by the Minnesota Department of Children, Youth, and Families (DCYF), not DHS (https://dcyf.mn.gov/snap)",
-      "Medical Assistance is Minnesota's Medicaid program (https://mn.gov/dhs/health-care/medical-assistance/)",
-      "MNsure is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "wic": {
+   "agency": "Colorado Department of Public Health & Environment",
+   "url": "https://www.coloradowic.gov/homepage",
+   "urlStatus": 200
   },
-  {
-    "slug": "mississippi",
-    "name": "Mississippi",
-    "abbr": "MS",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Mississippi Department of Human Services",
-      "agencyUrl": "https://www.mdhs.ms.gov/help/snap/",
-      "applyUrl": "https://www.access.ms.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Mississippi Division of Medicaid",
-      "agencyUrl": "https://medicaid.ms.gov/",
-      "applyUrl": null,
-      "chipName": "CHIP",
-      "urlStatus": 200,
-      "applyUrlStatus": null
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Mississippi State Department of Health",
-      "url": "https://msdh.ms.gov/page/41,0,128.html",
-      "urlStatus": 200
-    },
-    "notes": [
-      "CHIP page on the Division of Medicaid site: https://medicaid.ms.gov/programs/childrens-health-insurance-program-chip/"
-    ],
-    "uncertain": [
-      "Medicaid online application URL not confirmed (medicaid.ms.gov 'how to apply' pages unreachable); applyUrl null"
-    ]
+  "notes": [
+   "Child Health Plan Plus (CHP+) named on the Health First Colorado site (https://www.healthfirstcolorado.gov/)",
+   "PEAK (https://www.colorado.gov/PEAK) redirects to peak.my.site.com, the state's PEAK portal",
+   "Connect for Health Colorado is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": [
+   "Agency name 'Department of Health Care Policy & Financing' confirmed only via HCPF abbreviation on healthfirstcolorado.gov"
+  ]
+ },
+ {
+  "slug": "connecticut",
+  "name": "Connecticut",
+  "abbr": "CT",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Connecticut Department of Social Services",
+   "agencyUrl": "https://portal.ct.gov/dss/snap",
+   "applyUrl": "https://www.connect.ct.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "missouri",
-    "name": "Missouri",
-    "abbr": "MO",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Missouri Department of Social Services, Family Support Division",
-      "agencyUrl": "https://dss.mo.gov/food-assistance",
-      "applyUrl": "https://mydss.mo.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "MO HealthNet",
-      "agency": "Missouri Department of Social Services, MO HealthNet Division",
-      "agencyUrl": "https://mydss.mo.gov/healthcare",
-      "applyUrl": "https://mydss.mo.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Missouri Department of Health and Senior Services",
-      "url": "https://health.mo.gov/living/families/wic/",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": [
-      "CHIP brand name (e.g. 'MO HealthNet for Kids') not confirmed on an official page; chipName left null"
-    ]
+  "medicaid": {
+   "programName": "HUSKY Health",
+   "agency": "Connecticut Department of Social Services",
+   "agencyUrl": "https://portal.ct.gov/husky",
+   "applyUrl": "https://www.accesshealthct.com/",
+   "chipName": "HUSKY B",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "montana",
-    "name": "Montana",
-    "abbr": "MT",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Montana Department of Public Health and Human Services",
-      "agencyUrl": "https://dphhs.mt.gov/hcsd/snap/",
-      "applyUrl": "https://apply.mt.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Montana Medicaid",
-      "agency": "Montana Department of Public Health and Human Services",
-      "agencyUrl": "https://dphhs.mt.gov/MontanaHealthcarePrograms/",
-      "applyUrl": "https://apply.mt.gov/",
-      "chipName": "Healthy Montana Kids",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Montana Department of Public Health and Human Services",
-      "url": "https://dphhs.mt.gov/ecfsd/wic/",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": [
-      "DPHHS full name taken from standard usage; pages show DPHHS branding"
-    ]
+  "marketplace": {
+   "type": "state",
+   "name": "Access Health CT",
+   "url": "https://www.accesshealthct.com/",
+   "urlStatus": 200
   },
-  {
-    "slug": "nebraska",
-    "name": "Nebraska",
-    "abbr": "NE",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Nebraska Department of Health and Human Services",
-      "agencyUrl": "https://dhhs.ne.gov/Pages/SNAP.aspx",
-      "applyUrl": "https://iserve.nebraska.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Nebraska Department of Health and Human Services",
-      "agencyUrl": "https://dhhs.ne.gov/Pages/Medicaid-and-Long-Term-Care.aspx",
-      "applyUrl": "https://iserve.nebraska.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Nebraska Department of Health and Human Services",
-      "url": "https://dhhs.ne.gov/Pages/WIC.aspx",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": []
+  "wic": {
+   "agency": "Connecticut Department of Public Health",
+   "url": "https://portal.ct.gov/dph/wic/wic",
+   "urlStatus": 200
   },
-  {
-    "slug": "nevada",
-    "name": "Nevada",
-    "abbr": "NV",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Nevada Department of Human Services, Division of Social Services",
-      "agencyUrl": "https://www.dss.nv.gov/Programs/SNAP/",
-      "applyUrl": "https://accessnevada.nv.gov/public/landing-page",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Nevada Medicaid",
-      "agency": "Nevada Health Authority",
-      "agencyUrl": "https://www.nevadamedicaid.nv.gov/",
-      "applyUrl": "https://accessnevada.nv.gov/public/landing-page",
-      "chipName": "Nevada Check Up",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Nevada Health Link",
-      "url": "https://www.nevadahealthlink.com/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Nevada Department of Human Services, Division of Public and Behavioral Health",
-      "url": "https://www.dpbh.nv.gov/programs/women-infants-and-children/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Former Division of Welfare and Supportive Services now named Division of Social Services (dss.nv.gov) within the Nevada Department of Human Services; dwss.nv.gov redirects (https://www.dss.nv.gov/)",
-      "Online applications moved to Access Nevada at https://accessnevada.nv.gov/public/landing-page",
-      "Nevada Medicaid site is branded Nevada Health Authority and announces 'Medicaid eligibility rules change January 1, 2027' (https://www.nevadamedicaid.nv.gov/)",
-      "Nevada Check Up named on the Medicaid site ('Apply for Medicaid & NV Check Up') (https://www.nevadamedicaid.nv.gov/)",
-      "Nevada Health Link is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "notes": [
+   "Access Health CT is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "delaware",
+  "name": "Delaware",
+  "abbr": "DE",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Delaware Health and Social Services, Division of Social Services",
+   "agencyUrl": "https://dhss.delaware.gov/dss/division-of-social-services/snap/",
+   "applyUrl": "https://assist.dhss.delaware.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "new-hampshire",
-    "name": "New Hampshire",
-    "abbr": "NH",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "New Hampshire Department of Health and Human Services",
-      "agencyUrl": "https://www.dhhs.nh.gov/programs-services/food-meals-assistance/supplemental-nutrition-assistance-program-snap",
-      "applyUrl": "https://nheasy.nh.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "New Hampshire Department of Health and Human Services",
-      "agencyUrl": "https://www.dhhs.nh.gov/programs-services/medicaid",
-      "applyUrl": "https://nheasy.nh.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "New Hampshire Department of Health and Human Services",
-      "url": "https://www.dhhs.nh.gov/programs-services/population-health/women-infants-children-nutrition-program",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": []
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Delaware Health and Social Services, Division of Medicaid & Medical Assistance",
+   "agencyUrl": "https://dhss.delaware.gov/dmma/",
+   "applyUrl": "https://assist.dhss.delaware.gov/",
+   "chipName": "Delaware Healthy Children Program",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "new-jersey",
-    "name": "New Jersey",
-    "abbr": "NJ",
-    "snap": {
-      "programName": "NJ SNAP",
-      "agency": "New Jersey Department of Human Services, Division of Family Development",
-      "agencyUrl": "https://www.nj.gov/humanservices/dfd/programs/njsnap/",
-      "applyUrl": "https://www.njhelps.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "NJ FamilyCare",
-      "agency": "New Jersey Department of Human Services, Division of Medical Assistance and Health Services",
-      "agencyUrl": "https://njfamilycare.dhs.state.nj.us/",
-      "applyUrl": "https://njfamilycare.dhs.state.nj.us/",
-      "chipName": "NJ FamilyCare",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Get Covered New Jersey",
-      "url": "https://nj.gov/getcoverednj/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "New Jersey Department of Health",
-      "url": "https://www.nj.gov/health/fhs/wic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "NJ FamilyCare covers both Medicaid and CHIP (https://www.nj.gov/humanservices/dmahs/)",
-      "Get Covered New Jersey is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
   },
-  {
-    "slug": "new-mexico",
-    "name": "New Mexico",
-    "abbr": "NM",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "New Mexico Health Care Authority",
-      "agencyUrl": "https://www.hca.nm.gov/lookingforassistance/supplemental_nutrition_assistance_program/",
-      "applyUrl": "https://www.yes.state.nm.us/yesnm/home/index",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "New Mexico Health Care Authority",
-      "agencyUrl": "https://www.hca.nm.gov/turquoise-care/",
-      "applyUrl": "https://www.yes.state.nm.us/yesnm/home/index",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "beWellnm",
-      "url": "https://www.bewellnm.com/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "New Mexico Department of Health",
-      "url": "https://www.nmhealth.org/about/phd/fhb/wic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Turquoise Care is the name of New Mexico Medicaid managed care since July 1, 2024 (https://www.hca.nm.gov/turquoise-care/)",
-      "SNAP and Medicaid both run by the New Mexico Health Care Authority (https://www.hca.nm.gov/lookingforassistance/supplemental_nutrition_assistance_program/)",
-      "beWellnm is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "wic": {
+   "agency": "Delaware Health and Social Services, Division of Public Health",
+   "url": "https://dhss.delaware.gov/dph/homepage/about/sections/imimep/imhome/dhmic/wic/",
+   "urlStatus": 200
   },
-  {
-    "slug": "new-york",
-    "name": "New York",
-    "abbr": "NY",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Office of Temporary and Disability Assistance (OTDA)",
-      "agencyUrl": "https://otda.ny.gov/programs/snap/",
-      "applyUrl": "https://mybenefits.ny.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "New York State Department of Health",
-      "agencyUrl": "https://www.health.ny.gov/health_care/medicaid/",
-      "applyUrl": "https://nystateofhealth.ny.gov/",
-      "chipName": "Child Health Plus",
-      "urlStatus": 200,
-      "applyUrlStatus": 503
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "NY State of Health",
-      "url": "https://nystateofhealth.ny.gov/",
-      "urlStatus": 503
-    },
-    "wic": {
-      "agency": "New York State Department of Health",
-      "url": "https://www.health.ny.gov/prevention/nutrition/wic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "NY State of Health is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": [
-      "nystateofhealth.ny.gov returned 503 'Maintenance Page' throughout checks on 2026-10-10 (Saturday); listed as NY's SBE by CMS"
-    ]
+  "notes": [
+   "Delaware DHSS site restructured in 2025: old /dhss/dss/ URLs return 404; current SNAP page is under /dss/division-of-social-services/snap/ (https://dhss.delaware.gov/dss/division-of-social-services/snap/)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "district-of-columbia",
+  "name": "District of Columbia",
+  "abbr": "DC",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "DC Department of Human Services",
+   "agencyUrl": "https://dhs.dc.gov/service/supplemental-nutrition-assistance-program-snap",
+   "applyUrl": "https://districtdirect.dc.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "north-carolina",
-    "name": "North Carolina",
-    "abbr": "NC",
-    "snap": {
-      "programName": "Food and Nutrition Services (FNS)",
-      "agency": "North Carolina Department of Health and Human Services",
-      "agencyUrl": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/food-and-nutrition-services-food-stamps",
-      "applyUrl": "https://epass.nc.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "NC Medicaid",
-      "agency": "North Carolina Department of Health and Human Services",
-      "agencyUrl": "https://medicaid.ncdhhs.gov/",
-      "applyUrl": "https://epass.nc.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "North Carolina Department of Health and Human Services",
-      "url": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/community-nutrition-services-section/special-supplemental-nutrition-program-women-infants-and-children-wic-program",
-      "urlStatus": 200
-    },
-    "notes": [
-      "NC calls SNAP 'Food and Nutrition Services (FNS)' (https://www.ncdhhs.gov/divisions/child-and-family-well-being/food-and-nutrition-services-food-stamps)"
-    ],
-    "uncertain": []
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "DC Department of Health Care Finance",
+   "agencyUrl": "https://dhcf.dc.gov/service/medicaid",
+   "applyUrl": "https://districtdirect.dc.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "north-dakota",
-    "name": "North Dakota",
-    "abbr": "ND",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "North Dakota Health and Human Services",
-      "agencyUrl": "https://www.hhs.nd.gov/applyforhelp/snap",
-      "applyUrl": "https://www.hhs.nd.gov/applyforhelp",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "North Dakota Health and Human Services",
-      "agencyUrl": "https://www.hhs.nd.gov/healthcare/medicaid",
-      "applyUrl": "https://www.hhs.nd.gov/applyforhelp",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "North Dakota Health and Human Services",
-      "url": "https://www.hhs.nd.gov/food-programs/WIC",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": []
+  "marketplace": {
+   "type": "state",
+   "name": "DC Health Link",
+   "url": "https://dchealthlink.com/",
+   "urlStatus": 403
   },
-  {
-    "slug": "ohio",
-    "name": "Ohio",
-    "abbr": "OH",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Ohio Department of Job and Family Services",
-      "agencyUrl": "https://jfs.ohio.gov/public-assistance/food-assistance/food-programs/what-is-snap",
-      "applyUrl": "https://benefits.ohio.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Ohio Department of Medicaid",
-      "agencyUrl": "https://medicaid.ohio.gov/",
-      "applyUrl": "https://benefits.ohio.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Ohio Department of Health",
-      "url": "https://odh.ohio.gov/know-our-programs/women-infants-children",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": []
+  "wic": {
+   "agency": "DC Health",
+   "url": "https://dchealth.dc.gov/service/special-supplemental-nutrition-program-women-infants-and-children-wic",
+   "urlStatus": 200
   },
-  {
-    "slug": "oklahoma",
-    "name": "Oklahoma",
-    "abbr": "OK",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Oklahoma Human Services",
-      "agencyUrl": "https://oklahoma.gov/okdhs/services/snap.html",
-      "applyUrl": "https://www.okdhslive.org/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "SoonerCare",
-      "agency": "Oklahoma Health Care Authority",
-      "agencyUrl": "https://oklahoma.gov/ohca.html",
-      "applyUrl": "https://www.mysoonercare.org/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Oklahoma State Department of Health",
-      "url": "https://oklahoma.gov/health/services/children-family-health/wic.html",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Oklahoma became a State-based Exchange on the Federal Platform effective May 1, 2026 and seeks a full SBE for PY2028; residents still use HealthCare.gov for 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "notes": [
+   "DC Health Link is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": [
+   "DC Health Link (dchealthlink.com) returned a Cloudflare challenge (403) to both our requests; listed as DC's SBE website by CMS"
+  ]
+ },
+ {
+  "slug": "florida",
+  "name": "Florida",
+  "abbr": "FL",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Florida Department of Children and Families",
+   "agencyUrl": "https://www.myflfamilies.com/services/public-assistance/supplemental-nutrition-assistance-program-snap",
+   "applyUrl": "https://myaccess.myflfamilies.com/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "oregon",
-    "name": "Oregon",
-    "abbr": "OR",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Oregon Department of Human Services",
-      "agencyUrl": "https://www.oregon.gov/odhs/food/pages/snap.aspx",
-      "applyUrl": "https://one.oregon.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Oregon Health Plan",
-      "agency": "Oregon Health Authority",
-      "agencyUrl": "https://www.oregon.gov/oha/hsd/ohp/Pages/index.aspx",
-      "applyUrl": "https://one.oregon.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Oregon Health Authority",
-      "url": "https://www.oregon.gov/oha/ph/healthypeoplefamilies/wic/Pages/index.aspx",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Oregon uses HealthCare.gov for 2026 coverage (SBE on the Federal Platform); from November 1, 2026 residents use ExploreHealthOR.gov for 2027 coverage (https://www.healthcare.gov/marketplace-in-your-state/, https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Agency for Health Care Administration",
+   "agencyUrl": "https://ahca.myflorida.com/medicaid",
+   "applyUrl": "https://myaccess.myflfamilies.com/",
+   "chipName": "Florida KidCare",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "pennsylvania",
-    "name": "Pennsylvania",
-    "abbr": "PA",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Pennsylvania Department of Human Services",
-      "agencyUrl": "https://www.pa.gov/agencies/dhs/resources/snap",
-      "applyUrl": "https://www.compass.dhs.pa.gov/home/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medical Assistance",
-      "agency": "Pennsylvania Department of Human Services",
-      "agencyUrl": "https://www.pa.gov/agencies/dhs/resources/medicaid",
-      "applyUrl": "https://www.compass.dhs.pa.gov/home/",
-      "chipName": "CHIP",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Pennie",
-      "url": "https://pennie.com/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Pennsylvania Department of Health",
-      "url": "https://www.pa.gov/agencies/health/programs/maternal-health-and-infant-care/wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Pennie is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
   },
-  {
-    "slug": "rhode-island",
-    "name": "Rhode Island",
-    "abbr": "RI",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Rhode Island Department of Human Services",
-      "agencyUrl": "https://dhs.ri.gov/programs-and-services/supplemental-nutrition-assistance-program-snap",
-      "applyUrl": "https://healthyrhode.ri.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Rhode Island Executive Office of Health and Human Services",
-      "agencyUrl": "https://eohhs.ri.gov/",
-      "applyUrl": "https://healthyrhode.ri.gov/",
-      "chipName": "RIte Care",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "HealthSource RI",
-      "url": "https://healthsourceri.com/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Rhode Island Department of Health",
-      "url": "https://health.ri.gov/programs/wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "RIte Care described on EOHHS health care programs page (https://eohhs.ri.gov/consumer/families-children/health-care-programs)",
-      "HealthSource RI is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "wic": {
+   "agency": "Florida Department of Health",
+   "url": "https://www.floridahealth.gov/programs-and-services/wic/",
+   "urlStatus": 200
   },
-  {
-    "slug": "south-carolina",
-    "name": "South Carolina",
-    "abbr": "SC",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "South Carolina Department of Social Services",
-      "agencyUrl": "https://dss.sc.gov/assistance-programs/snap/",
-      "applyUrl": "https://benefitsportal.dss.sc.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "South Carolina Department of Health and Human Services",
-      "agencyUrl": "https://www.scdhhs.gov/",
-      "applyUrl": "https://apply.scdhhs.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 403
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "South Carolina Department of Public Health",
-      "url": "https://dph.sc.gov/",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": [
-      "SCDHHS site content rendered by JavaScript: 'Healthy Connections' brand and full agency name not confirmed in fetched text; programName set to 'Medicaid'",
-      "apply.scdhhs.gov returned 403 to our requests"
-    ]
+  "notes": [],
+  "uncertain": []
+ },
+ {
+  "slug": "georgia",
+  "name": "Georgia",
+  "abbr": "GA",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Georgia Department of Human Services, Division of Family & Children Services",
+   "agencyUrl": "https://dfcs.georgia.gov/services/snap",
+   "applyUrl": "https://gateway.ga.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 403
   },
-  {
-    "slug": "south-dakota",
-    "name": "South Dakota",
-    "abbr": "SD",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "South Dakota Department of Social Services",
-      "agencyUrl": "https://dss.sd.gov/economicassistance/snap.aspx",
-      "applyUrl": "https://eaportal.sd.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "South Dakota Department of Social Services",
-      "agencyUrl": "https://dss.sd.gov/medicaid/",
-      "applyUrl": "https://eaportal.sd.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "South Dakota Department of Health",
-      "url": "https://www.sd.gov/wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Online applications via SD BEES (South Dakota Benefits Eligibility and Enrollment System), linked 'Apply Online' from dss.sd.gov (https://eaportal.sd.gov/)"
-    ],
-    "uncertain": []
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Georgia Department of Community Health",
+   "agencyUrl": "https://medicaid.georgia.gov/",
+   "applyUrl": "https://gateway.ga.gov/",
+   "chipName": "PeachCare for Kids",
+   "urlStatus": 200,
+   "applyUrlStatus": 403
   },
-  {
-    "slug": "tennessee",
-    "name": "Tennessee",
-    "abbr": "TN",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Tennessee Department of Human Services",
-      "agencyUrl": "https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap.html",
-      "applyUrl": "https://onedhs.tn.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "TennCare",
-      "agency": "Division of TennCare",
-      "agencyUrl": "https://www.tn.gov/tenncare.html",
-      "applyUrl": "https://tenncareconnect.tn.gov/",
-      "chipName": "CoverKids",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Tennessee Department of Health",
-      "url": "https://www.tn.gov/health/wic.html",
-      "urlStatus": 200
-    },
-    "notes": [
-      "CoverKids is Tennessee's CHIP (https://www.tn.gov/coverkids.html)"
-    ],
-    "uncertain": []
+  "marketplace": {
+   "type": "state",
+   "name": "Georgia Access",
+   "url": "https://georgiaaccess.gov/",
+   "urlStatus": 200
   },
-  {
-    "slug": "texas",
-    "name": "Texas",
-    "abbr": "TX",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Texas Health and Human Services Commission",
-      "agencyUrl": "https://www.hhs.texas.gov/services/food/snap-food-benefits",
-      "applyUrl": "https://www.yourtexasbenefits.com/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Texas Health and Human Services Commission",
-      "agencyUrl": "https://www.hhs.texas.gov/services/health/medicaid-chip",
-      "applyUrl": "https://www.yourtexasbenefits.com/",
-      "chipName": "CHIP",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Texas Health and Human Services Commission",
-      "url": "https://www.texaswic.org/",
-      "urlStatus": 200
-    },
-    "notes": [],
-    "uncertain": [
-      "Texas WIC official site is texaswic.org (non-.gov, carries Texas Health and Human Services branding)"
-    ]
+  "wic": {
+   "agency": "Georgia Department of Public Health",
+   "url": "https://dph.georgia.gov/WIC",
+   "urlStatus": 200
   },
-  {
-    "slug": "utah",
-    "name": "Utah",
-    "abbr": "UT",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Utah Department of Workforce Services",
-      "agencyUrl": "https://jobs.utah.gov/customereducation/services/foodstamps/",
-      "applyUrl": "https://jobs.utah.gov/mycase/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Utah Department of Health and Human Services",
-      "agencyUrl": "https://medicaid.utah.gov/",
-      "applyUrl": "https://jobs.utah.gov/mycase/",
-      "chipName": "CHIP",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Utah Department of Health and Human Services",
-      "url": "https://wic.utah.gov/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Utah CHIP site: https://chip.utah.gov/ (Children's Health Insurance Program – Utah DHHS)"
-    ],
-    "uncertain": [
-      "SNAP agency named 'Department of Workforce Services' on jobs.utah.gov homepage; program page calls it 'Food Stamps'/SNAP"
-    ]
+  "notes": [
+   "Georgia Access is a full State-based Exchange for PY2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)",
+   "Georgia Pathways to Coverage: Medicaid pathway with a qualifying-activities (work/activity) reporting requirement; site also has an 'H.R. 1 Changes to Pathways' section (https://pathways.georgia.gov/)",
+   "Georgia Access is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": [
+   "gateway.ga.gov returned 403 to our requests (geo/bot block); it is the portal linked from the DFCS SNAP page"
+  ]
+ },
+ {
+  "slug": "hawaii",
+  "name": "Hawaii",
+  "abbr": "HI",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Hawaii Department of Human Services, Benefit, Employment & Support Services Division",
+   "agencyUrl": "https://humanservices.hawaii.gov/bessd/snap/",
+   "applyUrl": "https://pais-benefits.dhs.hawaii.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "vermont",
-    "name": "Vermont",
-    "abbr": "VT",
-    "snap": {
-      "programName": "3SquaresVT",
-      "agency": "Vermont Department for Children and Families",
-      "agencyUrl": "https://dcf.vermont.gov/benefits/3SquaresVT",
-      "applyUrl": "https://dcf.vermont.gov/esd/applicants/mybenefits",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Green Mountain Care",
-      "agency": "Department of Vermont Health Access",
-      "agencyUrl": "https://dvha.vermont.gov/",
-      "applyUrl": "https://healthconnect.vermont.gov/",
-      "chipName": "Dr. Dynasaur",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Vermont Health Connect",
-      "url": "https://healthconnect.vermont.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Vermont Department of Health",
-      "url": "https://www.healthvermont.gov/family/wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Dr. Dynasaur page: https://dvha.vermont.gov/members/dr-dynasaur",
-      "Vermont Health Connect is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "medicaid": {
+   "programName": "Med-QUEST",
+   "agency": "Hawaii Department of Human Services, Med-QUEST Division",
+   "agencyUrl": "https://medquest.hawaii.gov/",
+   "applyUrl": "https://medical.mybenefits.hawaii.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "virginia",
-    "name": "Virginia",
-    "abbr": "VA",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Virginia Department of Social Services",
-      "agencyUrl": "https://www.dss.virginia.gov/relief/food-assistance/snap/",
-      "applyUrl": "https://commonhelp.virginia.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Cardinal Care",
-      "agency": "Virginia Department of Medical Assistance Services",
-      "agencyUrl": "https://www.dmas.virginia.gov/",
-      "applyUrl": "https://commonhelp.virginia.gov/",
-      "chipName": "FAMIS",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Virginia's Insurance Marketplace",
-      "url": "https://www.marketplace.virginia.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Virginia Department of Health",
-      "url": "https://www.vdh.virginia.gov/wic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Cardinal Care is the name used by DMAS for Virginia Medicaid members (https://www.dmas.virginia.gov/); FAMIS for children (https://coverva.dmas.virginia.gov/)",
-      "Virginia's Insurance Marketplace is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": [
-      "www.marketplace.virginia.gov answered 403 directly; 200 through a US proxy"
-    ]
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
   },
-  {
-    "slug": "washington",
-    "name": "Washington",
-    "abbr": "WA",
-    "snap": {
-      "programName": "Basic Food",
-      "agency": "Washington State Department of Social and Health Services",
-      "agencyUrl": "https://www.dshs.wa.gov/family-food-and-housing-services/food-assistance/basic-food-benefits",
-      "applyUrl": "https://www.washingtonconnection.org/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Apple Health",
-      "agency": "Washington State Health Care Authority",
-      "agencyUrl": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care",
-      "applyUrl": "https://www.wahealthplanfinder.org/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "state",
-      "name": "Washington Healthplanfinder",
-      "url": "https://www.wahealthplanfinder.org/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Washington State Department of Health",
-      "url": "https://doh.wa.gov/you-and-your-family/wic",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Washington calls SNAP 'Basic Food' (https://www.dshs.wa.gov/family-food-and-housing-services/food-assistance/basic-food-benefits)",
-      "Washington Healthplanfinder is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
-    ],
-    "uncertain": []
+  "wic": {
+   "agency": "State of Hawaii Department of Health",
+   "url": "https://health.hawaii.gov/wic/",
+   "urlStatus": 200
   },
-  {
-    "slug": "west-virginia",
-    "name": "West Virginia",
-    "abbr": "WV",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "West Virginia Department of Human Services",
-      "agencyUrl": "https://dohs.wv.gov/",
-      "applyUrl": "https://www.wvpath.wv.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "West Virginia Department of Human Services, Bureau for Medical Services",
-      "agencyUrl": "https://bms.wv.gov/",
-      "applyUrl": "https://www.wvpath.wv.gov/",
-      "chipName": "WVCHIP",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "West Virginia Bureau for Public Health, Office of Nutrition Services",
-      "url": "https://dhhr.wv.gov/wic/Pages/default.aspx",
-      "urlStatus": 200
-    },
-    "notes": [
-      "SNAP and Medicaid (Bureau for Medical Services) are under the West Virginia Department of Human Services (DoHS) (https://dohs.wv.gov/, https://bms.wv.gov/)",
-      "WVCHIP site: https://chip.wv.gov/"
-    ],
-    "uncertain": []
+  "notes": [],
+  "uncertain": []
+ },
+ {
+  "slug": "idaho",
+  "name": "Idaho",
+  "abbr": "ID",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Idaho Department of Health and Welfare",
+   "agencyUrl": "https://healthandwelfare.idaho.gov/services-programs/food-assistance",
+   "applyUrl": "https://idalink.idaho.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "wisconsin",
-    "name": "Wisconsin",
-    "abbr": "WI",
-    "snap": {
-      "programName": "FoodShare",
-      "agency": "Wisconsin Department of Health Services",
-      "agencyUrl": "https://www.dhs.wisconsin.gov/foodshare/index.htm",
-      "applyUrl": "https://access.wisconsin.gov/",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "medicaid": {
-      "programName": "BadgerCare Plus",
-      "agency": "Wisconsin Department of Health Services",
-      "agencyUrl": "https://www.dhs.wisconsin.gov/badgercareplus/index.htm",
-      "applyUrl": "https://access.wisconsin.gov/",
-      "chipName": null,
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Wisconsin Department of Health Services",
-      "url": "https://www.dhs.wisconsin.gov/wic/index.htm",
-      "urlStatus": 200
-    },
-    "notes": [
-      "FoodShare and BadgerCare Plus are run by the Wisconsin Department of Health Services (https://www.dhs.wisconsin.gov/foodshare/index.htm)"
-    ],
-    "uncertain": []
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Idaho Department of Health and Welfare",
+   "agencyUrl": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health",
+   "applyUrl": "https://idalink.idaho.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
   },
-  {
-    "slug": "wyoming",
-    "name": "Wyoming",
-    "abbr": "WY",
-    "snap": {
-      "programName": "SNAP",
-      "agency": "Wyoming Department of Family Services",
-      "agencyUrl": "https://dfs.wyo.gov/assistance-programs/food-assistance/supplemental-nutrition-assistance-program-snap/",
-      "applyUrl": null,
-      "urlStatus": 200,
-      "applyUrlStatus": null
-    },
-    "medicaid": {
-      "programName": "Medicaid",
-      "agency": "Wyoming Department of Health",
-      "agencyUrl": "https://health.wyo.gov/healthcarefin/medicaid/",
-      "applyUrl": "https://www.wesystem.wyo.gov/",
-      "chipName": "Kid Care CHIP",
-      "urlStatus": 200,
-      "applyUrlStatus": 200
-    },
-    "marketplace": {
-      "type": "healthcare.gov",
-      "name": "HealthCare.gov",
-      "url": "https://www.healthcare.gov/",
-      "urlStatus": 200
-    },
-    "wic": {
-      "agency": "Wyoming Department of Health",
-      "url": "https://health.wyo.gov/publichealth/wic/",
-      "urlStatus": 200
-    },
-    "notes": [
-      "Kid Care CHIP page: https://health.wyo.gov/healthcarefin/chip/",
-      "DFS SNAP page offers only a downloadable application to submit to a local DFS office, by mail, fax or e-mail (no online SNAP portal linked); snap.applyUrl null (https://dfs.wyo.gov/assistance-programs/food-assistance/supplemental-nutrition-assistance-program-snap/)"
-    ],
-    "uncertain": []
-  }
+  "marketplace": {
+   "type": "state",
+   "name": "Your Health Idaho",
+   "url": "https://www.yourhealthidaho.org/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Idaho Department of Health and Welfare",
+   "url": "https://healthandwelfare.idaho.gov/services-programs/food-assistance/about-wic",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Your Health Idaho is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "illinois",
+  "name": "Illinois",
+  "abbr": "IL",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Illinois Department of Human Services",
+   "agencyUrl": "https://www.dhs.state.il.us/page.aspx?item=30357",
+   "applyUrl": "https://abe.illinois.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Illinois Department of Healthcare and Family Services",
+   "agencyUrl": "https://hfs.illinois.gov/medicalclients.html",
+   "applyUrl": "https://abe.illinois.gov/",
+   "chipName": "All Kids",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Get Covered Illinois",
+   "url": "https://getcovered.illinois.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Illinois Department of Human Services",
+   "url": "https://www.dhs.state.il.us/page.aspx?item=31907",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Illinois moved to its own State-based Exchange, Get Covered Illinois, for PY2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces, https://getcovered.illinois.gov/)",
+   "Get Covered Illinois is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "indiana",
+  "name": "Indiana",
+  "abbr": "IN",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Indiana Family and Social Services Administration, Division of Family Resources",
+   "agencyUrl": "https://www.in.gov/fssa/dfr/snap-food-assistance/",
+   "applyUrl": "https://fssabenefits.in.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 403
+  },
+  "medicaid": {
+   "programName": "Indiana Medicaid",
+   "agency": "Indiana Family and Social Services Administration (FSSA)",
+   "agencyUrl": "https://www.in.gov/medicaid/",
+   "applyUrl": "https://fssabenefits.in.gov/",
+   "chipName": "Hoosier Healthwise",
+   "urlStatus": 200,
+   "applyUrlStatus": 403
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Indiana Department of Health",
+   "url": "https://www.in.gov/health/wic/",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Hoosier Healthwise page: https://www.in.gov/medicaid/members/member-programs/hoosier-healthwise/"
+  ],
+  "uncertain": [
+   "fssabenefits.in.gov returned 403 'Maintenance' during checks (2026-10-10)"
+  ]
+ },
+ {
+  "slug": "iowa",
+  "name": "Iowa",
+  "abbr": "IA",
+  "snap": {
+   "programName": "Food Assistance",
+   "agency": "Iowa Department of Health and Human Services",
+   "agencyUrl": "https://hhs.iowa.gov/assistance-programs/food-assistance",
+   "applyUrl": "https://hhsservices.iowa.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Iowa Department of Health and Human Services",
+   "agencyUrl": "https://hhs.iowa.gov/medicaid",
+   "applyUrl": "https://hhsservices.iowa.gov/",
+   "chipName": "Hawki",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Iowa Department of Health and Human Services",
+   "url": "https://hhs.iowa.gov/wic",
+   "urlStatus": 200
+  },
+  "notes": [],
+  "uncertain": []
+ },
+ {
+  "slug": "kansas",
+  "name": "Kansas",
+  "abbr": "KS",
+  "snap": {
+   "programName": "Food Assistance",
+   "agency": "Kansas Department for Children and Families",
+   "agencyUrl": "https://www.dcf.ks.gov/services/ees/Pages/Food/FoodAssistance.aspx",
+   "applyUrl": "https://cssp.kees.ks.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "KanCare",
+   "agency": "Kansas Department of Health and Environment",
+   "agencyUrl": "https://www.kancare.ks.gov/",
+   "applyUrl": "https://cssp.kees.ks.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Kansas Department of Health and Environment",
+   "url": "https://www.kdhe.ks.gov/1000/Nutrition-WIC-Services",
+   "urlStatus": 200
+  },
+  "notes": [],
+  "uncertain": [
+   "KanCare administering agency (KDHE) inferred from KanCare link on kdhe.ks.gov; not stated on kancare.ks.gov homepage",
+   "kdhe.ks.gov WIC page sits behind Cloudflare (direct 403), content confirmed via a US proxy fetch"
+  ]
+ },
+ {
+  "slug": "kentucky",
+  "name": "Kentucky",
+  "abbr": "KY",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Cabinet for Health and Family Services, Department for Community Based Services",
+   "agencyUrl": "https://www.chfs.ky.gov/agencies/dcbs/dfs/nab/Pages/snap.aspx",
+   "applyUrl": "https://kynect.ky.gov/benefits",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Cabinet for Health and Family Services, Department for Medicaid Services",
+   "agencyUrl": "https://www.chfs.ky.gov/agencies/dms/",
+   "applyUrl": "https://kynect.ky.gov/benefits",
+   "chipName": "KCHIP",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "kynect",
+   "url": "https://kynect.ky.gov/healthcoverage",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Cabinet for Health and Family Services, Department for Public Health",
+   "url": "https://www.chfs.ky.gov/agencies/dph/dmch/nsb/Pages/wic.aspx",
+   "urlStatus": 200
+  },
+  "notes": [
+   "KCHIP (Kentucky Children's Health Insurance Program) linked from the DMS page to https://kidshealth.ky.gov/Pages/index.aspx",
+   "kynect is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "louisiana",
+  "name": "Louisiana",
+  "abbr": "LA",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Louisiana Department of Health",
+   "agencyUrl": "https://ldh.la.gov/supplemental-nutrition-assistance-program",
+   "applyUrl": "https://sspweb.ie.dcfs.la.gov/selfservice/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Louisiana Department of Health",
+   "agencyUrl": "https://ldh.la.gov/medicaid",
+   "applyUrl": "https://sspweb.lameds.ldh.la.gov/selfservice/",
+   "chipName": "LaCHIP",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Louisiana Department of Health",
+   "url": "https://ldh.la.gov/bureau-of-nutrition-services/women-infants-children-program",
+   "urlStatus": 200
+  },
+  "notes": [
+   "SNAP is now administered by the Louisiana Department of Health (SNAP program pages are on ldh.la.gov); online application still goes through the LA CAFE portal on a dcfs.la.gov host (https://ldh.la.gov/page/snap-eligibility-application)",
+   "LaCHIP page: https://ldh.la.gov/medicaid/lachip"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "maine",
+  "name": "Maine",
+  "abbr": "ME",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Maine Department of Health and Human Services, Office for Family Independence",
+   "agencyUrl": "https://www.maine.gov/dhhs/ofi/programs-services/food-supplement",
+   "applyUrl": "https://www.mymaineconnection.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "MaineCare",
+   "agency": "Maine Department of Health and Human Services, Office of MaineCare Services",
+   "agencyUrl": "https://www.maine.gov/dhhs/oms/mainecare-options",
+   "applyUrl": "https://www.mymaineconnection.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "CoverME.gov",
+   "url": "https://www.coverme.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Maine Center for Disease Control & Prevention",
+   "url": "https://www.maine.gov/dhhs/mecdc/healthy-living/wic",
+   "urlStatus": 200
+  },
+  "notes": [
+   "CoverME.gov is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "maryland",
+  "name": "Maryland",
+  "abbr": "MD",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Maryland Department of Human Services",
+   "agencyUrl": "https://dhs.maryland.gov/supplemental-nutrition-assistance-program/",
+   "applyUrl": "https://mymdthink.maryland.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Maryland Department of Health",
+   "agencyUrl": "https://health.maryland.gov/mmcp/",
+   "applyUrl": "https://www.marylandhealthconnection.gov/",
+   "chipName": "Maryland Children's Health Program (MCHP)",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Maryland Health Connection",
+   "url": "https://www.marylandhealthconnection.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Maryland Department of Health",
+   "url": "https://health.maryland.gov/phpa/wic/",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Maryland Children's Health Program (MCHP) page: https://health.maryland.gov/mmcp/chp",
+   "Maryland Health Connection is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "massachusetts",
+  "name": "Massachusetts",
+  "abbr": "MA",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Department of Transitional Assistance (DTA)",
+   "agencyUrl": "https://www.mass.gov/snap-benefits-formerly-food-stamps",
+   "applyUrl": "https://dtaconnect.eohhs.mass.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "MassHealth",
+   "agency": "Executive Office of Health and Human Services (EOHHS)",
+   "agencyUrl": "https://www.mass.gov/masshealth",
+   "applyUrl": "https://www.mahealthconnector.org/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Massachusetts Health Connector",
+   "url": "https://www.mahealthconnector.org/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Massachusetts Department of Public Health",
+   "url": "https://www.mass.gov/wic",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Massachusetts Health Connector is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "michigan",
+  "name": "Michigan",
+  "abbr": "MI",
+  "snap": {
+   "programName": "Food Assistance Program",
+   "agency": "Michigan Department of Health and Human Services",
+   "agencyUrl": "https://www.michigan.gov/mdhhs/assistance-programs/food",
+   "applyUrl": "https://newmibridges.michigan.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Michigan Department of Health and Human Services",
+   "agencyUrl": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid",
+   "applyUrl": "https://newmibridges.michigan.gov/",
+   "chipName": "MIChild",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Michigan Department of Health and Human Services",
+   "url": "https://www.michigan.gov/mdhhs/assistance-programs/wic",
+   "urlStatus": 200
+  },
+  "notes": [
+   "MIChild still has its own page but MDHHS notes 'MIChild converting to Medicaid' (letter on the January 1, 2024 change) (https://www.michigan.gov/mdhhs/assistance-programs/healthcare/childrenteens/michild)"
+  ],
+  "uncertain": [
+   "Abbreviation 'FAP' not seen on the pages read; program called 'Food Assistance Program'"
+  ]
+ },
+ {
+  "slug": "minnesota",
+  "name": "Minnesota",
+  "abbr": "MN",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Minnesota Department of Children, Youth, and Families",
+   "agencyUrl": "https://dcyf.mn.gov/snap",
+   "applyUrl": "https://mnbenefits.mn.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medical Assistance",
+   "agency": "Minnesota Department of Human Services",
+   "agencyUrl": "https://mn.gov/dhs/people-we-serve/adults/health-care/health-care-programs/programs-and-services/medical-assistance.jsp",
+   "applyUrl": "https://www.mnsure.org/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "MNsure",
+   "url": "https://www.mnsure.org/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Minnesota Department of Health",
+   "url": "https://www.health.state.mn.us/people/wic/",
+   "urlStatus": 200
+  },
+  "notes": [
+   "SNAP is run by the Minnesota Department of Children, Youth, and Families (DCYF), not DHS (https://dcyf.mn.gov/snap)",
+   "Medical Assistance is Minnesota's Medicaid program (https://mn.gov/dhs/health-care/medical-assistance/)",
+   "MNsure is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "mississippi",
+  "name": "Mississippi",
+  "abbr": "MS",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Mississippi Department of Human Services",
+   "agencyUrl": "https://www.mdhs.ms.gov/help/snap/",
+   "applyUrl": "https://www.access.ms.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Mississippi Division of Medicaid",
+   "agencyUrl": "https://medicaid.ms.gov/",
+   "applyUrl": null,
+   "chipName": "CHIP",
+   "urlStatus": 200,
+   "applyUrlStatus": null
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Mississippi State Department of Health",
+   "url": "https://msdh.ms.gov/page/41,0,128.html",
+   "urlStatus": 200
+  },
+  "notes": [
+   "CHIP page on the Division of Medicaid site: https://medicaid.ms.gov/programs/childrens-health-insurance-program-chip/"
+  ],
+  "uncertain": [
+   "Medicaid online application URL not confirmed (medicaid.ms.gov 'how to apply' pages unreachable); applyUrl null"
+  ]
+ },
+ {
+  "slug": "missouri",
+  "name": "Missouri",
+  "abbr": "MO",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Missouri Department of Social Services, Family Support Division",
+   "agencyUrl": "https://dss.mo.gov/food-assistance",
+   "applyUrl": "https://mydss.mo.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "MO HealthNet",
+   "agency": "Missouri Department of Social Services, MO HealthNet Division",
+   "agencyUrl": "https://mydss.mo.gov/healthcare",
+   "applyUrl": "https://mydss.mo.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Missouri Department of Health and Senior Services",
+   "url": "https://health.mo.gov/living/families/wic/",
+   "urlStatus": 200
+  },
+  "notes": [],
+  "uncertain": [
+   "CHIP brand name (e.g. 'MO HealthNet for Kids') not confirmed on an official page; chipName left null"
+  ]
+ },
+ {
+  "slug": "montana",
+  "name": "Montana",
+  "abbr": "MT",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Montana Department of Public Health and Human Services",
+   "agencyUrl": "https://dphhs.mt.gov/hcsd/snap/",
+   "applyUrl": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Montana Medicaid",
+   "agency": "Montana Department of Public Health and Human Services",
+   "agencyUrl": "https://dphhs.mt.gov/MontanaHealthcarePrograms/",
+   "applyUrl": null,
+   "chipName": "Healthy Montana Kids",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Montana Department of Public Health and Human Services",
+   "url": "https://dphhs.mt.gov/ecfsd/wic/",
+   "urlStatus": 200
+  },
+  "notes": [],
+  "uncertain": [
+   "DPHHS full name taken from standard usage; pages show DPHHS branding",
+   "apply.mt.gov answers 401 to automated checks (login portal): applyUrl set to null by the orchestrator on 2026-10-10; the agency pages link to it."
+  ]
+ },
+ {
+  "slug": "nebraska",
+  "name": "Nebraska",
+  "abbr": "NE",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Nebraska Department of Health and Human Services",
+   "agencyUrl": "https://dhhs.ne.gov/Pages/SNAP.aspx",
+   "applyUrl": "https://iserve.nebraska.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Nebraska Department of Health and Human Services",
+   "agencyUrl": "https://dhhs.ne.gov/Pages/Medicaid-and-Long-Term-Care.aspx",
+   "applyUrl": "https://iserve.nebraska.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Nebraska Department of Health and Human Services",
+   "url": "https://dhhs.ne.gov/Pages/WIC.aspx",
+   "urlStatus": 200
+  },
+  "notes": [],
+  "uncertain": []
+ },
+ {
+  "slug": "nevada",
+  "name": "Nevada",
+  "abbr": "NV",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Nevada Department of Human Services, Division of Social Services",
+   "agencyUrl": "https://www.dss.nv.gov/Programs/SNAP/",
+   "applyUrl": "https://accessnevada.nv.gov/public/landing-page",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Nevada Medicaid",
+   "agency": "Nevada Health Authority",
+   "agencyUrl": "https://www.nevadamedicaid.nv.gov/",
+   "applyUrl": "https://accessnevada.nv.gov/public/landing-page",
+   "chipName": "Nevada Check Up",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Nevada Health Link",
+   "url": "https://www.nevadahealthlink.com/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Nevada Department of Human Services, Division of Public and Behavioral Health",
+   "url": "https://www.dpbh.nv.gov/programs/women-infants-and-children/",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Former Division of Welfare and Supportive Services now named Division of Social Services (dss.nv.gov) within the Nevada Department of Human Services; dwss.nv.gov redirects (https://www.dss.nv.gov/)",
+   "Online applications moved to Access Nevada at https://accessnevada.nv.gov/public/landing-page",
+   "Nevada Medicaid site is branded Nevada Health Authority and announces 'Medicaid eligibility rules change January 1, 2027' (https://www.nevadamedicaid.nv.gov/)",
+   "Nevada Check Up named on the Medicaid site ('Apply for Medicaid & NV Check Up') (https://www.nevadamedicaid.nv.gov/)",
+   "Nevada Health Link is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "new-hampshire",
+  "name": "New Hampshire",
+  "abbr": "NH",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "New Hampshire Department of Health and Human Services",
+   "agencyUrl": "https://www.dhhs.nh.gov/programs-services/food-meals-assistance/supplemental-nutrition-assistance-program-snap",
+   "applyUrl": "https://nheasy.nh.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "New Hampshire Department of Health and Human Services",
+   "agencyUrl": "https://www.dhhs.nh.gov/programs-services/medicaid",
+   "applyUrl": "https://nheasy.nh.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "New Hampshire Department of Health and Human Services",
+   "url": "https://www.dhhs.nh.gov/programs-services/population-health/women-infants-children-nutrition-program",
+   "urlStatus": 200
+  },
+  "notes": [],
+  "uncertain": []
+ },
+ {
+  "slug": "new-jersey",
+  "name": "New Jersey",
+  "abbr": "NJ",
+  "snap": {
+   "programName": "NJ SNAP",
+   "agency": "New Jersey Department of Human Services, Division of Family Development",
+   "agencyUrl": "https://www.nj.gov/humanservices/dfd/programs/njsnap/",
+   "applyUrl": "https://www.njhelps.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "NJ FamilyCare",
+   "agency": "New Jersey Department of Human Services, Division of Medical Assistance and Health Services",
+   "agencyUrl": "https://njfamilycare.dhs.state.nj.us/",
+   "applyUrl": "https://njfamilycare.dhs.state.nj.us/",
+   "chipName": "NJ FamilyCare",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Get Covered New Jersey",
+   "url": "https://nj.gov/getcoverednj/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "New Jersey Department of Health",
+   "url": "https://www.nj.gov/health/fhs/wic/",
+   "urlStatus": 200
+  },
+  "notes": [
+   "NJ FamilyCare covers both Medicaid and CHIP (https://www.nj.gov/humanservices/dmahs/)",
+   "Get Covered New Jersey is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "new-mexico",
+  "name": "New Mexico",
+  "abbr": "NM",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "New Mexico Health Care Authority",
+   "agencyUrl": "https://www.hca.nm.gov/lookingforassistance/supplemental_nutrition_assistance_program/",
+   "applyUrl": "https://www.yes.state.nm.us/yesnm/home/index",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "New Mexico Health Care Authority",
+   "agencyUrl": "https://www.hca.nm.gov/turquoise-care/",
+   "applyUrl": "https://www.yes.state.nm.us/yesnm/home/index",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "beWellnm",
+   "url": "https://www.bewellnm.com/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "New Mexico Department of Health",
+   "url": "https://www.nmhealth.org/about/phd/fhb/wic/",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Turquoise Care is the name of New Mexico Medicaid managed care since July 1, 2024 (https://www.hca.nm.gov/turquoise-care/)",
+   "SNAP and Medicaid both run by the New Mexico Health Care Authority (https://www.hca.nm.gov/lookingforassistance/supplemental_nutrition_assistance_program/)",
+   "beWellnm is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "new-york",
+  "name": "New York",
+  "abbr": "NY",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Office of Temporary and Disability Assistance (OTDA)",
+   "agencyUrl": "https://otda.ny.gov/programs/snap/",
+   "applyUrl": "https://mybenefits.ny.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "New York State Department of Health",
+   "agencyUrl": "https://www.health.ny.gov/health_care/medicaid/",
+   "applyUrl": "https://nystateofhealth.ny.gov/",
+   "chipName": "Child Health Plus",
+   "urlStatus": 200,
+   "applyUrlStatus": 503
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "NY State of Health",
+   "url": "https://nystateofhealth.ny.gov/",
+   "urlStatus": 503
+  },
+  "wic": {
+   "agency": "New York State Department of Health",
+   "url": "https://www.health.ny.gov/prevention/nutrition/wic/",
+   "urlStatus": 200
+  },
+  "notes": [
+   "NY State of Health is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": [
+   "nystateofhealth.ny.gov returned 503 'Maintenance Page' throughout checks on 2026-10-10 (Saturday); listed as NY's SBE by CMS"
+  ]
+ },
+ {
+  "slug": "north-carolina",
+  "name": "North Carolina",
+  "abbr": "NC",
+  "snap": {
+   "programName": "Food and Nutrition Services (FNS)",
+   "agency": "North Carolina Department of Health and Human Services",
+   "agencyUrl": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/food-and-nutrition-services-food-stamps",
+   "applyUrl": "https://epass.nc.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "NC Medicaid",
+   "agency": "North Carolina Department of Health and Human Services",
+   "agencyUrl": "https://medicaid.ncdhhs.gov/",
+   "applyUrl": "https://epass.nc.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "North Carolina Department of Health and Human Services",
+   "url": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/community-nutrition-services-section/special-supplemental-nutrition-program-women-infants-and-children-wic-program",
+   "urlStatus": 200
+  },
+  "notes": [
+   "NC calls SNAP 'Food and Nutrition Services (FNS)' (https://www.ncdhhs.gov/divisions/child-and-family-well-being/food-and-nutrition-services-food-stamps)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "north-dakota",
+  "name": "North Dakota",
+  "abbr": "ND",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "North Dakota Health and Human Services",
+   "agencyUrl": "https://www.hhs.nd.gov/applyforhelp/snap",
+   "applyUrl": "https://www.hhs.nd.gov/applyforhelp",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "North Dakota Health and Human Services",
+   "agencyUrl": "https://www.hhs.nd.gov/healthcare/medicaid",
+   "applyUrl": "https://www.hhs.nd.gov/applyforhelp",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "North Dakota Health and Human Services",
+   "url": "https://www.hhs.nd.gov/food-programs/WIC",
+   "urlStatus": 200
+  },
+  "notes": [],
+  "uncertain": []
+ },
+ {
+  "slug": "ohio",
+  "name": "Ohio",
+  "abbr": "OH",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Ohio Department of Job and Family Services",
+   "agencyUrl": "https://jfs.ohio.gov/public-assistance/food-assistance/food-programs/what-is-snap",
+   "applyUrl": "https://benefits.ohio.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Ohio Department of Medicaid",
+   "agencyUrl": "https://medicaid.ohio.gov/",
+   "applyUrl": "https://benefits.ohio.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Ohio Department of Health",
+   "url": "https://odh.ohio.gov/know-our-programs/women-infants-children",
+   "urlStatus": 200
+  },
+  "notes": [],
+  "uncertain": []
+ },
+ {
+  "slug": "oklahoma",
+  "name": "Oklahoma",
+  "abbr": "OK",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Oklahoma Human Services",
+   "agencyUrl": "https://oklahoma.gov/okdhs/services/snap.html",
+   "applyUrl": "https://www.okdhslive.org/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "SoonerCare",
+   "agency": "Oklahoma Health Care Authority",
+   "agencyUrl": "https://oklahoma.gov/ohca.html",
+   "applyUrl": "https://www.mysoonercare.org/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Oklahoma State Department of Health",
+   "url": "https://oklahoma.gov/health/services/children-family-health/wic.html",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Oklahoma became a State-based Exchange on the Federal Platform effective May 1, 2026 and seeks a full SBE for PY2028; residents still use HealthCare.gov for 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "oregon",
+  "name": "Oregon",
+  "abbr": "OR",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Oregon Department of Human Services",
+   "agencyUrl": "https://www.oregon.gov/odhs/food/pages/snap.aspx",
+   "applyUrl": "https://one.oregon.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Oregon Health Plan",
+   "agency": "Oregon Health Authority",
+   "agencyUrl": "https://www.oregon.gov/oha/hsd/ohp/Pages/index.aspx",
+   "applyUrl": "https://one.oregon.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Oregon Health Authority",
+   "url": "https://www.oregon.gov/oha/ph/healthypeoplefamilies/wic/Pages/index.aspx",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Oregon uses HealthCare.gov for 2026 coverage (SBE on the Federal Platform); from November 1, 2026 residents use ExploreHealthOR.gov for 2027 coverage (https://www.healthcare.gov/marketplace-in-your-state/, https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "pennsylvania",
+  "name": "Pennsylvania",
+  "abbr": "PA",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Pennsylvania Department of Human Services",
+   "agencyUrl": "https://www.pa.gov/agencies/dhs/resources/snap",
+   "applyUrl": "https://www.compass.dhs.pa.gov/home/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medical Assistance",
+   "agency": "Pennsylvania Department of Human Services",
+   "agencyUrl": "https://www.pa.gov/agencies/dhs/resources/medicaid",
+   "applyUrl": "https://www.compass.dhs.pa.gov/home/",
+   "chipName": "CHIP",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Pennie",
+   "url": "https://pennie.com/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Pennsylvania Department of Health",
+   "url": "https://www.pa.gov/agencies/health/programs/maternal-health-and-infant-care/wic",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Pennie is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "rhode-island",
+  "name": "Rhode Island",
+  "abbr": "RI",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Rhode Island Department of Human Services",
+   "agencyUrl": "https://dhs.ri.gov/programs-and-services/supplemental-nutrition-assistance-program-snap",
+   "applyUrl": "https://healthyrhode.ri.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Rhode Island Executive Office of Health and Human Services",
+   "agencyUrl": "https://eohhs.ri.gov/",
+   "applyUrl": "https://healthyrhode.ri.gov/",
+   "chipName": "RIte Care",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "HealthSource RI",
+   "url": "https://healthsourceri.com/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Rhode Island Department of Health",
+   "url": "https://health.ri.gov/programs/wic",
+   "urlStatus": 200
+  },
+  "notes": [
+   "RIte Care described on EOHHS health care programs page (https://eohhs.ri.gov/consumer/families-children/health-care-programs)",
+   "HealthSource RI is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "south-carolina",
+  "name": "South Carolina",
+  "abbr": "SC",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "South Carolina Department of Social Services",
+   "agencyUrl": "https://dss.sc.gov/assistance-programs/snap/",
+   "applyUrl": "https://benefitsportal.dss.sc.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "South Carolina Department of Health and Human Services",
+   "agencyUrl": "https://www.scdhhs.gov/",
+   "applyUrl": "https://apply.scdhhs.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 403
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "South Carolina Department of Public Health",
+   "url": "https://dph.sc.gov/",
+   "urlStatus": 200
+  },
+  "notes": [],
+  "uncertain": [
+   "SCDHHS site content rendered by JavaScript: 'Healthy Connections' brand and full agency name not confirmed in fetched text; programName set to 'Medicaid'",
+   "apply.scdhhs.gov returned 403 to our requests"
+  ]
+ },
+ {
+  "slug": "south-dakota",
+  "name": "South Dakota",
+  "abbr": "SD",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "South Dakota Department of Social Services",
+   "agencyUrl": "https://dss.sd.gov/economicassistance/snap.aspx",
+   "applyUrl": "https://eaportal.sd.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "South Dakota Department of Social Services",
+   "agencyUrl": "https://dss.sd.gov/medicaid/",
+   "applyUrl": "https://eaportal.sd.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "South Dakota Department of Health",
+   "url": "https://www.sd.gov/wic",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Online applications via SD BEES (South Dakota Benefits Eligibility and Enrollment System), linked 'Apply Online' from dss.sd.gov (https://eaportal.sd.gov/)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "tennessee",
+  "name": "Tennessee",
+  "abbr": "TN",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Tennessee Department of Human Services",
+   "agencyUrl": "https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap.html",
+   "applyUrl": "https://onedhs.tn.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "TennCare",
+   "agency": "Division of TennCare",
+   "agencyUrl": "https://www.tn.gov/tenncare.html",
+   "applyUrl": "https://tenncareconnect.tn.gov/",
+   "chipName": "CoverKids",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Tennessee Department of Health",
+   "url": "https://www.tn.gov/health/wic.html",
+   "urlStatus": 200
+  },
+  "notes": [
+   "CoverKids is Tennessee's CHIP (https://www.tn.gov/coverkids.html)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "texas",
+  "name": "Texas",
+  "abbr": "TX",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Texas Health and Human Services Commission",
+   "agencyUrl": "https://www.hhs.texas.gov/services/food/snap-food-benefits",
+   "applyUrl": "https://www.yourtexasbenefits.com/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Texas Health and Human Services Commission",
+   "agencyUrl": "https://www.hhs.texas.gov/services/health/medicaid-chip",
+   "applyUrl": "https://www.yourtexasbenefits.com/",
+   "chipName": "CHIP",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Texas Health and Human Services Commission",
+   "url": "https://www.texaswic.org/",
+   "urlStatus": 200
+  },
+  "notes": [],
+  "uncertain": [
+   "Texas WIC official site is texaswic.org (non-.gov, carries Texas Health and Human Services branding)"
+  ]
+ },
+ {
+  "slug": "utah",
+  "name": "Utah",
+  "abbr": "UT",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Utah Department of Workforce Services",
+   "agencyUrl": "https://jobs.utah.gov/customereducation/services/foodstamps/",
+   "applyUrl": "https://jobs.utah.gov/mycase/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Utah Department of Health and Human Services",
+   "agencyUrl": "https://medicaid.utah.gov/",
+   "applyUrl": "https://jobs.utah.gov/mycase/",
+   "chipName": "CHIP",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Utah Department of Health and Human Services",
+   "url": "https://wic.utah.gov/",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Utah CHIP site: https://chip.utah.gov/ (Children's Health Insurance Program – Utah DHHS)"
+  ],
+  "uncertain": [
+   "SNAP agency named 'Department of Workforce Services' on jobs.utah.gov homepage; program page calls it 'Food Stamps'/SNAP"
+  ]
+ },
+ {
+  "slug": "vermont",
+  "name": "Vermont",
+  "abbr": "VT",
+  "snap": {
+   "programName": "3SquaresVT",
+   "agency": "Vermont Department for Children and Families",
+   "agencyUrl": "https://dcf.vermont.gov/benefits/3SquaresVT",
+   "applyUrl": "https://dcf.vermont.gov/esd/applicants/mybenefits",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Green Mountain Care",
+   "agency": "Department of Vermont Health Access",
+   "agencyUrl": "https://dvha.vermont.gov/",
+   "applyUrl": "https://healthconnect.vermont.gov/",
+   "chipName": "Dr. Dynasaur",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Vermont Health Connect",
+   "url": "https://healthconnect.vermont.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Vermont Department of Health",
+   "url": "https://www.healthvermont.gov/family/wic",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Dr. Dynasaur page: https://dvha.vermont.gov/members/dr-dynasaur",
+   "Vermont Health Connect is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "virginia",
+  "name": "Virginia",
+  "abbr": "VA",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Virginia Department of Social Services",
+   "agencyUrl": "https://www.dss.virginia.gov/relief/food-assistance/snap/",
+   "applyUrl": "https://commonhelp.virginia.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Cardinal Care",
+   "agency": "Virginia Department of Medical Assistance Services",
+   "agencyUrl": "https://www.dmas.virginia.gov/",
+   "applyUrl": "https://commonhelp.virginia.gov/",
+   "chipName": "FAMIS",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Virginia's Insurance Marketplace",
+   "url": "https://www.marketplace.virginia.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Virginia Department of Health",
+   "url": "https://www.vdh.virginia.gov/wic/",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Cardinal Care is the name used by DMAS for Virginia Medicaid members (https://www.dmas.virginia.gov/); FAMIS for children (https://coverva.dmas.virginia.gov/)",
+   "Virginia's Insurance Marketplace is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": [
+   "www.marketplace.virginia.gov answered 403 directly; 200 through a US proxy"
+  ]
+ },
+ {
+  "slug": "washington",
+  "name": "Washington",
+  "abbr": "WA",
+  "snap": {
+   "programName": "Basic Food",
+   "agency": "Washington State Department of Social and Health Services",
+   "agencyUrl": "https://www.dshs.wa.gov/family-food-and-housing-services/food-assistance/basic-food-benefits",
+   "applyUrl": "https://www.washingtonconnection.org/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Apple Health",
+   "agency": "Washington State Health Care Authority",
+   "agencyUrl": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care",
+   "applyUrl": "https://www.wahealthplanfinder.org/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "state",
+   "name": "Washington Healthplanfinder",
+   "url": "https://www.wahealthplanfinder.org/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Washington State Department of Health",
+   "url": "https://doh.wa.gov/you-and-your-family/wic",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Washington calls SNAP 'Basic Food' (https://www.dshs.wa.gov/family-food-and-housing-services/food-assistance/basic-food-benefits)",
+   "Washington Healthplanfinder is listed by CMS as a State-based Exchange for Plan Year 2026 (https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "west-virginia",
+  "name": "West Virginia",
+  "abbr": "WV",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "West Virginia Department of Human Services",
+   "agencyUrl": "https://dohs.wv.gov/",
+   "applyUrl": "https://www.wvpath.wv.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "West Virginia Department of Human Services, Bureau for Medical Services",
+   "agencyUrl": "https://bms.wv.gov/",
+   "applyUrl": "https://www.wvpath.wv.gov/",
+   "chipName": "WVCHIP",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "West Virginia Bureau for Public Health, Office of Nutrition Services",
+   "url": "https://dhhr.wv.gov/wic/Pages/default.aspx",
+   "urlStatus": 200
+  },
+  "notes": [
+   "SNAP and Medicaid (Bureau for Medical Services) are under the West Virginia Department of Human Services (DoHS) (https://dohs.wv.gov/, https://bms.wv.gov/)",
+   "WVCHIP site: https://chip.wv.gov/"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "wisconsin",
+  "name": "Wisconsin",
+  "abbr": "WI",
+  "snap": {
+   "programName": "FoodShare",
+   "agency": "Wisconsin Department of Health Services",
+   "agencyUrl": "https://www.dhs.wisconsin.gov/foodshare/index.htm",
+   "applyUrl": "https://access.wisconsin.gov/",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "medicaid": {
+   "programName": "BadgerCare Plus",
+   "agency": "Wisconsin Department of Health Services",
+   "agencyUrl": "https://www.dhs.wisconsin.gov/badgercareplus/index.htm",
+   "applyUrl": "https://access.wisconsin.gov/",
+   "chipName": null,
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Wisconsin Department of Health Services",
+   "url": "https://www.dhs.wisconsin.gov/wic/index.htm",
+   "urlStatus": 200
+  },
+  "notes": [
+   "FoodShare and BadgerCare Plus are run by the Wisconsin Department of Health Services (https://www.dhs.wisconsin.gov/foodshare/index.htm)"
+  ],
+  "uncertain": []
+ },
+ {
+  "slug": "wyoming",
+  "name": "Wyoming",
+  "abbr": "WY",
+  "snap": {
+   "programName": "SNAP",
+   "agency": "Wyoming Department of Family Services",
+   "agencyUrl": "https://dfs.wyo.gov/assistance-programs/food-assistance/supplemental-nutrition-assistance-program-snap/",
+   "applyUrl": null,
+   "urlStatus": 200,
+   "applyUrlStatus": null
+  },
+  "medicaid": {
+   "programName": "Medicaid",
+   "agency": "Wyoming Department of Health",
+   "agencyUrl": "https://health.wyo.gov/healthcarefin/medicaid/",
+   "applyUrl": "https://www.wesystem.wyo.gov/",
+   "chipName": "Kid Care CHIP",
+   "urlStatus": 200,
+   "applyUrlStatus": 200
+  },
+  "marketplace": {
+   "type": "healthcare.gov",
+   "name": "HealthCare.gov",
+   "url": "https://www.healthcare.gov/",
+   "urlStatus": 200
+  },
+  "wic": {
+   "agency": "Wyoming Department of Health",
+   "url": "https://health.wyo.gov/publichealth/wic/",
+   "urlStatus": 200
+  },
+  "notes": [
+   "Kid Care CHIP page: https://health.wyo.gov/healthcarefin/chip/",
+   "DFS SNAP page offers only a downloadable application to submit to a local DFS office, by mail, fax or e-mail (no online SNAP portal linked); snap.applyUrl null (https://dfs.wyo.gov/assistance-programs/food-assistance/supplemental-nutrition-assistance-program-snap/)"
+  ],
+  "uncertain": []
+ }
 ]

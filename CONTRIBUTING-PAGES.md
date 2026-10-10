@@ -146,5 +146,8 @@ Puis l'orchestrateur : `npm run build`, `check-unique`, `check-seo`, `check-tram
 - `src/data/params-2026.json` : paramètres fédéraux, chacun avec sa source (copies dans `research/`).
 - `src/data/states.json` et `src/data/hud/<ST>.json` : reconstruits par `python3 scripts/build-data.py` depuis
   `research/` (tableau BBCE USDA, table SUA, tableau CMS, fichier HUD, `research/state-facts.json`).
+- `research/medicaid-updates.json` : niveaux Medicaid/CHIP changés depuis le tableau CMS (1er décembre 2023),
+  chacun prouvé par la page officielle de l'État (URL, titre, citation, date). Appliqués par `build-data.py` ;
+  la page d'État affiche la note et la source.
 - Chaque octobre : nouveau mémo COLA SNAP → `P.snap` ; chaque janvier : HHS → `P.fpl`, IRS → `P.eitc`, `P.aca` ;
   mai : HUD → fichier Section 8 ; juillet : WIC. Relancer `npx vitest run` : les tests recalculent les tables.

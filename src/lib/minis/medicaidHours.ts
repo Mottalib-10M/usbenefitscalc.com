@@ -6,7 +6,7 @@ const W = P.medicaid.workRequirement;
 const incomeBar = W.hoursPerMonth * W.federalMinimumWage;
 export default (): MiniSpec => ({
   title: 'Would you meet the Medicaid community engagement rule?',
-  cta: 'Check the Medicaid income limit of your state',
+  cta: 'Check the Medicaid income limit of your state', ctaHref: '/en/medicaid-income-limits/',
   inputs: [
     { id: 'h', label: 'Hours of work, school, training or volunteering per month', def: 60, unit: 'h', max: 744 },
     { id: 'inc', label: 'Monthly earnings', def: 450, unit: '$', max: 100000 },

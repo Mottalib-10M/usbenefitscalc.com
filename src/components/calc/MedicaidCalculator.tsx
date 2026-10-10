@@ -50,7 +50,7 @@ export default function MedicaidCalculator({ states, state, lockState = false, m
         <NumberField id={`${p}-income`} label="Household income per month (MAGI)" value={income} onChange={setIncome} unit="$" max={100000} help="Before taxes; Social Security counts, SSI and child support received do not." />
       </form>
       <Result label={`${S.name}, ${GROUPS.find((g) => g.value === group)!.label.toLowerCase()}`} value={verdict} sub={r.monthly != null ? `Limit for ${size} ${size === 1 ? 'person' : 'people'}: ${usd(r.monthly)} a month, ${usd(r.annual ?? 0)} a year` : undefined} methodHref={methodHref}
-        note={`CMS table of state levels (as of December 1, 2023) applied to the 2026 poverty guideline. ${S.name} checks income, residency and immigration status when you apply.`}>
+        note={`State levels from the CMS table (December 1, 2023), updated where the state has published newer limits, applied to the 2026 poverty guideline. ${S.name} checks income, residency and immigration status when you apply.`}>
         {r.monthly != null && <Meter value={income} limit={r.monthly} label="Income against the limit" />}
         <Rows rows={rows} />
         {gapNote && <p className="mt-2 text-xs text-navy-700">{gapNote} <a className="underline" href={acaHref}>Check the 2026 premium tax credit</a>.</p>}

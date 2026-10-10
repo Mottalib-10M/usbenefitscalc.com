@@ -35,7 +35,7 @@ export default function MiniSim({ kind, lang = 'en', href, arg }: Props) {
           {out.note && <p className="mt-2 text-xs text-navy-500">{out.note}</p>}
         </div>
       </div>
-      {href && spec.cta && <a href={href} className="mt-4 inline-block text-sm font-medium text-accent-700 hover:underline">{spec.cta} →</a>}
+      {(spec.ctaHref ?? href) && spec.cta && <a href={spec.ctaHref ?? href} className="mt-4 inline-block text-sm font-medium text-accent-700 hover:underline">{spec.cta} →</a>}
     </div>
   );
 }

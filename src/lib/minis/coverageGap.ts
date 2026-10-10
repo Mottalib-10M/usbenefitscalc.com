@@ -7,7 +7,7 @@ import { P, F25, F26, usd, sizes, yesNo, pct } from './_kit';
 const line = P.medicaid.expansionPct + P.medicaid.disregardPct;
 export default (): MiniSpec => ({
   title: 'Medicaid, tax credit or coverage gap?',
-  cta: 'See the Medicaid limits of your state',
+  cta: 'See the Medicaid limits of your state', ctaHref: '/en/medicaid-income-limits/',
   inputs: [
     { id: 'n', label: 'Household size', def: 1, options: sizes(8) },
     { id: 'inc', label: 'Yearly household income (MAGI)', def: 12000, unit: '$', max: 1000000 },

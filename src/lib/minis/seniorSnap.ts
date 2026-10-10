@@ -11,7 +11,7 @@ export default (arg?: string): MiniSpec => {
   const a = parseArg<{ utilities: number }>(arg, { utilities: 0 });
   return {
     title: 'SNAP for a person 60 or older living alone',
-    cta: 'Open the full SNAP calculator',
+    cta: 'Open the full SNAP calculator', ctaHref: '/en/snap-calculator/',
     inputs: [
       { id: 'ss', label: 'Social Security or pension per month', def: 1300, unit: '$', max: 20000 },
       { id: 'rent', label: 'Rent or mortgage per month', def: 850, unit: '$', max: 20000 },

@@ -153,7 +153,10 @@ def hud():
         st = d['stusps']
         if st not in {a for _, _, a in STATES}:
             continue
-        name = (d['county_town_name'] or d['County_Name']).strip()
+        # New England rows are towns (county_town_name); elsewhere the county name is complete,
+        # while county_town_name is cut at 26 characters ("Fairbanks North Star Borou").
+        town = st in ('CT', 'ME', 'MA', 'NH', 'RI', 'VT')
+        name = ((d['county_town_name'] if town else d['County_Name']) or d['County_Name']).strip()
         by.setdefault(st, []).append({
             'n': name, 'county': d['County_Name'].strip(), 'area': d['hud_area_name'].strip(), 'metro': int(d['metro'] or 0), 'median': int(d['median2026']),
             'v': [int(d[f'l50_{i}']) for i in range(1, 9)], 'e': [int(d[f'ELI_{i}']) for i in range(1, 9)], 'l': [int(d[f'l80_{i}']) for i in range(1, 9)],
@@ -162,11 +165,23 @@ def hud():
 
 def main():
     B, S, M, H = bbce(), sua(), medicaid(), hud()
+    # Changes since the CMS table, each proved by the state's own official page (research/medicaid-updates.json).
+    upd = {}
+    up = R('medicaid-updates.json')
+    if os.path.exists(up):
+        upd = {u['slug']: u for u in json.load(open(up)) if u.get('status') == 'changed' and u.get('changes') and u.get('sources')}
     facts = {}
     fp = R('state-facts.json')
     if os.path.exists(fp):
         facts = {f['name']: f for f in json.load(open(fp))}
     os.makedirs(os.path.join(OUT, 'hud'), exist_ok=True)
+    # Two rows with the same town name in one state (Maine) are told apart by their county.
+    for st, rows in H.items():
+        seen = {}
+        for r in rows: seen[r['n']] = seen.get(r['n'], 0) + 1
+        for r in rows:
+            if seen[r['n']] > 1: r['n'] = f"{r['n']} ({r['county']})"
+
     states = []
     for slug, name, abbr in STATES:
         rows = sorted(H[abbr], key=lambda x: x['n'])
@@ -176,6 +191,14 @@ def main():
         f = facts.get(name, {})
         med = dict(M[name]); med.pop('raw', None)
         med['note'] = CMS_NOTES.get(name)
+        u = upd.get(slug)
+        if u:
+            for k, v in u['changes'].items():
+                if k in med: med[k] = v
+            med['update'] = {'effective': u.get('effective'), 'note': u.get('note'), 'sources': [{'url': x['url'], 'title': x.get('title', '')} for x in u['sources']]}
+            if med['note'] and slug == 'district-of-columbia': med['note'] = None
+        else:
+            med['update'] = None
         states.append({
             'slug': slug, 'name': name, 'abbr': abbr,
             'area': 'ak' if abbr == 'AK' else 'hi' if abbr == 'HI' else 'us',
@@ -188,6 +211,7 @@ def main():
                     'vli4Min': lo['v'][3], 'vli4MinName': lo['n'], 'vli4MinArea': lo['area']},
         })
     json.dump(states, open(os.path.join(OUT, 'states.json'), 'w'), indent=1, ensure_ascii=False)
+    print(f"Medicaid updates applied: {sorted(upd)}")
     print(f"{len(states)} states · BBCE {sum(1 for s in states if s['snap']['bbce'])} · SUA {sum(1 for s in states if s['snap']['sua'])} · HUD rows {sum(s['hud']['rows'] for s in states)} · facts {len(facts)}")
 
 if __name__ == '__main__':

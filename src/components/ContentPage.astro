@@ -34,7 +34,8 @@ const related = page.related.filter((id) => ROUTES.some((r) => r.id === id)).map
 const sources = [...page.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url })), ...(page.extraSources ?? [])];
 const methodHref = route('method', lang);
 const toolHref = { food: 'snap-calculator', health: 'medicaid-income-limits', cash: 'eitc-calculator', housing: 'section-8-income-limits', poverty: 'federal-poverty-level' }[page.group];
-const miniHref = ROUTES.some((r) => r.id === toolHref) ? route(toolHref, lang) : route('home', lang);
+const miniTarget = page.miniHref ?? toolHref;
+const miniHref = ROUTES.some((r) => r.id === miniTarget) ? route(miniTarget, lang) : route('home', lang);
 const kicker = page.kind === 'pillar' ? `${g.short} · every state` : page.kind === 'threshold' ? 'Poverty level · threshold' : `${g.short} · guide`;
 ---
 <PageLayout title={page.title} description={page.description} lang={lang} jsonLd={jsonLd} faqs={page.faqs} related={related} sources={sources} breadcrumbs={[{ label: page.nav }]}>

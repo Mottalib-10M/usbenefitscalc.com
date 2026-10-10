@@ -7,7 +7,7 @@ export interface Link { name?: string; url?: string }
 export interface StateData {
   slug: string; name: string; abbr: string; area: Area;
   snap: { bbce: Array<BbceRule & { assetText: string; program: string }>; sua: SuaRow[]; programName?: string; agency?: string; agencyUrl?: string; applyUrl?: string | null };
-  medicaid: MedicaidLevels & { note: string | null; chipNote: string | null; programName?: string; agency?: string; agencyUrl?: string; applyUrl?: string | null; chipName?: string | null };
+  medicaid: MedicaidLevels & { note: string | null; chipNote: string | null; update?: { effective: string | null; note: string | null; sources: Array<{ url: string; title: string }> } | null; programName?: string; agency?: string; agencyUrl?: string; applyUrl?: string | null; chipName?: string | null };
   marketplace: { type: 'healthcare.gov' | 'state'; name: string; url: string } | null;
   wic: { agency?: string; url?: string } | null;
   notes: string[];

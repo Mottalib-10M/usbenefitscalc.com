@@ -7,7 +7,7 @@ export default (arg?: string): MiniSpec => {
   const T = a.year === 2025 ? F25 : F26;
   return {
     title: `${a.pct}% of the ${a.year ?? 2026} poverty guideline for your household`,
-    cta: 'Full poverty level calculator',
+    cta: 'Full poverty level calculator', ctaHref: '/en/federal-poverty-level/',
     inputs: [
       { id: 'n', label: 'Household size', def: 3, options: sizes(10) },
       { id: 'area', label: 'Where you live', def: 0, options: [{ value: '0', label: '48 states and DC' }, { value: '1', label: 'Alaska' }, { value: '2', label: 'Hawaii' }] },

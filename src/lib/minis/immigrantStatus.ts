@@ -16,7 +16,7 @@ const S: Array<[string, string, string, string, string]> = [
 ];
 export default (): MiniSpec => ({
   title: 'What your immigration status allows',
-  cta: 'Medicaid income limits by state',
+  cta: 'Medicaid income limits by state', ctaHref: '/en/medicaid-income-limits/',
   inputs: [{ id: 's', label: 'Status of the person applying', def: 1, options: S.map((s, i) => ({ value: String(i), label: s[0] })) }],
   run: (v) => {
     const r = S[v.s] ?? S[0];

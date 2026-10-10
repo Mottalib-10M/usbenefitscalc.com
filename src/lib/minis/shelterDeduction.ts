@@ -9,7 +9,7 @@ const SP = P.snap as unknown as SnapParams;
 
 export default (): MiniSpec => ({
   title: 'Your SNAP shelter deduction',
-  cta: 'See the full SNAP calculation',
+  cta: 'See the full SNAP calculation', ctaHref: '/en/snap-calculator/',
   inputs: [
     { id: 'rent', label: 'Rent or mortgage per month', def: 1100, unit: '$', max: 20000 },
     { id: 'util', label: 'Utility allowance or bills', def: 450, unit: '$', max: 5000 },

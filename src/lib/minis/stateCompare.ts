@@ -15,7 +15,7 @@ export default (arg?: string): MiniSpec => {
   const second = Math.max(0, a.states.findIndex((s) => s[0] === 'California'));
   return {
     title: 'Compare two states for the same household',
-    cta: 'Open the household screener',
+    cta: 'Open the household screener', ctaHref: '/en/',
     inputs: [
       { id: 'a', label: 'First state', def: first, options: opts },
       { id: 'b', label: 'Second state', def: second, options: opts },

@@ -5,7 +5,7 @@ import { ptc, type PctTable } from '../engine/aca';
 import { P, F25, usd, sizes } from './_kit';
 export default (): MiniSpec => ({
   title: 'Your 2026 credit against the expired rules',
-  cta: 'Medicaid limits by state',
+  cta: 'Open the ACA subsidy calculator', ctaHref: '/en/aca-subsidy-calculator/',
   inputs: [
     { id: 'n', label: 'Household size', def: 2, options: sizes(8) },
     { id: 'inc', label: 'Yearly household income (MAGI)', def: 88000, unit: '$', max: 2000000 },
