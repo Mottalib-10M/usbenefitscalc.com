@@ -195,6 +195,7 @@ def main():
         if u:
             for k, v in u['changes'].items():
                 if k in med: med[k] = v
+            if 'parent' in u['changes']: med['parentDollarStandard'] = False
             med['update'] = {'effective': u.get('effective'), 'note': u.get('note'), 'sources': [{'url': x['url'], 'title': x.get('title', '')} for x in u['sources']]}
             if med['note'] and slug == 'district-of-columbia': med['note'] = None
         else:

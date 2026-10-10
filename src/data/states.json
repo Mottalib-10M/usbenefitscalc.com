@@ -50,6 +50,7 @@
    "adultPct": null,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Alabama Medicaid Agency",
    "agencyUrl": "https://medicaid.alabama.gov/",
@@ -196,6 +197,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Alaska Department of Health, Division of Public Assistance",
    "agencyUrl": "https://health.alaska.gov/dpa/Pages/medicaid/default.aspx",
@@ -279,7 +281,7 @@
    "child0to1": 147,
    "child1to5": 141,
    "child6to18": 133,
-   "chip": 200,
+   "chip": 225,
    "chipAges": null,
    "chipNote": null,
    "pregnant": 156,
@@ -290,6 +292,20 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": {
+    "effective": "2024-03-01",
+    "note": "Arizona raised KidsCare (CHIP) from 200% to 225% of FPL, with enrollment open from March 1, 2024; the other AHCCCS limits (children 147/141/133%, pregnant women 156%, parents 106%, adults 133%) are unchanged in the February 2026 chart.",
+    "sources": [
+     {
+      "url": "https://www.azahcccs.gov/Members/Downloads/EligibilityRequirements.pdf",
+      "title": "FPL and Income Eligibility Chart (AHCCCS Eligibility Requirements February 1, 2026)"
+     },
+     {
+      "url": "https://www.azahcccs.gov/shared/Downloads/News/2024/FactSheet_KidsCareExpansion_ParentsAsPaidCaregivers.pdf",
+      "title": "Fact Sheet: KidsCare Expansion & Parents as Paid Caregivers"
+     }
+    ]
+   },
    "programName": "AHCCCS",
    "agency": "Arizona Health Care Cost Containment System (AHCCCS)",
    "agencyUrl": "https://www.azahcccs.gov/",
@@ -378,6 +394,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Arkansas Department of Human Services, Division of Medical Services",
    "agencyUrl": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/",
@@ -460,6 +477,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": "CMS note 6: the separate CHIP in California covers certain children up to age 2 with incomes up to 317% of the FPL statewide, and children up to age 19 up to 317% in three counties only.",
+   "update": null,
    "programName": "Medi-Cal",
    "agency": "California Department of Health Care Services",
    "agencyUrl": "https://www.dhcs.ca.gov/services/medi-cal",
@@ -541,6 +559,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Health First Colorado",
    "agency": "Colorado Department of Health Care Policy & Financing",
    "agencyUrl": "https://www.healthfirstcolorado.gov/",
@@ -618,12 +637,26 @@
    "chipNote": null,
    "pregnant": 258,
    "pregnantChip": null,
-   "parent": 155,
+   "parent": 133,
    "parentDollarStandard": false,
    "expansion": true,
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": {
+    "effective": "2024-10-01",
+    "note": "Public Act 24-81 lowered the HUSKY A limit for parents and caretaker relatives from 160% to 138% of FPL (155% to 133% before the 5% disregard) starting October 1, 2024; the March 2026 HUSKY chart confirms the other limits.",
+    "sources": [
+     {
+      "url": "https://portal.ct.gov/dss/health-and-home-care/information-about-the-2024-husky-a-parents-and-caretaker-relatives-transition",
+      "title": "Information about the 2024 HUSKY A Parents and Caretaker Relatives Transition"
+     },
+     {
+      "url": "https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/fact-sheets-and-issue-briefs/fact-sheets/husky-income-charts/husky-health-annual-income-chart-march-1-2026.pdf?rev=3782dbda5be44199bcc83f107ea6c011&hash=AA5548EB22E2FE979BCBACC3C9FAE928",
+      "title": "Connecticut HUSKY Health Program Annual Income Guidelines – effective March 1, 2026"
+     }
+    ]
+   },
    "programName": "HUSKY Health",
    "agency": "Connecticut Department of Social Services",
    "agencyUrl": "https://portal.ct.gov/husky",
@@ -705,6 +738,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Delaware Health and Social Services, Division of Medicaid & Medical Assistance",
    "agencyUrl": "https://dhss.delaware.gov/dmma/",
@@ -780,12 +814,26 @@
    "chipNote": null,
    "pregnant": 319,
    "pregnantChip": null,
-   "parent": 216,
+   "parent": 133,
    "parentDollarStandard": false,
    "expansion": true,
-   "adultPct": 210,
+   "adultPct": 133,
    "bhpPct": null,
-   "note": "CMS note 7: DC also covers ages 19 and 20 up to 216% of the FPL.",
+   "note": null,
+   "update": {
+    "effective": "2026-01-01",
+    "note": "On January 1, 2026 the District lowered Medicaid for adults without children (21-64) from 210% to 133% of FPL and for parents and caretaker relatives from 216% to 133% (138% with the 5% disregard).",
+    "sources": [
+     {
+      "url": "https://dhcf.dc.gov/node/892172",
+      "title": "Adults Without Dependent Children (Childless Adults) | dhcf"
+     },
+     {
+      "url": "https://dhcf.dc.gov/node/892382",
+      "title": "Parents and Caretaker Relatives | dhcf"
+     }
+    ]
+   },
    "programName": "Medicaid",
    "agency": "DC Department of Health Care Finance",
    "agencyUrl": "https://dhcf.dc.gov/service/medicaid",
@@ -867,6 +915,7 @@
    "adultPct": null,
    "bhpPct": null,
    "note": "CMS note 8: Florida also covers ages 19 and 20 up to 24% of the FPL.",
+   "update": null,
    "programName": "Medicaid",
    "agency": "Agency for Health Care Administration",
    "agencyUrl": "https://ahca.myflorida.com/medicaid",
@@ -946,6 +995,7 @@
    "adultPct": null,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Georgia Department of Community Health",
    "agencyUrl": "https://medicaid.georgia.gov/",
@@ -1088,12 +1138,26 @@
    "chipNote": null,
    "pregnant": 191,
    "pregnantChip": null,
-   "parent": 105,
+   "parent": 100,
    "parentDollarStandard": false,
    "expansion": true,
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": {
+    "effective": null,
+    "note": "Med-QUEST 2026 chart lists the parent and caretaker standard at 100% of the Hawaii FPL (105% only once the 5% disregard is added), where the CMS table showed 105%; adults 133%, pregnant women 191% and children up to 308% (S-CHIP) match CMS.",
+    "sources": [
+     {
+      "url": "https://medquest.hawaii.gov/content/dam/formsanddocuments/resources/magi-and-magi-excepted-income-standard-charts/2026%20PPDO%20MAGI%20and%20MAGI-Excepted%20Income%20Standards%20CHART.pdf",
+      "title": "2026 MAGI Income Standards (Effective: 01/13/2026), Med-QUEST Division"
+     },
+     {
+      "url": "https://medquest.hawaii.gov/content/dam/formsanddocuments/resources/magi-and-magi-excepted-income-standard-charts/2026%20PPDO%20MAGI%20and%20MAGI-Excepted%20Income%20Standards%20CHART.pdf",
+      "title": "2026 MAGI Income Standards (Effective: 01/13/2026), Med-QUEST Division"
+     }
+    ]
+   },
    "programName": "Med-QUEST",
    "agency": "Hawaii Department of Human Services, Med-QUEST Division",
    "agencyUrl": "https://medquest.hawaii.gov/",
@@ -1173,6 +1237,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Idaho Department of Health and Welfare",
    "agencyUrl": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health",
@@ -1254,6 +1319,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Illinois Department of Healthcare and Family Services",
    "agencyUrl": "https://hfs.illinois.gov/medicalclients.html",
@@ -1336,6 +1402,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Indiana Medicaid",
    "agency": "Indiana Family and Social Services Administration (FSSA)",
    "agencyUrl": "https://www.in.gov/medicaid/",
@@ -1403,13 +1470,13 @@
    "applyUrlStatus": 200
   },
   "medicaid": {
-   "child0to1": 375,
+   "child0to1": 300,
    "child1to5": 167,
    "child6to18": 167,
    "chip": 302,
    "chipAges": "1 up to 19",
    "chipNote": null,
-   "pregnant": 375,
+   "pregnant": 215,
    "pregnantChip": null,
    "parent": 44,
    "parentDollarStandard": true,
@@ -1417,6 +1484,20 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": {
+    "effective": "2025-04-01",
+    "note": "Since April 1, 2025 Iowa Medicaid covers pregnant women up to 215% of FPL (down from 375%) with 12 months of postpartum coverage, and infants under 1 up to 300% (the April 2026 table; a 2025 fact sheet says 302%); children 1-18 stay at 167%.",
+    "sources": [
+     {
+      "url": "https://hhs.iowa.gov/medicaid/apply-medicaid/income-guidelines",
+      "title": "Medicaid Income Guidelines (Iowa HHS)"
+     },
+     {
+      "url": "https://hhs.iowa.gov/media/14740/download?inline",
+      "title": "Postpartum Coverage Updates (Iowa HHS)"
+     }
+    ]
+   },
    "programName": "Medicaid",
    "agency": "Iowa Department of Health and Human Services",
    "agencyUrl": "https://hhs.iowa.gov/medicaid",
@@ -1488,6 +1569,7 @@
    "adultPct": null,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "KanCare",
    "agency": "Kansas Department of Health and Environment",
    "agencyUrl": "https://www.kancare.ks.gov/",
@@ -1567,6 +1649,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Cabinet for Health and Family Services, Department for Medicaid Services",
    "agencyUrl": "https://www.chfs.ky.gov/agencies/dms/",
@@ -1649,6 +1732,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Louisiana Department of Health",
    "agencyUrl": "https://ldh.la.gov/medicaid",
@@ -1731,6 +1815,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": "CMS note 7: Maine also covers ages 19 and 20 up to 300% of the FPL.",
+   "update": null,
    "programName": "MaineCare",
    "agency": "Maine Department of Health and Human Services, Office of MaineCare Services",
    "agencyUrl": "https://www.maine.gov/dhhs/oms/mainecare-options",
@@ -1812,6 +1897,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Maryland Department of Health",
    "agencyUrl": "https://health.maryland.gov/mmcp/",
@@ -1894,6 +1980,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": "CMS note 7: Massachusetts also covers ages 19 and 20 up to 150% of the FPL.",
+   "update": null,
    "programName": "MassHealth",
    "agency": "Executive Office of Health and Human Services (EOHHS)",
    "agencyUrl": "https://www.mass.gov/masshealth",
@@ -1975,6 +2062,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Michigan Department of Health and Human Services",
    "agencyUrl": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid",
@@ -2056,6 +2144,7 @@
    "adultPct": 133,
    "bhpPct": 200,
    "note": "CMS notes 10 and 11: Minnesota covers children up to age 2 to 283% of the FPL; adults above 133% and up to 200% are covered through the Basic Health Program (MinnesotaCare).",
+   "update": null,
    "programName": "Medical Assistance",
    "agency": "Minnesota Department of Human Services",
    "agencyUrl": "https://mn.gov/dhs/people-we-serve/adults/health-care/health-care-programs/programs-and-services/medical-assistance.jsp",
@@ -2131,6 +2220,7 @@
    "adultPct": null,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Mississippi Division of Medicaid",
    "agencyUrl": "https://medicaid.ms.gov/",
@@ -2204,6 +2294,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "MO HealthNet",
    "agency": "Missouri Department of Social Services, MO HealthNet Division",
    "agencyUrl": "https://mydss.mo.gov/healthcare",
@@ -2283,6 +2374,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Montana Medicaid",
    "agency": "Montana Department of Public Health and Human Services",
    "agencyUrl": "https://dphhs.mt.gov/MontanaHealthcarePrograms/",
@@ -2362,6 +2454,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Nebraska Department of Health and Human Services",
    "agencyUrl": "https://dhhs.ne.gov/Pages/Medicaid-and-Long-Term-Care.aspx",
@@ -2433,7 +2526,7 @@
    "chip": 200,
    "chipAges": null,
    "chipNote": null,
-   "pregnant": 160,
+   "pregnant": 200,
    "pregnantChip": null,
    "parent": 26,
    "parentDollarStandard": true,
@@ -2441,6 +2534,24 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": {
+    "effective": null,
+    "note": "Nevada Medicaid now covers pregnant women up to 205% of FPL with the 5% disregard (200% before it) through the Expanded Pregnant Women group, up from 160% in the CMS table; children (165% under 6, 138% for 6-18), Nevada Check Up (205%) and adults (138%) are unchanged.",
+    "sources": [
+     {
+      "url": "https://www.dss.nv.gov/siteassets/dwss.nv.gov/content/medical/Appendix_A_MAGI_Income_Charts.pdf",
+      "title": "Nevada Medical Assistance Program Manual Appendix A Income/Resource Charts (MTL 06/25)"
+     },
+     {
+      "url": "https://www.dss.nv.gov/siteassets/dwss.nv.gov/content/medical/Appendix_A_MAGI_Income_Charts.pdf",
+      "title": "Nevada Medical Assistance Program Manual Appendix A Income/Resource Charts (MTL 06/25)"
+     },
+     {
+      "url": "https://www.dss.nv.gov/access-nv/eligibility-payments-manual/income-limit-charts/",
+      "title": "Income Limit Charts (Nevada Division of Social Services)"
+     }
+    ]
+   },
    "programName": "Nevada Medicaid",
    "agency": "Nevada Health Authority",
    "agencyUrl": "https://www.nevadamedicaid.nv.gov/",
@@ -2526,6 +2637,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "New Hampshire Department of Health and Human Services",
    "agencyUrl": "https://www.dhhs.nh.gov/programs-services/medicaid",
@@ -2596,6 +2708,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "NJ FamilyCare",
    "agency": "New Jersey Department of Human Services, Division of Medical Assistance and Health Services",
    "agencyUrl": "https://njfamilycare.dhs.state.nj.us/",
@@ -2678,6 +2791,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "New Mexico Health Care Authority",
    "agencyUrl": "https://www.hca.nm.gov/turquoise-care/",
@@ -2794,6 +2908,7 @@
    "adultPct": 133,
    "bhpPct": 200,
    "note": "CMS note 11: adults above 133% and up to 200% of the FPL are covered through the Basic Health Program.",
+   "update": null,
    "programName": "Medicaid",
    "agency": "New York State Department of Health",
    "agencyUrl": "https://www.health.ny.gov/health_care/medicaid/",
@@ -2927,6 +3042,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "NC Medicaid",
    "agency": "North Carolina Department of Health and Human Services",
    "agencyUrl": "https://medicaid.ncdhhs.gov/",
@@ -2994,9 +3110,9 @@
    "applyUrlStatus": 200
   },
   "medicaid": {
-   "child0to1": 170,
-   "child1to5": 170,
-   "child6to18": 170,
+   "child0to1": 200,
+   "child1to5": 200,
+   "child6to18": 200,
    "chip": null,
    "chipAges": null,
    "chipNote": null,
@@ -3008,6 +3124,24 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": {
+    "effective": null,
+    "note": "North Dakota now covers uninsured children through the Medicaid CHIP group (optional targeted low-income children) up to 200% of FPL (205% with the 5% disregard), above the 170% in the CMS table; pregnant women (170%) and expansion adults (133%) are unchanged.",
+    "sources": [
+     {
+      "url": "https://www.nd.gov/dhs/policymanuals/51003/Content/ML/2026/Medicaid%20Release%2026.3%20Effective%204.1.2026.pdf",
+      "title": "Medicaid Release 26.3 Effective April 1, 2026 (ND HHS)"
+     },
+     {
+      "url": "https://www.hhs.nd.gov/healthcare/CHIP",
+      "title": "Children's Health Insurance Program (ND HHS)"
+     },
+     {
+      "url": "https://www.hhs.nd.gov/healthcare/medicaid/eligibility",
+      "title": "Medicaid Eligibility (ND HHS)"
+     }
+    ]
+   },
    "programName": "Medicaid",
    "agency": "North Dakota Health and Human Services",
    "agencyUrl": "https://www.hhs.nd.gov/healthcare/medicaid",
@@ -3087,6 +3221,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Ohio Department of Medicaid",
    "agencyUrl": "https://medicaid.ohio.gov/",
@@ -3166,6 +3301,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": "CMS note 9: section 1115 demonstration covering some additional low-income adults.",
+   "update": null,
    "programName": "SoonerCare",
    "agency": "Oklahoma Health Care Authority",
    "agencyUrl": "https://oklahoma.gov/ohca.html",
@@ -3245,8 +3381,26 @@
    "parentDollarStandard": true,
    "expansion": true,
    "adultPct": 133,
-   "bhpPct": null,
+   "bhpPct": 200,
    "note": null,
+   "update": {
+    "effective": "2024-07-01",
+    "note": "Since July 1, 2024 Oregon runs OHP Bridge, a Basic Health Program covering adults 19-64 with income between 133% and 200% of FPL at no cost; children (up to 305% with the disregard), pregnant people (190%) and adults (138%) match CMS.",
+    "sources": [
+     {
+      "url": "https://www.oregon.gov/oha/HSD/OHP/Pages/Bridge.aspx",
+      "title": "Oregon Health Authority : Oregon Health Plan (OHP) Bridge : Oregon Health Plan : State of Oregon"
+     },
+     {
+      "url": "https://www.oregon.gov/OHA/HSD/OHP/Tools/Bridge-FAQ.pdf",
+      "title": "OHP Bridge Frequently Asked Questions"
+     },
+     {
+      "url": "https://healthcare.oregon.gov/Documents/Materials/5063-FPL%20Chart/11-2025/5063so_FPL%20Chart_112025.pdf",
+      "title": "What am I likely eligible for? (HIM-5063, 11/2025)"
+     }
+    ]
+   },
    "programName": "Oregon Health Plan",
    "agency": "Oregon Health Authority",
    "agencyUrl": "https://www.oregon.gov/oha/hsd/ohp/Pages/index.aspx",
@@ -3328,6 +3482,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medical Assistance",
    "agency": "Pennsylvania Department of Human Services",
    "agencyUrl": "https://www.pa.gov/agencies/dhs/resources/medicaid",
@@ -3409,6 +3564,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Rhode Island Executive Office of Health and Human Services",
    "agencyUrl": "https://eohhs.ri.gov/",
@@ -3491,6 +3647,7 @@
    "adultPct": null,
    "bhpPct": null,
    "note": "CMS note 9: section 1115 demonstration covering some additional low-income adults, with limits.",
+   "update": null,
    "programName": "Medicaid",
    "agency": "South Carolina Department of Health and Human Services",
    "agencyUrl": "https://www.scdhhs.gov/",
@@ -3562,6 +3719,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "South Dakota Department of Social Services",
    "agencyUrl": "https://dss.sd.gov/medicaid/",
@@ -3744,14 +3902,36 @@
    "chip": 250,
    "chipAges": null,
    "chipNote": null,
-   "pregnant": 195,
+   "pregnant": 250,
    "pregnantChip": null,
-   "parent": 84,
-   "parentDollarStandard": true,
+   "parent": 100,
+   "parentDollarStandard": false,
    "expansion": false,
    "adultPct": null,
    "bhpPct": null,
    "note": null,
+   "update": {
+    "effective": "2024-01-01",
+    "note": "TennCare covers pregnant women up to 250% of FPL since January 1, 2024 (up from 195%), and parents and caretaker relatives up to 100% of FPL under Amendment 5 approved by CMS on May 17, 2024 (up from a dollar standard near 84%); children and CoverKids (250%) are unchanged.",
+    "sources": [
+     {
+      "url": "https://www.tn.gov/content/dam/tn/tenncare/documents/eligibilityrefguide.pdf",
+      "title": "Alternative Version - TennCare Eligibility Reference Guide"
+     },
+     {
+      "url": "https://www.tn.gov/content/dam/tn/tenncare/documents/PregnancyMAGI.pdf",
+      "title": "Pregnancy MAGI (Division of TennCare)"
+     },
+     {
+      "url": "https://www.tn.gov/content/dam/tn/tenncare/documents/CaretakerRelativeMAGI.pdf",
+      "title": "Caretaker Relative MAGI (Division of TennCare)"
+     },
+     {
+      "url": "https://www.tn.gov/content/dam/tn/tenncare/archive/leg0624.pdf",
+      "title": "Historical - TennCare Quarterly Report April-June 2024"
+     }
+    ]
+   },
    "programName": "TennCare",
    "agency": "Division of TennCare",
    "agencyUrl": "https://www.tn.gov/tenncare.html",
@@ -3833,6 +4013,7 @@
    "adultPct": null,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Texas Health and Human Services Commission",
    "agencyUrl": "https://www.hhs.texas.gov/services/health/medicaid-chip",
@@ -3904,6 +4085,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": "CMS note 9: section 1115 demonstration covering some additional low-income adults.",
+   "update": null,
    "programName": "Medicaid",
    "agency": "Utah Department of Health and Human Services",
    "agencyUrl": "https://medicaid.utah.gov/",
@@ -3985,6 +4167,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Green Mountain Care",
    "agency": "Department of Vermont Health Access",
    "agencyUrl": "https://dvha.vermont.gov/",
@@ -4080,6 +4263,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Cardinal Care",
    "agency": "Virginia Department of Medical Assistance Services",
    "agencyUrl": "https://www.dmas.virginia.gov/",
@@ -4154,7 +4338,7 @@
    "chip": 312,
    "chipAges": null,
    "chipNote": null,
-   "pregnant": 193,
+   "pregnant": 210,
    "pregnantChip": null,
    "parent": 33,
    "parentDollarStandard": true,
@@ -4162,6 +4346,20 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": {
+    "effective": null,
+    "note": "Apple Health now covers pregnant individuals up to 210% of FPL (215% with the 5% disregard), up from 193%; the HCA standards show the new level from the January 1, 2025 edition, while children (210%), CHIP (312%) and adults (133%) are unchanged.",
+    "sources": [
+     {
+      "url": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/apple-health-pregnant-individuals",
+      "title": "Apple Health for pregnant individuals"
+     },
+     {
+      "url": "https://www.hca.wa.gov/assets/free-or-low-cost/income-standards.pdf",
+      "title": "Washington Apple Health Income and Resource Standards, October 1, 2026 (HCA 19-0096)"
+     }
+    ]
+   },
    "programName": "Apple Health",
    "agency": "Washington State Health Care Authority",
    "agencyUrl": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care",
@@ -4244,6 +4442,7 @@
    "adultPct": 133,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "West Virginia Department of Human Services, Bureau for Medical Services",
    "agencyUrl": "https://bms.wv.gov/",
@@ -4326,6 +4525,7 @@
    "adultPct": 95,
    "bhpPct": null,
    "note": "CMS note 9: Wisconsin did not adopt the ACA expansion; a section 1115 demonstration covers adults up to 95% of the FPL (100% with the 5% disregard).",
+   "update": null,
    "programName": "BadgerCare Plus",
    "agency": "Wisconsin Department of Health Services",
    "agencyUrl": "https://www.dhs.wisconsin.gov/badgercareplus/index.htm",
@@ -4399,6 +4599,7 @@
    "adultPct": null,
    "bhpPct": null,
    "note": null,
+   "update": null,
    "programName": "Medicaid",
    "agency": "Wyoming Department of Health",
    "agencyUrl": "https://health.wyo.gov/healthcarefin/medicaid/",
