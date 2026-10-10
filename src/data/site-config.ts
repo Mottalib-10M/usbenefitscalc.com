@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-benefits.example";
+export const SITE_URL = "https://usbenefitscalc.com";
 export const SITE_NAMES: Record<string, string> = {"en": "US Benefits Calc"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners builds
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["SNAP eligibility and benefit amounts", "Medicaid and CHIP income limits", "ACA premium tax credits", "Earned Income Tax Credit", "WIC income guidelines", "HUD Section 8 income limits", "Federal poverty guidelines"]};
-export const CONTACT_EMAIL = "contact@us-benefits.example";
+export const CONTACT_EMAIL = "contact@usbenefitscalc.com";
 export const THEME_COLOR = '#1D4E89';
 export const LOGO_SYMBOL = 'AID';
 export const BING_VERIFY_CODE = '';
@@ -27,7 +27,7 @@ export const GOOGLE_VERIFY_CODE = '';
 export const CONSENT_MODE: 'opt-in' | 'notice' | 'none' = 'none';
 export const GA4_ID = '';
 /** Projet Microsoft Clarity (compte amradif), chargé sans cookie. Vide = aucune mesure. */
-export const CLARITY_ID = '';
+export const CLARITY_ID = 'yvju4055gm';
 export const INDEXNOW_KEY = 'e40ef88c8b51a17c4adbfdd62a4370c6';
 
 /* ------------------------------------------------------------------------- *

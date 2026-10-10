@@ -1438,7 +1438,7 @@
    "programName": "SNAP",
    "agency": "Pennsylvania Department of Human Services",
    "agencyUrl": "https://www.pa.gov/agencies/dhs/resources/snap",
-   "applyUrl": "https://www.compass.dhs.pa.gov/home/",
+   "applyUrl": "https://www.dhs.pa.gov/Services/Assistance/Pages/Apply-for-Benefits.aspx",
    "urlStatus": 200,
    "applyUrlStatus": 200
   },
@@ -1446,7 +1446,7 @@
    "programName": "Medical Assistance",
    "agency": "Pennsylvania Department of Human Services",
    "agencyUrl": "https://www.pa.gov/agencies/dhs/resources/medicaid",
-   "applyUrl": "https://www.compass.dhs.pa.gov/home/",
+   "applyUrl": "https://www.dhs.pa.gov/Services/Assistance/Pages/Apply-for-Benefits.aspx",
    "chipName": "CHIP",
    "urlStatus": 200,
    "applyUrlStatus": 200
