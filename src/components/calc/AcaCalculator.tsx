@@ -47,7 +47,7 @@ export default function AcaCalculator({ states, state, lockState = false, method
   ];
   const p = idPrefix;
   return (
-    <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+    <div className="rechner grid gap-6 rounded-xl border border-navy-200 bg-white p-4 sm:p-6 lg:grid-cols-2 lg:items-start">
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         {lockState ? <LockedField label="State" value={S.name} help={S.marketplace?.name} /> : <SelectField id={`${p}-state`} label="State" value={slug} onChange={setSlug} options={states.map((x) => ({ value: x.slug, label: x.name }))} help={S.marketplace ? `Marketplace: ${S.marketplace.name}` : undefined} />}
         <SelectField id={`${p}-size`} label="Tax household size" value={String(size)} onChange={(v) => setSize(Number(v))} options={sizeOptions(10)} />

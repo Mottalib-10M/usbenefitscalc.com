@@ -41,13 +41,13 @@ export default function EitcCalculator({ methodHref = '/en/method/', idPrefix = 
   ];
   const p = idPrefix;
   return (
-    <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+    <div className="rechner grid gap-6 rounded-xl border border-navy-200 bg-white p-4 sm:p-6 lg:grid-cols-2 lg:items-start">
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         <Toggle id={`${p}-year`} label="Tax year" value={year} onChange={(v) => setYear(v as '2026' | '2025')} options={[{ value: '2026', label: '2026' }, { value: '2025', label: '2025' }]} />
         <SelectField id={`${p}-kids`} label="Qualifying children" value={String(Math.min(3, kids))} onChange={(v) => setKids(Number(v))} options={[{ value: '0', label: 'None' }, { value: '1', label: '1' }, { value: '2', label: '2' }, { value: '3', label: '3 or more' }]} />
         <Toggle id={`${p}-joint`} label="Married filing jointly?" value={joint} onChange={(v) => setJoint(v as '0' | '1')} options={[{ value: '0', label: 'No' }, { value: '1', label: 'Yes' }]} />
         <NumberField id={`${p}-earned`} label="Earned income for the year" value={earned} onChange={setEarned} unit="$" max={1000000} help="Wages, tips and net self-employment earnings." />
-        <NumberField id={`${p}-agi`} label="Adjusted gross income, if different" value={agi} onChange={setAgi} unit="$" max={1000000} help="The phase-out uses the larger of AGI and earned income." />
+        <NumberField id={`${p}-agi`} label="Adjusted gross income, if different" value={agi} onChange={setAgi} unit="$" max={1000000} help="The phase-out uses the larger of AGI and earned income." className="sm:col-span-2" />
         <NumberField id={`${p}-inv`} label="Investment income" value={invest} onChange={setInvest} unit="$" max={1000000} />
         {kids === 0 && <NumberField id={`${p}-age`} label="Your age at the end of the year" value={age} onChange={setAge} unit="years" max={120} help={`Without a qualifying child: ${P.eitc.childlessAgeMin} to ${P.eitc.childlessAgeMax}.`} />}
       </form>

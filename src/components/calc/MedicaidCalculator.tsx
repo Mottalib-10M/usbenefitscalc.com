@@ -42,7 +42,7 @@ export default function MedicaidCalculator({ states, state, lockState = false, m
   const gapNote = r.effectivePct == null && group === 'adult' ? `${S.name} has not adopted the ACA expansion of Medicaid to adults without children. Between ${P.aca.minPct}% and ${P.aca.maxPct}% of the poverty guideline, the Marketplace premium tax credit is the route; below ${P.aca.minPct}%, neither applies in most cases.` : '';
   const p = idPrefix;
   return (
-    <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+    <div className="rechner grid gap-6 rounded-xl border border-navy-200 bg-white p-4 sm:p-6 lg:grid-cols-2 lg:items-start">
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         {lockState ? <LockedField label="State" value={S.name} help={S.medicaidName} /> : <SelectField id={`${p}-state`} label="State" value={slug} onChange={setSlug} options={states.map((x) => ({ value: x.slug, label: x.name }))} />}
         <SelectField id={`${p}-group`} label="Who needs coverage" value={group} onChange={(v) => setGroup(v as MedicaidGroup)} options={GROUPS} />

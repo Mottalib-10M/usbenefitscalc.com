@@ -63,7 +63,7 @@ export default function Section8Calculator({ states, state, rows: rows0, county:
   const p = idPrefix;
   const pick = (s: string) => { setSlug(s); const r = (s === state ? rows0 : all?.[s]) ?? []; setCounty(r[0]?.n ?? ''); };
   return (
-    <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+    <div className="rechner grid gap-6 rounded-xl border border-navy-200 bg-white p-4 sm:p-6 lg:grid-cols-2 lg:items-start">
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         {lockState ? <LockedField label="State" value={S.name} /> : <SelectField id={`${p}-state`} label="State" value={slug} onChange={pick} options={states.map((x) => ({ value: x.slug, label: x.name }))} />}
         <SelectField id={`${p}-county`} label="County or town" value={row?.n ?? ''} onChange={setCounty} options={rows.map((r) => ({ value: r.n, label: r.n }))} help={row?.a ? `HUD area: ${row.a}` : undefined} />

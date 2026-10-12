@@ -78,13 +78,14 @@ export default function Screener({ states, state, lockState = false, methodHref 
   ];
   const p = idPrefix;
   return (
-    <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+    <div className="rechner grid gap-6 rounded-xl border border-navy-200 bg-white p-4 sm:p-6 lg:grid-cols-2 lg:items-start">
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
-        {lockState ? <LockedField label="State" value={S.name} /> : <SelectField id={`${p}-state`} label="State" value={slug} onChange={setSlug} options={states.map((x) => ({ value: x.slug, label: x.name }))} />}
+        {/* Locked on a state page: the state is in the H1, so on a phone its field goes last and the first answer comes first (RECETTE §5). */}
+        {lockState ? <LockedField label="State" value={S.name} className="max-sm:order-last" /> : <SelectField id={`${p}-state`} label="State" value={slug} onChange={setSlug} options={states.map((x) => ({ value: x.slug, label: x.name }))} />}
         <SelectField id={`${p}-size`} label="Household size" value={String(size)} onChange={(v) => setSize(Number(v))} options={sizeOptions(10)} />
         <SelectField id={`${p}-kids`} label="Children under 18" value={String(children)} onChange={(v) => setKids(Number(v))} options={Array.from({ length: Math.max(1, size) }, (_, i) => ({ value: String(i), label: String(i) }))} />
         <NumberField id={`${p}-earned`} label="Monthly earnings before tax" value={earned} onChange={setEarned} unit="$" max={100000} />
-        <NumberField id={`${p}-other`} label="Other monthly income" value={other} onChange={setOther} unit="$" max={100000} help="Social Security, unemployment, child support received." />
+        <NumberField id={`${p}-other`} label="Other monthly income" value={other} onChange={setOther} unit="$" max={100000} help="Social Security, unemployment, child support received." className="sm:col-span-2" />
         <NumberField id={`${p}-rent`} label="Rent or mortgage, per month" value={rent} onChange={setRent} unit="$" max={50000} />
         <Toggle id={`${p}-young`} label="Pregnant, or a child under 5?" value={young} onChange={(v) => setYoung(v as '0' | '1')} options={[{ value: '0', label: 'No' }, { value: '1', label: 'Yes' }]} />
         <Toggle id={`${p}-ed`} label="Someone 60+ or disabled?" value={ed} onChange={(v) => setEd(v as '0' | '1')} options={[{ value: '0', label: 'No' }, { value: '1', label: 'Yes' }]} />

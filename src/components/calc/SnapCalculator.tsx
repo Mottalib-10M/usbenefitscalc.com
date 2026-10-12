@@ -78,7 +78,8 @@ export default function SnapCalculator({ states, state, lockState = false, metho
     ['Minus 30% of net income', `−${usd(r.thirtyPercent)}`],
   ];
   return (
-    <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+    <div className="rechner grid gap-6 rounded-xl border border-navy-200 bg-white p-4 sm:p-6 lg:grid-cols-2 lg:items-start">
+      <div>
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         {lockState ? <LockedField label="State" value={S.name} help={S.snapName ?? 'SNAP'} /> : <SelectField id={`${p}-state`} label="State" value={slug} onChange={(v) => { setSlug(v); setRegion(''); }} options={states.map((x) => ({ value: x.slug, label: x.name }))} help={S.snapName && S.snapName !== 'SNAP' ? `Called ${S.snapName} in ${S.name}` : undefined} />}
         <SelectField id={`${p}-size`} label="People who buy and cook food together" value={String(size)} onChange={(v) => setSize(Number(v))} options={sizeOptions(10)} />
@@ -100,6 +101,7 @@ export default function SnapCalculator({ states, state, lockState = false, metho
         {ed === '1' && <NumberField id={`${p}-med`} label="Medical costs of the 60+ or disabled member" value={medical} onChange={setMedical} unit="$" max={20000} help="Out of pocket, per month. Costs above $35 are deducted." />}
         </div>
       </details>
+      </div>
       <Result label={r.eligible ? `Estimated SNAP benefit in ${S.name}, per month` : `SNAP estimate in ${S.name}`} value={usd(r.benefit)} sub={r.reason || `${usd(r.benefit * 12)} a year on the EBT card · FY 2027 amounts, October 1, 2026 to September 30, 2027`} methodHref={methodHref}
         note={`Estimate under USDA's FY 2027 figures and ${S.name}'s published options. The state agency checks your income, expenses and household before deciding.`}>
         <Meter value={r.gross} limit={r.grossLimit ?? r.netLimit} label={r.grossLimit ? 'Gross income against the limit' : 'Net income against the limit'} />
