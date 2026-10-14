@@ -40,7 +40,7 @@ export default function WicCalculator({ methodHref = '/en/method/', idPrefix = '
   const p = idPrefix;
   return (
     <div className="rechner grid gap-6 rounded-xl border border-navy-200 bg-white p-4 sm:p-6 lg:grid-cols-2 lg:items-start">
-      <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
+      <form className="grid content-start gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         <SelectField id={`${p}-who`} label="Who would get WIC" value={who} onChange={setWho} options={WHO} />
         <SelectField id={`${p}-size`} label="Household size" value={String(size)} onChange={(v) => setSize(Number(v))} options={sizeOptions(10)} />
         {who === 'pregnant' && <SelectField id={`${p}-babies`} label="Babies expected" value={String(babies)} onChange={(v) => setBabies(Number(v))} options={[{ value: '1', label: '1' }, { value: '2', label: '2 (twins)' }, { value: '3', label: '3' }]} />}

@@ -31,7 +31,7 @@ export default function FplCalculator({ methodHref = '/en/method/', idPrefix = '
   const p = idPrefix;
   return (
     <div className="rechner grid gap-6 rounded-xl border border-navy-200 bg-white p-4 sm:p-6 lg:grid-cols-2 lg:items-start">
-      <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
+      <form className="grid content-start gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         <SelectField id={`${p}-size`} label="Household size" value={String(size)} onChange={(v) => setSize(Number(v))} options={sizeOptions(12)} />
         <NumberField id={`${p}-income`} label={per === 'month' ? 'Household income per month' : 'Household income per year'} value={income} onChange={setIncome} unit="$" max={5000000} help="Before taxes, everyone counted in the household." />
         <Toggle id={`${p}-per`} label="Income entered" value={per} onChange={(v) => setPer(v as 'year' | 'month')} options={[{ value: 'year', label: 'Per year' }, { value: 'month', label: 'Per month' }]} />

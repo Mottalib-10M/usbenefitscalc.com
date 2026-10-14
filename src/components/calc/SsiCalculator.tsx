@@ -25,7 +25,7 @@ export default function SsiCalculator({ methodHref = '/en/method/', idPrefix = '
   const p = idPrefix;
   return (
     <div className="rechner grid gap-6 rounded-xl border border-navy-200 bg-white p-4 sm:p-6 lg:grid-cols-2 lg:items-start">
-      <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
+      <form className="grid content-start gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         <Toggle id={`${p}-couple`} label="Applying as" value={couple} onChange={(v) => setCouple(v as '0' | '1')} options={[{ value: '0', label: 'Individual' }, { value: '1', label: 'Couple' }]} />
         <NumberField id={`${p}-unearned`} label="Unearned income per month" value={unearned} onChange={setUnearned} unit="$" max={100000} help="Social Security, pensions, unemployment." />
         <NumberField id={`${p}-earned`} label="Earnings per month" value={earned} onChange={setEarned} unit="$" max={100000} help="Gross wages or net self-employment." />

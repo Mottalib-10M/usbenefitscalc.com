@@ -80,7 +80,7 @@ export default function SnapCalculator({ states, state, lockState = false, metho
   return (
     <div className="rechner grid gap-6 rounded-xl border border-navy-200 bg-white p-4 sm:p-6 lg:grid-cols-2 lg:items-start">
       <div>
-      <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
+      <form className="grid content-start gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         {lockState ? <LockedField label="State" value={S.name} help={S.snapName ?? 'SNAP'} /> : <SelectField id={`${p}-state`} label="State" value={slug} onChange={(v) => { setSlug(v); setRegion(''); }} options={states.map((x) => ({ value: x.slug, label: x.name }))} help={S.snapName && S.snapName !== 'SNAP' ? `Called ${S.snapName} in ${S.name}` : undefined} />}
         <SelectField id={`${p}-size`} label="People who buy and cook food together" value={String(size)} onChange={(v) => setSize(Number(v))} options={sizeOptions(10)} />
         <NumberField id={`${p}-earned`} label="Monthly earnings before tax" value={earned} onChange={setEarned} unit="$" max={100000} help="Wages and net self-employment income of everyone in the household." />
