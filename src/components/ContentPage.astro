@@ -38,7 +38,7 @@ const miniTarget = page.miniHref ?? toolHref;
 const miniHref = ROUTES.some((r) => r.id === miniTarget) ? route(miniTarget, lang) : route('home', lang);
 const kicker = page.kind === 'pillar' ? `${g.short} · every state` : page.kind === 'threshold' ? 'Poverty level · threshold' : `${g.short} · guide`;
 ---
-<PageLayout title={page.title} description={page.description} lang={lang} jsonLd={jsonLd} faqs={page.faqs} related={related} sources={sources} breadcrumbs={[{ label: page.nav }]}>
+<PageLayout title={page.title} description={page.description} lang={lang} jsonLd={jsonLd} faqs={page.faqs} related={related} sources={sources} breadcrumbs={[{ label: page.nav }]} dateEnHaut={!page.tool && !page.mini}>
   <article>
     <header class="mb-3">
       <p class="text-xs font-semibold uppercase tracking-wide text-accent-700 sm:text-sm">{kicker}</p>
